@@ -2,13 +2,19 @@
 
 A starter template for building markdown-powered blogs with [Sapper](https://github.com/sveltejs/sapper) and [Svelte](https://github.com/sveltejs/svelte).
 
-### 👉 [Demo](https://sapper-blog-template.netlify.com/)
+### 👉 [Live Demo](https://sapper-blog-template.netlify.com/)
+
+
+<h2 align="center">
+  <img src="./screenshots.gif" alt="sapper-blog-template" width="600px" />
+  <br>
+</h2>
 
 ## ✨ Getting started
 
 ```bash
-npx degit Charca/sapper-blog-template my-blog
-cd my-blog
+git clone https://github.com/armanabkar/sapper-blog-template.git
+cd sapper-blog-template
 npm install # or yarn!
 npm run dev
 ```
@@ -36,10 +42,6 @@ This is where your markdown posts live in. All `.md` files in this directory are
 - The markdown file name becomes the post slug. For example `hello-world.md` becomes `http://localhost:3000/blog/hello-world`.
 - Everything between the start of the post and the `<!-- more -->` tag becomes the article's "excerpt".
 - Frontmatter properties supported are `title` and `date`.
-
-## 🚀 Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Charca/sapper-blog-template)
 
 
 ## 🐛 Bugs and feedback
