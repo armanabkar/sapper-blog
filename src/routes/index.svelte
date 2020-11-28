@@ -62,6 +62,12 @@
 
 <svelte:head>
   <title>Arman Abkar</title>
+  <meta
+    name="description"
+    content="Full-Stack Web Developer from Santa Monica, California" />
+  <meta
+    name="keywords"
+    content="Arman Abkar, Full-Stack, Web Developer, React, Vue, Node.js" />
 </svelte:head>
 
 <div class="home-container">
