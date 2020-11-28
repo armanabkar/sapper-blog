@@ -19,7 +19,9 @@
   .skills {
     font-weight: bold;
     font-style: italic;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    color: #564eff;
+    margin-right: 0.5rem;
   }
 </style>
 
@@ -33,12 +35,9 @@
     <img
       src="rsz_florian-klauer-489-unsplash.jpg"
       alt="Image of a vintage typewriter." />
-    <span>Photo by
-      <a
-        href="https://unsplash.com/@walling?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Walling</a>
-      on
-      <a
-        href="https://unsplash.com/s/photos/programming?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+    <span>Illustration thanks to
+      <a href="https://undraw.co" target="_blank">Undraw</a>
+    </span>
   </figure>
   <p>
     Web Developer - focusing on frontend , I also build RESTful & GraphQL APIs.
@@ -48,8 +47,8 @@
     I've worked with a variety of languages and technologies, especially
     JavaScript & Python.
   </p>
-  <p class="skills">Skills:</p>
   <p>
+    <span class="skills">Skills:</span>
     JavaScript, Python, C#, React, Vue, Angular, Node.js, Django, ASP.Net,
     Docker
   </p>

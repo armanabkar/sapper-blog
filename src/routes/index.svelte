@@ -37,6 +37,16 @@
     max-width: 400px;
   }
 
+  .name {
+    color: #564eff;
+    text-shadow: 0px 1px 3px #0000001f;
+    transition: color linear 0.15s;
+  }
+
+  .name:hover {
+    color: #36393b;
+  }
+
   @media (max-width: 1020px) {
     p {
       font-size: 1.2em;
@@ -57,6 +67,10 @@
       padding-bottom: 2em;
       text-align: center;
     }
+
+    .name {
+      display: block;
+    }
   }
 </style>
 
@@ -72,7 +86,7 @@
 
 <div class="home-container">
   <div class="home-copy">
-    <h1>Hi, I'm Arman Abkar.</h1>
+    <h1>Hi, I'm <span class="name">Arman Abkar</span></h1>
     <p>Full-Stack Web Developer</p>
     <p>
       <a
