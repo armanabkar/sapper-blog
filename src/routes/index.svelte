@@ -88,15 +88,22 @@
   <div class="home-copy">
     <h1>Hi, I'm <span class="name">Arman Abkar</span></h1>
     <p>Full-Stack Web Developer</p>
-    <p>
-      <a
-        href="https://www.linkedin.com/in/armanabkar/"
-        target="_blank">LinkedIn</a>
-      -
-      <a href="https://github.com/armanabkar" target="_blank">GitHub</a>
-      -
-      <a href="about">About Me</a>
-    </p>
+    <p><a href="about">About Me</a></p>
+    <a href="https://www.linkedin.com/in/armanabkar/" target="_blank"><i
+        class="fab fa-linkedin-in fa-2x" /></a>
+    <a href="https://github.com/armanabkar" target="_blank"><i
+        class="fab fa-github fa-2x" /></a>
+    <a
+      href="https://stackoverflow.com/users/12696103/arman-abkar"
+      target="_blank">
+      <i class="fab fa-stack-overflow fa-2x" />
+    </a>
+    <a href="https://twitter.com/armanabkar" target="_blank">
+      <i class="fab fa-twitter fa-2x" />
+    </a>
+    <a href="https://www.instagram.com/armanabkar/" target="_blank">
+      <i class="fab fa-instagram fa-2x" />
+    </a>
   </div>
 
   <figure>
