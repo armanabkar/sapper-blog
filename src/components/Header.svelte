@@ -13,6 +13,12 @@
     padding: 1.5em 2em 1.5em 2em;
     width: 100%;
   }
+
+  @media screen and (max-width: 600px) {
+    header {
+      padding: 1em 2em 1.5em 2em;
+    }
+  }
 </style>
 
 <header>
