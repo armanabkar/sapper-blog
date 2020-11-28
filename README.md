@@ -43,6 +43,20 @@ This is where your markdown posts live in. All `.md` files in this directory are
 - Everything between the start of the post and the `<!-- more -->` tag becomes the article's "excerpt".
 - Frontmatter properties supported are `title` and `date`.
 
+### src/routes/projects
+
+This is your projects page. You can add your projects info to Projects array in projects.js file:
+
+```
+export const Projects = [
+  {
+    name: "project_name",
+    description: "project_description",
+    imageUrl: "project_image_url",
+    code: "project_source_code",
+  },
+]  
+```
 
 ## 🐛 Bugs and feedback
 

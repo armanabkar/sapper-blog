@@ -1,8 +1,8 @@
 <script>
-  import Logo from './Logo.svelte'
-  import Nav from './Nav.svelte'
+  import Logo from "./Logo.svelte";
+  import Nav from "./Nav.svelte";
 
-  export let segment
+  export let segment;
 </script>
 
 <style>
@@ -10,12 +10,12 @@
     display: flex;
     margin: 0 auto;
     max-width: 1400px;
-    padding: 2em;
+    padding: 1.5em 2em 1.5em 2em;
     width: 100%;
   }
 </style>
 
 <header>
-  <Logo />
+  <Logo/>
   <Nav {segment} />
 </header>

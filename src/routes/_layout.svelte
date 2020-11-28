@@ -29,7 +29,7 @@
     color: #aaa;
     font-size: 1em;
     font-family: Rubik, sans-serif;
-    margin: 1em auto;
+    margin: 1em auto 0.3em auto;
     max-width: 1400px;
     padding: 1em 2em;
     text-align: center;
