@@ -7,13 +7,6 @@ export const Projects = [
     code: "https://github.com/armanabkar/eCommerce_MERN",
   },
   {
-    name: "SOLID Principles Python",
-    description: "SOLID Principles explained in Python with examples.",
-    imageUrl:
-      "https://github.com/armanabkar/SOLID-Principles-Python/raw/master/SOLID.png",
-    code: "https://github.com/armanabkar/SOLID-Principles-Python",
-  },
-  {
     name: "Ionic Angular Notepad",
     description: "A simple notepad PWA built with Ionic & Angular.",
     imageUrl:
@@ -51,10 +44,18 @@ export const Projects = [
     code: "https://github.com/armanabkar/flutter_weather_german",
   },
   {
+    name: "Memories Ionic App",
+    description: "A simple Ionic/Vue app for keeping your memories.",
+    imageUrl:
+      "https://github.com/armanabkar/memories-ionic-vue/raw/main/screenshot.png",
+    code: "https://github.com/armanabkar/memories-ionic-vue",
+  },
+  {
     name: "Reusable Components Library",
     description:
       "A library for sharing reusable components. Using React, Django, GraphQL & ReactMaterialUI.",
-    imageUrl: "https://i.morioh.com/39b881aa45.png",
+    imageUrl:
+      "https://github.com/armanabkar/ReusableComponents/raw/main/screenshot.png",
     code: "https://github.com/armanabkar/ReusableComponents",
   },
   {
@@ -64,5 +65,26 @@ export const Projects = [
     imageUrl:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Svelte_Logo.svg/1200px-Svelte_Logo.svg.png",
     code: "https://github.com/armanabkar/BookSharing-Svelte",
+  },
+  {
+    name: "SOLID Principles TypeScript",
+    description: "SOLID Principles explained in TypeScript with examples.",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png",
+    code: "https://github.com/armanabkar/SOLID-Principles-TypeScript",
+  },
+  {
+    name: "SOLID Principles Python",
+    description: "SOLID Principles explained in Python with examples.",
+    imageUrl:
+      "https://github.com/armanabkar/SOLID-Principles-Python/raw/master/SOLID.png",
+    code: "https://github.com/armanabkar/SOLID-Principles-Python",
+  },
+  {
+    name: "Sapper Blog",
+    description: "Markdown-based Blog Built with Sapper.",
+    imageUrl:
+      "https://github.com/armanabkar/sapper-blog-template/raw/master/screenshots.gif",
+    code: "https://github.com/armanabkar/sapper-blog-template",
   },
 ];

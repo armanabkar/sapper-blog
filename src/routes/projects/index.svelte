@@ -15,12 +15,13 @@
   }
 
   a {
-    border: 3px solid #6c63ff;
+    border: 3px solid #6b63ffd8;
     text-decoration: none;
     font-weight: bold;
     color: #6c63ff;
     padding: 0.3rem;
     transition: color linear 0.15s;
+    border-radius: 3px;
   }
 
   a:hover {
