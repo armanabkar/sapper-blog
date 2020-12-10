@@ -25,6 +25,7 @@
   figure {
     margin: 0 1em;
     text-align: center;
+    color: rgb(146, 146, 146);
   }
 
   figcaption {
@@ -72,6 +73,10 @@
       display: block;
     }
   }
+
+  .logo {
+    margin-left: 0.5rem;
+  }
 </style>
 
 <svelte:head>
@@ -91,17 +96,21 @@
     <p><a href="about">About Me</a></p>
     <a href="https://www.linkedin.com/in/armanabkar/" target="_blank"><i
         class="fab fa-linkedin-in fa-2x" /></a>
-    <a href="https://github.com/armanabkar" target="_blank"><i
+    <a class="logo" href="https://github.com/armanabkar" target="_blank"><i
         class="fab fa-github fa-2x" /></a>
     <a
+      class="logo"
       href="https://stackoverflow.com/users/12696103/arman-abkar"
       target="_blank">
       <i class="fab fa-stack-overflow fa-2x" />
     </a>
-    <a href="https://twitter.com/armanabkar" target="_blank">
+    <a class="logo" href="https://twitter.com/armanabkar" target="_blank">
       <i class="fab fa-twitter fa-2x" />
     </a>
-    <a href="https://www.instagram.com/armanabkar/" target="_blank">
+    <a
+      class="logo"
+      href="https://www.instagram.com/armanabkar/"
+      target="_blank">
       <i class="fab fa-instagram fa-2x" />
     </a>
   </div>
