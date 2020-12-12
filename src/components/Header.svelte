@@ -1,5 +1,4 @@
 <script>
-  import Logo from "./Logo.svelte";
   import Nav from "./Nav.svelte";
 
   export let segment;
@@ -10,18 +9,35 @@
     display: flex;
     margin: 0 auto;
     max-width: 1400px;
-    padding: 1.5em 2em 1.5em 2em;
+    padding: 0.9em 2em 1.5em 2em;
     width: 100%;
   }
 
   @media screen and (max-width: 600px) {
     header {
-      padding: 1em 2em 1.5em 2em;
+      padding: 0.8em 2em 1.5em 2em;
     }
+    .hidden-mob {
+      display: none;
+    }
+  }
+
+  a {
+    align-items: flex-start;
+    display: flex;
+    flex: 1;
+    font-family: Rubik, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: inherit;
+    text-decoration: none;
+    padding: 10px 5px;
+    display: block;
+    position: relative;
   }
 </style>
 
 <header>
-  <Logo />
+  {#if segment !== undefined}<a class="hidden-mob" href=".">Arman Abkar</a>{/if}
   <Nav {segment} />
 </header>

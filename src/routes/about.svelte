@@ -29,6 +29,13 @@
   .logo {
     margin-left: 0.5rem;
   }
+
+  .location {
+    font-size: 0.9rem;
+    margin: 1rem 0 0 0;
+    padding: 0;
+    color: #aaa;
+  }
 </style>
 
 <svelte:head>
@@ -80,4 +87,5 @@
   <a class="logo" href="https://www.instagram.com/armanabkar/" target="_blank">
     <i class="fab fa-instagram fa-2x" />
   </a>
+  <p class="location">🌴 Santa Monica, California</p>
 </div>
