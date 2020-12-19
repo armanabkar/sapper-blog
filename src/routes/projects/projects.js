@@ -7,6 +7,20 @@ export const Projects = [
     code: "https://github.com/armanabkar/eCommerce_MERN",
   },
   {
+    name: "GraphQL Job Board",
+    description: "A simple Job Board app built with React & GraphQL.",
+    imageUrl:
+      "https://github.com/armanabkar/graphql-job-board/raw/main/screenshots.gif",
+    code: "https://github.com/armanabkar/graphql-job-board",
+  },
+  {
+    name: "GraphQL Chat Application",
+    description: "A simple chat app built with React & GraphQL.",
+    imageUrl:
+      "https://github.com/armanabkar/graphql-chat/raw/main/screenshots.gif",
+    code: "https://github.com/armanabkar/graphql-chat",
+  },
+  {
     name: "Ionic Angular Notepad",
     description: "A simple notepad PWA built with Ionic & Angular.",
     imageUrl:
@@ -65,6 +79,20 @@ export const Projects = [
     imageUrl:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Svelte_Logo.svg/1200px-Svelte_Logo.svg.png",
     code: "https://github.com/armanabkar/BookSharing-Svelte",
+  },
+  {
+    name: "Svelte eCommerce",
+    description: "eCommerce platform built with the Svelte & Strapi.",
+    imageUrl:
+      "https://github.com/armanabkar/svelte-eCommerce/raw/main/screenshots.gif",
+    code: "https://github.com/armanabkar/svelte-eCommerce",
+  },
+  {
+    name: "Svelte Budget Calculator",
+    description: "Simple Svelte app for keeping track of your expanses.",
+    imageUrl:
+      "https://github.com/armanabkar/svelte-budget-calculator/raw/main/screenshots.png",
+    code: "https://github.com/armanabkar/svelte-budget-calculator",
   },
   {
     name: "SOLID Principles TypeScript",
