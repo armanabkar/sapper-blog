@@ -16,6 +16,10 @@
       margin: 0 auto 2em;
       max-width: 400px;
     }
+    .container {
+      text-align: center;
+      margin: 0 0.5rem;
+    }
   }
 
   .skills {
@@ -60,7 +64,7 @@
     browser web applications with high level of functionality and interactive
     features that will affect directly on business growth.
   </p>
-  <p>Cross platform mobile app developer</p>
+  <p>Cross platform mobile app developer.</p>
   <p>
     I've worked with a variety of languages and technologies, especially
     JavaScript & Python.

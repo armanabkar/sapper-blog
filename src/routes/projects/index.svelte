@@ -22,6 +22,7 @@
     padding: 0.3rem;
     transition: color linear 0.15s;
     border-radius: 3px;
+    text-align: center;
   }
 
   a:hover {
@@ -30,15 +31,19 @@
   }
 
   @media (max-width: 1020px) {
+    .container {
+      text-align: center;
+      margin: 0 1rem;
+    }
+
     .project {
       display: inline;
     }
 
     a {
-      margin-top: 2rem;
+      margin: 2rem auto 0 auto;
       display: block;
       max-width: 8rem;
-      margin-left: 0.5rem;
     }
 
     img {

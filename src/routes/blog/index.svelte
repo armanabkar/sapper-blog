@@ -1,8 +1,10 @@
 <script context="module">
   export function preload({ params, query }) {
-    return this.fetch(`blog.json`).then(r => r.json()).then(posts => {
-      return { posts };
-    });
+    return this.fetch(`blog.json`)
+      .then((r) => r.json())
+      .then((posts) => {
+        return { posts };
+      });
   }
 </script>
 
@@ -18,14 +20,25 @@
   }
 
   .post-item-date {
-    color: #AAA;
+    color: #aaa;
     text-align: left;
     text-transform: uppercase;
     margin-right: 16px;
   }
 
   hr {
-    margin: 60px auto;
+    margin: 3rem auto;
+  }
+
+  @media (max-width: 1020px) {
+    .container {
+      text-align: center;
+      margin: 0 1rem;
+    }
+
+    hr {
+      margin: 2rem auto;
+    }
   }
 </style>
 
@@ -40,9 +53,7 @@
       <hr />
     {/if}
     <div class="post-item">
-      <h2>
-        <a rel='prefetch' href='blog/{post.slug}'>{post.title}</a>
-      </h2>
+      <h2><a rel="prefetch" href="blog/{post.slug}">{post.title}</a></h2>
       <p>{post.excerpt}</p>
       <div class="post-item-footer">
         <span class="post-item-date">— {post.printDate}</span>
