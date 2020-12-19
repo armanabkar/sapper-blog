@@ -61,6 +61,7 @@
   @media (max-width: 800px) {
     .home-container {
       flex-direction: column;
+      margin: 0;
     }
 
     .home-copy {
