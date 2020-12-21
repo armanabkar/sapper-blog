@@ -29,11 +29,12 @@
     font-family: Rubik, sans-serif;
     font-weight: 700;
     text-transform: uppercase;
-    color: inherit;
+    color: #564eff;
     text-decoration: none;
     padding: 10px 5px;
     display: block;
     position: relative;
+    text-shadow: 0px 1px 3px #0000001f;
   }
 </style>
 
