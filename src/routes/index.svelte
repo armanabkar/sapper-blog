@@ -39,7 +39,7 @@
   }
 
   .name {
-    color: #564eff;
+    color: #2196f3;
     text-shadow: 0px 1px 3px #0000001f;
     transition: color linear 0.15s;
   }

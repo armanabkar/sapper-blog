@@ -1,5 +1,12 @@
 export const Projects = [
   {
+    name: "GraphQL Chat Application",
+    description: "A simple chat app built with React & GraphQL.",
+    imageUrl:
+      "https://github.com/armanabkar/graphql-chat/raw/main/screenshots.gif",
+    code: "https://github.com/armanabkar/graphql-chat",
+  },
+  {
     name: "eCommerce MERN",
     description: "eCommerce Website built with MERN stack.",
     imageUrl:
@@ -12,13 +19,6 @@ export const Projects = [
     imageUrl:
       "https://github.com/armanabkar/graphql-job-board/raw/main/screenshots.gif",
     code: "https://github.com/armanabkar/graphql-job-board",
-  },
-  {
-    name: "GraphQL Chat Application",
-    description: "A simple chat app built with React & GraphQL.",
-    imageUrl:
-      "https://github.com/armanabkar/graphql-chat/raw/main/screenshots.gif",
-    code: "https://github.com/armanabkar/graphql-chat",
   },
   {
     name: "Ionic Angular Notepad",

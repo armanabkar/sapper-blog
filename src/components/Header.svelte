@@ -29,7 +29,7 @@
     font-family: Rubik, sans-serif;
     font-weight: 700;
     text-transform: uppercase;
-    color: #564eff;
+    color: #2196f3;
     text-decoration: none;
     padding: 10px 5px;
     display: block;

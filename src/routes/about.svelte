@@ -1,24 +1,27 @@
 <style>
   figure {
     float: right;
-    margin: -3em -7em 2em 2em;
+    margin: 1em -6em 2em 2em;
     max-width: 350px;
     color: rgb(146, 146, 146);
   }
 
   figure img {
-    border-radius: 8px;
+    margin-bottom: 1rem;
   }
 
   @media (max-width: 1020px) {
     figure {
       float: none;
       margin: 0 auto 2em;
-      max-width: 400px;
+      max-width: 350px;
     }
     .container {
       text-align: center;
       margin: 0 0.5rem;
+    }
+    figure img {
+      padding-top: 0;
     }
   }
 
@@ -26,7 +29,7 @@
     font-weight: bold;
     font-style: italic;
     font-size: 1.2rem;
-    color: #564eff;
+    color: #2196f3;
     margin-right: 0.5rem;
   }
 
@@ -50,7 +53,7 @@
   <h1>About</h1>
   <figure>
     <img
-      src="rsz_florian-klauer-489-unsplash.jpg"
+      src="undraw_web_developer_p3e5.svg"
       alt="Image of a vintage typewriter." />
     <span>Illustration thanks to
       <a href="https://undraw.co" target="_blank">Undraw</a>
