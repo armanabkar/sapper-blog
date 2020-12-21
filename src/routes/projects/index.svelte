@@ -33,7 +33,7 @@
   @media (max-width: 1020px) {
     .container {
       text-align: center;
-      margin: 0 1rem;
+      margin: 0 auto;
     }
 
     .project {

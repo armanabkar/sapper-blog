@@ -13,12 +13,12 @@
   @media (max-width: 1020px) {
     figure {
       float: none;
-      margin: 0 auto 2em;
+      margin: 0 auto 2em auto;
       max-width: 350px;
     }
     .container {
       text-align: center;
-      margin: 0 0.5rem;
+      margin: 0 auto;
     }
     figure img {
       padding-top: 0;

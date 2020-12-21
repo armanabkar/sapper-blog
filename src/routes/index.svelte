@@ -40,7 +40,6 @@
 
   .name {
     color: #2196f3;
-    text-shadow: 0px 1px 3px #0000001f;
     transition: color linear 0.15s;
   }
 
@@ -51,6 +50,7 @@
   @media (max-width: 1020px) {
     p {
       font-size: 1.2em;
+      line-height: 1.5;
     }
 
     img {
