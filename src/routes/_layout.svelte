@@ -26,7 +26,7 @@
   }
 
   footer {
-    color: #aaa;
+    color: rgb(151, 151, 151);
     font-size: 1em;
     font-family: Rubik, sans-serif;
     margin: 0.9em auto 0.3em auto;

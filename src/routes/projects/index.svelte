@@ -15,10 +15,10 @@
   }
 
   a {
-    border: 3px solid #6b63ffd8;
+    border: 3px solid #2195f3d8;
     text-decoration: none;
     font-weight: bold;
-    color: #6c63ff;
+    color: #2196f3;
     padding: 0.3rem;
     transition: color linear 0.15s;
     border-radius: 3px;
@@ -26,7 +26,7 @@
   }
 
   a:hover {
-    background-color: #6c63ff;
+    background-color: #2196f3;
     color: whitesmoke;
   }
 
