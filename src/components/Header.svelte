@@ -34,7 +34,6 @@
     padding: 10px 5px;
     display: block;
     position: relative;
-    text-shadow: 0px 1px 3px #0000001f;
   }
 </style>
 
