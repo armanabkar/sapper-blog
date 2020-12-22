@@ -103,12 +103,7 @@ img {
 }
 
 hr {
-  background-image: linear-gradient(
-    to right,
-    rgba(0, 0, 0, 0),
-    #2195f3ce,
-    rgba(0, 0, 0, 0)
-  );
+  background-image: linear-gradient(to right, #2195f305, #2195f3ce, #2195f305);
   border: 0;
   height: 2px;
   margin: 40px auto;
