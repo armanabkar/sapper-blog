@@ -1,4 +1,6 @@
 <script context="module">
+  import { fadeIn, fadeOut } from "../../components/pageFade";
+
   export function preload({ params, query }) {
     return this.fetch(`blog.json`)
       .then((r) => r.json())
@@ -46,7 +48,7 @@
   <title>Blog</title>
 </svelte:head>
 
-<div class="container">
+<div class="container" in:fadeIn out:fadeOut>
   <h1>Blog</h1>
   {#each posts as post, index}
     {#if index}

@@ -1,3 +1,7 @@
+<script>
+  import { fadeIn, fadeOut } from "../components/pageFade";
+</script>
+
 <style>
   figure {
     float: right;
@@ -49,7 +53,7 @@
   <title>About Me</title>
 </svelte:head>
 
-<div class="container">
+<div class="container" in:fadeIn out:fadeOut>
   <h1>About</h1>
   <figure>
     <img
@@ -60,14 +64,13 @@
     </span>
   </figure>
   <p>
-    Creative, well-experienced Web Developer who is committed and passionate
-    about learning cutting-edge technologies. Specialized in React, Vue and
-    Angular and most of the Front End frameworks, libraries, methodologies and
-    developing RESTful/GraphQL APIs in order to build responsive and cross
-    browser web applications with high level of functionality and interactive
-    features that will affect directly on business growth.
+    Creative & experienced Full-Stack Web Developer who is committed and
+    passionate about learning cutting-edge technologies. Specialized in React,
+    Vue and Angular and most of the FrontEnd frameworks, libraries,
+    methodologies and developing RESTful/GraphQL APIs in order to build
+    responsive and cross platform applications with high level of functionality
+    and interactive features that will affect directly on business growth.
   </p>
-  <p>Cross platform mobile app developer.</p>
   <p>
     I've worked with a variety of languages and technologies, especially
     JavaScript & Python.
@@ -75,7 +78,7 @@
   <p>
     <span class="skills">Skills:</span>
     JavaScript, Python, C#, React, Vue, Angular, Svelte, Node.js, Django,
-    GraphQL, Docker
+    GraphQL, Ionic, React Native, Flutter, Docker
   </p>
   <p>✉ armanabkar@gmail.com</p>
   <a href="https://www.linkedin.com/in/armanabkar/" target="_blank"><i

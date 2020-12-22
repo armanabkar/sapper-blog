@@ -1,5 +1,6 @@
 <script>
   import { Projects } from "./projects";
+  import { fadeIn, fadeOut } from "../../components/pageFade";
 </script>
 
 <style>
@@ -57,7 +58,7 @@
   <title>Projects</title>
 </svelte:head>
 
-<div class="container">
+<div class="container" in:fadeIn out:fadeOut>
   <h1>Projects</h1>
   {#each Projects as project, index}
     <h2>{project.name}</h2>

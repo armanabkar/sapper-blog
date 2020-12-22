@@ -1,3 +1,7 @@
+<script>
+  import { fadeIn, fadeOut } from "../components/pageFade";
+</script>
+
 <style>
   .home-container {
     align-items: center;
@@ -90,7 +94,7 @@
     content="Arman Abkar, Full-Stack, Web Developer, React, Vue, Node.js" />
 </svelte:head>
 
-<div class="home-container">
+<div class="home-container" in:fadeIn out:fadeOut>
   <div class="home-copy">
     <h1>Hi, I'm <span class="name">Arman Abkar</span></h1>
     <p>Full-Stack Web Developer</p>
