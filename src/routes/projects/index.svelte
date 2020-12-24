@@ -1,6 +1,12 @@
 <script>
   import { Projects } from "./projects";
   import { fadeIn, fadeOut } from "../../components/pageFade";
+  import { paginate, PaginationNav } from "svelte-easy-paginate";
+
+  let items = Projects;
+  let currentPage = 1;
+  let pageSize = 2;
+  $: paginatedProjects = paginate({ items, pageSize, currentPage });
 </script>
 
 <style>
@@ -60,7 +66,7 @@
 
 <div class="container" in:fadeIn out:fadeOut>
   <h1>Projects</h1>
-  {#each Projects as project, index}
+  {#each paginatedProjects as project, index}
     <h2>{project.name}</h2>
     <div class="project">
       <p>{project.description}</p>
@@ -69,4 +75,12 @@
     <a href={project.code} target="_blank">Source Code</a>
     <hr />
   {/each}
+  <PaginationNav
+    class="paginator"
+    totalItems={items.length}
+    {pageSize}
+    {currentPage}
+    limit={1}
+    showStepOptions={true}
+    on:setPage={(e) => (currentPage = e.detail.page)} />
 </div>
