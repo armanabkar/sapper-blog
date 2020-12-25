@@ -21,6 +21,14 @@ export const Projects = [
     code: "https://github.com/armanabkar/graphql-job-board",
   },
   {
+    name: "SaaS Microfrontends",
+    description:
+      "A sample SaaS website built with Microfrontends (React & Vue).",
+    imageUrl:
+      "https://github.com/armanabkar/saas-microfrontends/raw/main/screenshots.gif",
+    code: "https://github.com/armanabkar/saas-microfrontends",
+  },
+  {
     name: "Ionic Angular Notepad",
     description: "A simple notepad PWA built with Ionic & Angular.",
     imageUrl:
@@ -100,6 +108,14 @@ export const Projects = [
     imageUrl:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png",
     code: "https://github.com/armanabkar/SOLID-Principles-TypeScript",
+  },
+  {
+    name: "Svelte-Easy-Paginate",
+    description:
+      "A Svelte plugin for paginating your data in no time. Check the examples in the link below.",
+    imageUrl:
+      "https://github.com/armanabkar/svelte-easy-paginate/blob/main/screenshot.png?raw=true",
+    code: "https://github.com/armanabkar/svelte-easy-paginate",
   },
   {
     name: "SOLID Principles Python",

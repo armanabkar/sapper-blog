@@ -5,15 +5,15 @@
 
   let items = Projects;
   let currentPage = 1;
-  let pageSize = 2;
+  let pageSize = 10;
   $: paginatedProjects = paginate({ items, pageSize, currentPage });
 </script>
 
 <style>
   img {
     border-radius: 8px;
-    height: 11rem;
-    margin: 1rem 0rem 0rem 0.5rem;
+    height: 11.5rem;
+    padding: 2rem 0rem 0 1rem;
   }
 
   .project {
@@ -56,6 +56,7 @@
     img {
       border-radius: 8px;
       max-height: 20rem;
+      padding: 0;
     }
   }
 </style>

@@ -8,7 +8,7 @@
     display: flex;
     flex: 1;
     justify-content: center;
-    margin: 2em 0;
+    margin: 0 0 3.7em 0;
     min-height: 400px;
   }
 
@@ -28,6 +28,7 @@
 
   figure {
     margin: 0 1em;
+    padding-top: 2rem;
     text-align: center;
     color: rgb(146, 146, 146);
   }
@@ -40,29 +41,24 @@
   img {
     width: 100%;
     max-width: 400px;
+    padding-top: 1.5rem;
   }
 
   .name {
     color: #2196f3;
     transition: color linear 0.15s;
+    text-decoration: none;
   }
 
   .name:hover {
     color: #36393b;
   }
 
-  @media (max-width: 1020px) {
-    p {
-      font-size: 1.2em;
-      line-height: 1.5;
-    }
-
-    img {
-      max-width: 300px;
-    }
+  .logo {
+    margin-left: 0.5rem;
   }
 
-  @media (max-width: 800px) {
+  @media (max-width: 1020px) {
     .home-container {
       flex-direction: column;
       margin: 0;
@@ -77,10 +73,22 @@
     .name {
       display: block;
     }
-  }
 
-  .logo {
-    margin-left: 0.5rem;
+    p {
+      font-size: 1.2em;
+      line-height: 1.5;
+    }
+
+    img {
+      max-width: 300px;
+      margin-top: 0;
+      padding-top: 0;
+    }
+
+    figure {
+      padding-top: 1rem;
+      padding-bottom: 1.5rem;
+    }
   }
 </style>
 
@@ -96,9 +104,8 @@
 
 <div class="home-container" in:fadeIn out:fadeOut>
   <div class="home-copy">
-    <h1>Hi, I'm <span class="name">Arman Abkar</span></h1>
+    <h1>Hi, I'm <a class="name" href="about">Arman Abkar</a></h1>
     <p>Full-Stack Web Developer</p>
-    <p><a href="about">About Me</a></p>
     <a href="https://www.linkedin.com/in/armanabkar/" target="_blank"><i
         class="fab fa-linkedin-in fa-2x" /></a>
     <a class="logo" href="https://github.com/armanabkar" target="_blank"><i
