@@ -125,7 +125,10 @@
       {@html post.html}
     </article>
     <div class="back-button">
-      <a class="back" href="blog">🢀 Back To Posts</a>
+      <a class="back" href="blog"><i
+          class="fa fa-arrow-circle-left"
+          aria-hidden="true" />
+        Back To Posts</a>
     </div>
     <Bio />
   </div>
