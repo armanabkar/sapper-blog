@@ -1,17 +1,23 @@
 <script context="module">
   import { fadeIn, fadeOut } from "../../components/pageFade";
+  import { paginate, PaginationNav } from "svelte-easy-paginate";
 
+  let items;
   export function preload({ params, query }) {
     return this.fetch(`blog.json`)
       .then((r) => r.json())
       .then((posts) => {
-        return { posts };
+        items = posts;
       });
   }
 </script>
 
 <script>
   export let posts;
+
+  let currentPage = 1;
+  let pageSize = 10;
+  $: paginatedPosts = paginate({ items, pageSize, currentPage });
 </script>
 
 <style>
@@ -50,7 +56,7 @@
 
 <div class="container" in:fadeIn out:fadeOut>
   <h1>Blog</h1>
-  {#each posts as post, index}
+  {#each paginatedPosts as post, index}
     {#if index}
       <hr />
     {/if}
@@ -62,4 +68,13 @@
       </div>
     </div>
   {/each}
+  <hr />
+  <PaginationNav
+    class="paginator"
+    totalItems={items.length}
+    {pageSize}
+    {currentPage}
+    limit={1}
+    showStepOptions={true}
+    on:setPage={(e) => (currentPage = e.detail.page)} />
 </div>

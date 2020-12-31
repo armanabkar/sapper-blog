@@ -3,6 +3,10 @@ title: Why JavaScript Is the Programming Language of the Future
 date: "2020-12-10T08:38:00.000Z"
 ---
 
+Let's see how JavaScript turned the tables in the last 10 years, why it has become stronger than ever, and why it is here to stay.
+
+<!-- more -->
+
 ![JavaScript](https://www.freecodecamp.org/news/content/images/size/w2000/2020/04/jsposter.jpg)
 
 JavaScript was the first programming language I picked up. Well, I actually started with HTML and CSS. Just like many other web developers, going with JavaScript was a no-brainier. This is simply because it blends so well with HTML and CSS, and actually enhances your HTML/CSS skills as well. I've developed applications and games in various other programming languages including Java, Swift, C++, Dart. But the flexibility which JavaScript provides is unmatchable - even though it could be considered bad for beginners as it gives way more options than required to do a simple task.

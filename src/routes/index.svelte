@@ -18,12 +18,13 @@
 
   h1 {
     font-weight: 700;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.4em;
   }
 
   p {
     font-size: 1.4em;
     line-height: 1.5;
+    letter-spacing: 0.02rem;
   }
 
   figure {
@@ -66,7 +67,7 @@
 
     .home-copy {
       flex: 0;
-      padding-bottom: 2em;
+      padding-bottom: 1.3em;
       text-align: center;
     }
 
@@ -90,13 +91,30 @@
       padding-bottom: 1.5rem;
     }
   }
+
+  @media (max-width: 480px) {
+    .home-container {
+      margin-bottom: 6.5rem;
+    }
+
+    .home-copy {
+      flex: 0;
+      padding-bottom: 0;
+      text-align: center;
+    }
+
+    figure {
+      padding-top: 1.5rem;
+      padding-bottom: 0;
+    }
+  }
 </style>
 
 <svelte:head>
   <title>Arman Abkar</title>
   <meta
     name="description"
-    content="Full-Stack Web Developer from Santa Monica, California" />
+    content="Full-Stack Web Developer from los Angeles, California" />
   <meta
     name="keywords"
     content="Arman Abkar, Full-Stack, Web Developer, React, Vue, Node.js" />
@@ -128,7 +146,7 @@
   </div>
 
   <figure>
-    <img alt="Person typing on laptop" src="undraw_programmer_imem.svg" />
+    <img alt="Person typing on laptop" src="undraw_programming_2svr.svg" />
     <figcaption>
       Illustration thanks to
       <a href="https://undraw.co" target="_blank">Undraw</a>

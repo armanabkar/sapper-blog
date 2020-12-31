@@ -3,6 +3,10 @@ title: A Beginner's Guide to JavaScript's Prototype
 date: "2020-12-25T08:38:00.000Z"
 ---
 
+Prototypes are the mechanism by which JavaScript objects inherit features from one another. In this article, we explain how prototype chains ...
+
+<!-- more -->
+
 You can’t get very far in JavaScript without dealing with objects. They’re foundational to almost every aspect of the JavaScript programming language. In this post you’ll learn about a variety of patterns for instantiating new objects and in doing so, you’ll be gradually led to understanding JavaScript’s prototype in depth.
 
 You can't get very far in JavaScript without dealing with objects. They're foundational to almost every aspect of the JavaScript programming language. In fact, learning how to create objects is probably one of the first things you studied when you were starting out. With that said, in order to most effectively learn about prototypes in JavaScript, we're going to channel our inner Jr. developer and go back to the basics.

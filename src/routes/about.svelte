@@ -5,27 +5,31 @@
 <style>
   figure {
     float: right;
-    margin: 1em -6em 2em 2em;
-    max-width: 350px;
+    margin: -11em 0 2em 2em;
+    max-width: 300px;
     color: rgb(146, 146, 146);
+    text-align: right;
   }
 
   figure img {
     margin-bottom: 1rem;
   }
 
+  figure span {
+    font-size: 0.8rem;
+  }
+
   @media (max-width: 1020px) {
     figure {
-      float: none;
-      margin: 0 auto 2em auto;
-      max-width: 350px;
+      display: none;
     }
     .container {
       text-align: center;
       margin: 0 auto;
     }
-    figure img {
-      padding-top: 0;
+
+    hr {
+      display: none;
     }
   }
 
@@ -42,11 +46,15 @@
   }
 
   .location {
-    font-size: 0.9rem;
-    margin: 1rem 0 0 0;
+    font-size: 1rem;
+    margin: 1.5rem 0 0 0;
     padding: 0;
     color: #aaa;
   }
+
+  /* h3 {
+    margin: 1rem 0 0 0;
+  } */
 </style>
 
 <svelte:head>
@@ -55,14 +63,6 @@
 
 <div class="container" in:fadeIn out:fadeOut>
   <h1>About</h1>
-  <figure>
-    <img
-      src="undraw_web_developer_p3e5.svg"
-      alt="Image of a vintage typewriter." />
-    <span>Illustration thanks to
-      <a href="https://undraw.co" target="_blank">Undraw</a>
-    </span>
-  </figure>
   <p>
     Creative & experienced Full-Stack Web Developer who is committed and
     passionate about learning cutting-edge technologies. Specialized in React,
@@ -77,9 +77,11 @@
   </p>
   <p>
     <span class="skills">Skills:</span>
-    JavaScript, Python, C#, React, Vue, Angular, Svelte, Node.js, Django,
-    GraphQL, Ionic, React Native, Flutter, Docker
+    JavaScript, Python, C#, Go, React, Vue, Angular, Svelte, Node.js, Django,
+    GraphQL, Ionic, React Native, Flutter, Docker.
   </p>
+  <hr />
+  <p>☎ +98 936 386 8196</p>
   <p>✉ armanabkar@gmail.com</p>
   <a href="https://www.linkedin.com/in/armanabkar/" target="_blank"><i
       class="fab fa-linkedin-in fa-2x" /></a>
@@ -97,5 +99,13 @@
   <a class="logo" href="https://www.instagram.com/armanabkar/" target="_blank">
     <i class="fab fa-instagram fa-2x" />
   </a>
-  <p class="location">🌴 Somewhere, California</p>
+  <p class="location">🌴 Los Angeles, California</p>
+  <figure>
+    <img
+      src="undraw_code_thinking_1jeh.svg"
+      alt="Image of a vintage typewriter." />
+    <span>Illustration thanks to
+      <a href="https://undraw.co" target="_blank">Undraw</a>
+    </span>
+  </figure>
 </div>

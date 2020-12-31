@@ -103,6 +103,22 @@ export const Projects = [
     code: "https://github.com/armanabkar/svelte-budget-calculator",
   },
   {
+    name: "MEVN Stack Task Manager",
+    description:
+      "Simple app for managing tasks and users built with MEVN stack.",
+    imageUrl:
+      "https://github.com/armanabkar/mevn-task-manager/raw/main/screenshots.gif",
+    code: "https://github.com/armanabkar/mevn-task-manager",
+  },
+  {
+    name: "Expense Tracker (MERN / Vanilla JS)",
+    description:
+      "Full stack expense tracker app fot keeping your expanses + Vanilla JS version.",
+    imageUrl:
+      "https://github.com/armanabkar/mern-expense-tracker/raw/main/screenshot.png",
+    code: "https://github.com/armanabkar/mern-expense-tracker",
+  },
+  {
     name: "SOLID Principles TypeScript",
     description: "SOLID Principles explained in TypeScript with examples.",
     imageUrl:

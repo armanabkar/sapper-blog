@@ -1,4 +1,6 @@
 <script context="module">
+  import { fadeIn, fadeOut } from "../../components/pageFade";
+
   export async function preload({ params, query }) {
     // the `slug` parameter is available because
     // this file is called [slug].html
@@ -25,6 +27,13 @@
 
   header h1 {
     margin-bottom: 0.7em;
+    font-size: 3.5em;
+  }
+
+  @media only screen and (max-width: 768px) {
+    header h1 {
+      font-size: 2.5em;
+    }
   }
 
   header {
@@ -49,6 +58,17 @@
   header hr {
     min-width: 100px;
     width: 30%;
+  }
+
+  .back {
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin: 0;
+  }
+
+  .back-button {
+    text-align: center;
+    margin-bottom: 2rem;
   }
 </style>
 
@@ -94,15 +114,19 @@
   <meta name="twitter:data2" value={post.printReadingTime} />
 </svelte:head>
 
-<header>
-  <p>{post.printDate} ~ {post.printReadingTime}</p>
-  <h1>{post.title}</h1>
-  <hr />
-</header>
-<div class="container">
-  <article class="content">
-    {@html post.html}
-  </article>
-  <hr />
-  <Bio />
+<div in:fadeIn out:fadeOut>
+  <header>
+    <p>{post.printDate} ~ {post.printReadingTime}</p>
+    <h1>{post.title}</h1>
+    <hr />
+  </header>
+  <div class="container">
+    <article class="content">
+      {@html post.html}
+    </article>
+    <div class="back-button">
+      <a class="back" href="blog">🢀 Back To Posts</a>
+    </div>
+    <Bio />
+  </div>
 </div>

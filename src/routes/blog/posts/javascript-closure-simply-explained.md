@@ -3,6 +3,10 @@ title: JavaScript Closure Simply Explained
 date: "2020-12-19T08:38:00.000Z"
 ---
 
+In other words, a closure gives you access to an outer function's scope from an inner function. In JavaScript, closures are created every time a ...
+
+<!-- more -->
+
 A closure is a stateful function that is returned by another function. It acts as a container to remember variables and parameters from its parent scope even if the parent function has finished executing. Consider this simple example.
 
 ```javascript

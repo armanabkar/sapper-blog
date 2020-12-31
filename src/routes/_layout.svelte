@@ -10,6 +10,7 @@
     flex-direction: column;
     min-height: 100%;
     min-height: 100vh;
+    background-color: #fafafa;
   }
 
   main {
@@ -17,23 +18,24 @@
     position: relative;
     margin: 0 auto;
     max-width: 1400px;
-    background-color: white;
     padding: 1em 2em;
     box-sizing: border-box;
     width: 100%;
     display: flex;
     flex-direction: column;
+    background-color: #fafafa;
   }
 
   footer {
     color: rgb(151, 151, 151);
     font-size: 1em;
     font-family: Rubik, sans-serif;
-    margin: 0.9em auto 0.3em auto;
+    margin: 1em auto 0 auto;
     max-width: 1400px;
-    padding: 0.9em 2em;
+    padding: 1em 2em;
     text-align: center;
     width: 100%;
+    letter-spacing: 0.1rem;
   }
 </style>
 
@@ -44,16 +46,5 @@
     <slot />
   </main>
 
-  <footer>
-    <span>
-      &copy;
-      {new Date().getFullYear()}
-      Arman Abkar. Powered by
-      <a href="https://sapper.svelte.dev" target="_blank">Sapper</a>. Template
-      by
-      <a href="https://www.twitter.com/Charca" target="_blank">Maxi Ferreira</a>.
-      Modified by
-      <a href="https://github.com/armanabkar" target="_blank">Arman Abkar</a>.
-    </span>
-  </footer>
+  <footer><span> &copy; {new Date().getFullYear()} Arman Abkar </span></footer>
 </div>

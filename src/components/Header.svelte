@@ -34,6 +34,7 @@
     padding: 10px 5px;
     display: block;
     position: relative;
+    letter-spacing: 0.1rem;
   }
 </style>
 

@@ -2,6 +2,11 @@
 title: React 17 is released - What's New in React?
 date: "2020-12-03T08:38:00.000Z"
 ---
+
+In this post, let's discuss what major changes it brings and how they affect you as a React developer.
+
+<!-- more -->
+
 React 17 was just released today and the official blog post covers it in great depth. In this post, let's discuss what major changes it brings and how they affect you as a React developer.
 
 ## No New Features

@@ -11,7 +11,7 @@ body {
   line-height: 1.6;
   color: #36393b;
   scrollbar-width: thin;
-  scrollbar-color: #2196f3 white;
+  scrollbar-color: #2196f3 #fafafa;
 }
 
 h1,
@@ -176,7 +176,7 @@ td {
 
 .container {
   margin: 0 auto;
-  max-width: 42em;
+  max-width: 45em;
   width: 100%;
 }
 
@@ -210,10 +210,11 @@ td {
 
 ::-webkit-scrollbar {
   width: 12px; /* width of the entire scrollbar */
+  overflow: auto;
 }
 
 ::-webkit-scrollbar-track {
-  background: white; /* color of the tracking area */
+  background: #fafafa; /* color of the tracking area */
 }
 
 ::-webkit-scrollbar-thumb {
