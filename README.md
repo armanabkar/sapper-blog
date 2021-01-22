@@ -6,7 +6,7 @@ A starter template for building markdown-powered blogs with [Sapper](https://git
 
 
 <h2 align="center">
-  <img src="./screenshots.gif" alt="sapper-blog-template" width="600px" />
+  <img src="./screenshot.png" alt="sapper-blog-template" width="600px" />
   <br>
 </h2>
 

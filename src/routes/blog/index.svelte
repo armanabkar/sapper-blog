@@ -16,7 +16,7 @@
   export let posts;
 
   let currentPage = 1;
-  let pageSize = 10;
+  let pageSize = 15;
   $: paginatedPosts = paginate({ items, pageSize, currentPage });
 </script>
 

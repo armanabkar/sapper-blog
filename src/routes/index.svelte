@@ -8,12 +8,13 @@
     display: flex;
     flex: 1;
     justify-content: center;
-    margin: 0 0 3.7em 0;
+    margin: 0;
     min-height: 400px;
   }
 
   .home-copy {
     flex: 1;
+    padding-bottom: 2rem;
   }
 
   h1 {
@@ -22,16 +23,20 @@
   }
 
   p {
-    font-size: 1.4em;
+    font-size: 1.5em;
     line-height: 1.5;
     letter-spacing: 0.02rem;
+    margin-left: 0.2rem;
+    margin-top: -0.1rem;
   }
 
   figure {
     margin: 0 1em;
     padding-top: 2rem;
+    margin-bottom: 0.5rem;
     text-align: center;
     color: rgb(146, 146, 146);
+    padding-bottom: 1rem;
   }
 
   figcaption {
@@ -59,6 +64,20 @@
     margin-left: 0.5rem;
   }
 
+  .location {
+    color: #aaa;
+    display: block;
+    font-size: 0.9rem;
+  }
+
+  .icons {
+    margin: 0 auto;
+    padding: 0;
+    height: 2rem;
+    position: relative;
+    bottom: -2rem;
+  }
+
   @media (max-width: 1020px) {
     .home-container {
       flex-direction: column;
@@ -78,6 +97,7 @@
     p {
       font-size: 1.2em;
       line-height: 1.5;
+      margin: 0 auto;
     }
 
     img {
@@ -87,8 +107,12 @@
     }
 
     figure {
-      padding-top: 1rem;
-      padding-bottom: 1.5rem;
+      padding-top: 0;
+      padding-bottom: 4rem;
+    }
+
+    .icons {
+      display: none;
     }
   }
 
@@ -104,8 +128,8 @@
     }
 
     figure {
-      padding-top: 1.5rem;
-      padding-bottom: 0;
+      padding-top: 1.1rem;
+      padding-bottom: 1.5rem;
     }
   }
 </style>
@@ -114,7 +138,7 @@
   <title>Arman Abkar</title>
   <meta
     name="description"
-    content="Full-Stack Web Developer from los Angeles, California" />
+    content="Software Developer from los Angeles, California" />
   <meta
     name="keywords"
     content="Arman Abkar, Full-Stack, Web Developer, React, Vue, Node.js" />
@@ -123,7 +147,23 @@
 <div class="home-container" in:fadeIn out:fadeOut>
   <div class="home-copy">
     <h1>Hi, I'm <a class="name" href="about">Arman Abkar</a></h1>
-    <p>Full-Stack Web Developer</p>
+    <p>
+      Software Developer
+      <span class="location">from Los Angeles, California</span>
+    </p>
+  </div>
+
+  <figure>
+    <img alt="Person typing on laptop" src="undraw_programming_2svr.svg" />
+    <figcaption>
+      Illustration thanks to
+      <a href="https://undraw.co" target="_blank">Undraw</a>
+    </figcaption>
+  </figure>
+</div>
+
+<footer class="icons">
+  <div>
     <a href="https://www.linkedin.com/in/armanabkar/" target="_blank"><i
         class="fab fa-linkedin-in fa-2x" /></a>
     <a class="logo" href="https://github.com/armanabkar" target="_blank"><i
@@ -144,12 +184,4 @@
       <i class="fab fa-instagram fa-2x" />
     </a>
   </div>
-
-  <figure>
-    <img alt="Person typing on laptop" src="undraw_programming_2svr.svg" />
-    <figcaption>
-      Illustration thanks to
-      <a href="https://undraw.co" target="_blank">Undraw</a>
-    </figcaption>
-  </figure>
-</div>
+</footer>

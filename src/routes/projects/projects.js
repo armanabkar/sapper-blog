@@ -119,19 +119,34 @@ export const Projects = [
     code: "https://github.com/armanabkar/mern-expense-tracker",
   },
   {
-    name: "SOLID Principles TypeScript",
-    description: "SOLID Principles explained in TypeScript with examples.",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png",
-    code: "https://github.com/armanabkar/SOLID-Principles-TypeScript",
-  },
-  {
     name: "Svelte-Easy-Paginate",
     description:
       "A Svelte plugin for paginating your data in no time. Check the examples in the link below.",
     imageUrl:
       "https://github.com/armanabkar/svelte-easy-paginate/blob/main/screenshot.png?raw=true",
     code: "https://github.com/armanabkar/svelte-easy-paginate",
+  },
+  {
+    name: "SpaceX Launch Stats",
+    description:
+      "React, GraphQL, Apollo app that uses the SpaceX API to display launches.",
+    imageUrl:
+      "https://github.com/armanabkar/spacex-launch-stats/raw/main/screenshots.png",
+    code: "https://github.com/armanabkar/spacex-launch-stats",
+  },
+  {
+    name: "Vue 3 Music Player",
+    description: "A simple music player app built with Vue 3 composition API.",
+    imageUrl:
+      "https://github.com/armanabkar/vue3-music-player/raw/main/screenshot.png",
+    code: "https://github.com/armanabkar/vue3-music-player",
+  },
+  {
+    name: "SOLID Principles TypeScript",
+    description: "SOLID Principles explained in TypeScript with examples.",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png",
+    code: "https://github.com/armanabkar/SOLID-Principles-TypeScript",
   },
   {
     name: "SOLID Principles Python",
@@ -144,7 +159,7 @@ export const Projects = [
     name: "Sapper Blog",
     description: "Markdown-based Blog Built with Sapper.",
     imageUrl:
-      "https://github.com/armanabkar/sapper-blog-template/raw/master/screenshots.gif",
+      "https://github.com/armanabkar/sapper-blog-template/raw/master/screenshot.png",
     code: "https://github.com/armanabkar/sapper-blog-template",
   },
 ];
