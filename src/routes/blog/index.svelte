@@ -14,11 +14,50 @@
 
 <script>
   export let posts;
+  import { beforeUpdate } from "svelte";
 
   let currentPage = 1;
   let pageSize = 15;
   $: paginatedPosts = paginate({ items, pageSize, currentPage });
+
+  beforeUpdate(async () => {
+    await fetch(`blog.json`)
+      .then((r) => r.json())
+      .then((posts) => {
+        items = posts;
+      });
+  });
 </script>
+
+<svelte:head>
+  <title>Blog</title>
+</svelte:head>
+
+<div class="container" in:fadeIn out:fadeOut>
+  <h1>Blog</h1>
+  {#each paginatedPosts as post, index}
+    {#if index}
+      <hr />
+    {/if}
+    <div class="post-item">
+      <h2><a rel="prefetch" href="blog/{post.slug}">{post.title}</a></h2>
+      <p>{post.excerpt}</p>
+      <div class="post-item-footer">
+        <span class="post-item-date">— {post.printDate}</span>
+      </div>
+    </div>
+  {/each}
+  <hr />
+  <PaginationNav
+    class="paginator"
+    totalItems={items.length}
+    {pageSize}
+    {currentPage}
+    limit={1}
+    showStepOptions={true}
+    on:setPage={(e) => (currentPage = e.detail.page)}
+  />
+</div>
 
 <style>
   h2,
@@ -49,32 +88,3 @@
     }
   }
 </style>
-
-<svelte:head>
-  <title>Blog</title>
-</svelte:head>
-
-<div class="container" in:fadeIn out:fadeOut>
-  <h1>Blog</h1>
-  {#each paginatedPosts as post, index}
-    {#if index}
-      <hr />
-    {/if}
-    <div class="post-item">
-      <h2><a rel="prefetch" href="blog/{post.slug}">{post.title}</a></h2>
-      <p>{post.excerpt}</p>
-      <div class="post-item-footer">
-        <span class="post-item-date">— {post.printDate}</span>
-      </div>
-    </div>
-  {/each}
-  <hr />
-  <PaginationNav
-    class="paginator"
-    totalItems={items.length}
-    {pageSize}
-    {currentPage}
-    limit={1}
-    showStepOptions={true}
-    on:setPage={(e) => (currentPage = e.detail.page)} />
-</div>
