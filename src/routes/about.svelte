@@ -22,8 +22,8 @@
   </p>
   <p>
     <span class="skills">Skills:</span>
-    JavaScript, Python, C#, Go, React, Vue, Angular, Svelte, Blazor, Node.js, Django,
-    GraphQL, Ionic, React Native, Flutter, Docker.
+    JavaScript, Python, C#, Go, Elixir, React, Vue, Angular, Svelte, Blazor, Node.js,
+    Django, GraphQL, Ionic, React Native, Flutter, Docker.
   </p>
   <hr />
   <p>☎ +98 936 386 8196</p>

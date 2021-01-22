@@ -142,6 +142,27 @@ export const Projects = [
     code: "https://github.com/armanabkar/vue3-music-player",
   },
   {
+    name: "Dad Jokes",
+    description:
+      "Simple app built with Vue and VueX using icanhazdadjoke API (The largest collection of dad jokes on the internet.)",
+    imageUrl: "https://github.com/armanabkar/dad-jokes/raw/main/screenshot.png",
+    code: "https://github.com/armanabkar/dad-jokes",
+  },
+  {
+    name: "Vue 3 Task Manager",
+    description: "Vue 3 Task Management App built with TypeScript and Vuex 4.",
+    imageUrl:
+      "https://github.com/armanabkar/vue3-task-manager/raw/main/screenshot.png",
+    code: "https://github.com/armanabkar/vue3-task-manager",
+  },
+  {
+    name: "Vue 3 VitePress Docs",
+    description: "Sample Documentation Website built with VitePress.",
+    imageUrl:
+      "https://github.com/armanabkar/vue3-vitepress-docs/raw/main/screenshot.png",
+    code: "https://github.com/armanabkar/vue3-vitepress-docs",
+  },
+  {
     name: "SOLID Principles TypeScript",
     description: "SOLID Principles explained in TypeScript with examples.",
     imageUrl:
@@ -154,6 +175,35 @@ export const Projects = [
     imageUrl:
       "https://github.com/armanabkar/SOLID-Principles-Python/raw/master/SOLID.png",
     code: "https://github.com/armanabkar/SOLID-Principles-Python",
+  },
+  {
+    name: "Notes App Vanilla JS",
+    description: "Built with Vanilla JS.",
+    imageUrl:
+      "https://github.com/armanabkar/notes-app-vanilla-js/raw/main/screenshot.png",
+    code: "https://github.com/armanabkar/notes-app-vanilla-js",
+  },
+  {
+    name: "Password Generator Vanilla JS",
+    description: "Simple password generator app built with Vanilla JavaScript.",
+    imageUrl:
+      "https://github.com/armanabkar/password-generator/raw/main/screenshot.png",
+    code: "https://github.com/armanabkar/password-generator",
+  },
+  {
+    name: "GoLang Books REST API",
+    description:
+      "Simple RESTful API to create, read, update and delete books. No database implementation.",
+    imageUrl: "https://miro.medium.com/max/3152/1*Ifpd_HtDiK9u6h68SZgNuA.png",
+    code: "https://github.com/armanabkar/go-rest-api",
+  },
+  {
+    name: "Lorem Ipsum Landing Page",
+    description:
+      "Simple landing page built with Sass (VSCode Live Sass Compiler).",
+    imageUrl:
+      "https://github.com/armanabkar/lorem-ipsum-landing-page/raw/main/screenshot.png",
+    code: "https://github.com/armanabkar/lorem-ipsum-landing-page",
   },
   {
     name: "Sapper Blog",
