@@ -1,6 +1,6 @@
 ---
 title: 7 Techniques to Learn & Grow More Efficiently
-date: "2021-01-16T08:38:00.000Z"
+date: "2020-04-12T08:38:00.000Z"
 ---
 
 Learning can be hard! ...

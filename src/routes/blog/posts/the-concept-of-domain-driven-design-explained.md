@@ -1,6 +1,6 @@
 ---
 title: The Concept of Domain-Driven Design Explained
-date: "2021-02-21T08:38:00.000Z"
+date: "2021-03-21T08:38:00.000Z"
 ---
 
 The business goal is important to the business users, with a clear interface and functions. This way ...

@@ -1,7 +1,4 @@
 <script context="module">
-  import { fadeIn, fadeOut } from "../../components/pageFade";
-  import { paginate, PaginationNav } from "svelte-easy-paginate";
-
   let items;
   export function preload({ params, query }) {
     return this.fetch(`blog.json`)
@@ -13,20 +10,14 @@
 </script>
 
 <script>
+  import { fadeIn, fadeOut } from "../../utils/pageFade";
+  import { paginate, PaginationNav } from "svelte-easy-paginate";
+
   export let posts;
-  import { beforeUpdate } from "svelte";
 
   let currentPage = 1;
   let pageSize = 15;
   $: paginatedPosts = paginate({ items, pageSize, currentPage });
-
-  beforeUpdate(async () => {
-    await fetch(`blog.json`)
-      .then((r) => r.json())
-      .then((posts) => {
-        items = posts;
-      });
-  });
 </script>
 
 <svelte:head>
@@ -34,7 +25,13 @@
 </svelte:head>
 
 <div class="container" in:fadeIn out:fadeOut>
-  <h1>Blog</h1>
+  {#if currentPage === 1}
+    <h2 class="title">
+      Here are some of my ideas, thoughts and favourite articles:
+    </h2>
+  {:else}
+    <h2 class="title">Page {currentPage}</h2>
+  {/if}
   {#each paginatedPosts as post, index}
     {#if index}
       <hr />
@@ -67,7 +64,7 @@
   }
 
   .post-item-date {
-    color: #aaa;
+    color: var(--grey);
     text-align: left;
     text-transform: uppercase;
     margin-right: 16px;

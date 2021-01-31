@@ -1,6 +1,6 @@
 ---
 title: A Beginner's Guide to JavaScript's Prototype
-date: "2020-12-25T08:38:00.000Z"
+date: "2020-08-25T08:38:00.000Z"
 ---
 
 Prototypes are the mechanism by which JavaScript objects inherit features from one another. In this article, we explain how prototype chains ...

@@ -4,6 +4,13 @@
   export let segment;
 </script>
 
+<header>
+  {#if segment !== undefined}<a class="hidden-mob" href="."
+      >&lt; Arman Abkar /&gt;</a
+    >{/if}
+  <Nav {segment} />
+</header>
+
 <style>
   header {
     display: flex;
@@ -29,16 +36,11 @@
     font-family: Rubik, sans-serif;
     font-weight: 700;
     text-transform: uppercase;
-    color: #2196f3;
+    color: var(--primary);
     text-decoration: none;
     padding: 10px 5px;
     display: block;
     position: relative;
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.04rem;
   }
 </style>
-
-<header>
-  {#if segment !== undefined}<a class="hidden-mob" href=".">Arman Abkar</a>{/if}
-  <Nav {segment} />
-</header>

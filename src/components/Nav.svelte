@@ -2,6 +2,17 @@
   export let segment;
 </script>
 
+<nav>
+  <a class={segment === undefined ? "selected" : ""} href=".">home</a>
+  <a class={segment === "about" ? "selected" : ""} href="about">about</a>
+  <a class={segment === "projects" ? "selected" : ""} href="projects"
+    >projects</a
+  >
+  <a rel="prefetch" class={segment === "blog" ? "selected" : ""} href="blog"
+    >blog</a
+  >
+</nav>
+
 <style>
   nav {
     align-items: flex-end;
@@ -34,7 +45,7 @@
     bottom: 0;
     width: 100%;
     height: 2px;
-    background: #aaa;
+    background: var(--grey);
     transform: scaleX(0);
   }
 
@@ -44,18 +55,6 @@
   }
 
   .selected::before {
-    background: #2196f3;
+    background: var(--primary);
   }
 </style>
-
-<nav>
-  <a class={segment === undefined ? 'selected' : ''} href=".">home</a>
-  <a class={segment === 'about' ? 'selected' : ''} href="about">about</a>
-  <a
-    class={segment === 'projects' ? 'selected' : ''}
-    href="projects">projects</a>
-  <a
-    rel="prefetch"
-    class={segment === 'blog' ? 'selected' : ''}
-    href="blog">blog</a>
-</nav>

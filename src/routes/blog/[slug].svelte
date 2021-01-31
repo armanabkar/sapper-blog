@@ -1,6 +1,4 @@
 <script context="module">
-  import { fadeIn, fadeOut } from "../../components/pageFade";
-
   export async function preload({ params, query }) {
     // the `slug` parameter is available because
     // this file is called [slug].html
@@ -16,6 +14,8 @@
 </script>
 
 <script>
+  import { fadeIn, fadeOut } from "../../utils/pageFade";
+  
   import Bio from "../../components/Bio.svelte";
   export let post;
 </script>
@@ -42,7 +42,7 @@
   }
 
   header p {
-    color: #aaa;
+    color: var(--grey);
     text-transform: uppercase;
     font-family: Rubik, sans-serif;
     font-weight: 600;

@@ -1,6 +1,6 @@
 ---
 title: Why JavaScript Is the Programming Language of the Future
-date: "2020-12-10T08:38:00.000Z"
+date: "2020-06-13T08:38:00.000Z"
 ---
 
 Let's see how JavaScript turned the tables in the last 10 years, why it has become stronger than ever, and why it is here to stay.

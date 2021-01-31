@@ -1,12 +1,11 @@
-# sapper-blog-template
+# Sapper Blog
 
 A starter template for building markdown-powered blogs with [Sapper](https://github.com/sveltejs/sapper) and [Svelte](https://github.com/sveltejs/svelte).
 
 ### 👉 [Live Demo](https://armanabkar.ir/)
 
-
 <h2 align="center">
-  <img src="./screenshot.png" alt="sapper-blog-template" width="600px" />
+  <img src="./screenshot.png" alt="sapper-blog" width="600px" />
   <br>
 </h2>
 
@@ -21,7 +20,38 @@ npm run dev
 
 Open up [localhost:3000](http://localhost:3000) and start clicking around.
 
+## Test
+```bash
+# Run all Cypress e2e tests
+npm test
+```
+
 Consult [sapper.svelte.dev](https://sapper.svelte.dev) for help getting started.
+
+## ⚡ Features
+
+- [x] Responsive & Lightweight
+- [x] Markdown-based Personal Blog 
+- [x] Portfolio
+- [x] Personal Projects Page
+- [x] Pagination for blog and projects
+- [x] Highly Customizable
+- [x] Dark Mode (Still in Development)
+- [x] Animations & Transition
+- [ ] Contact Form
+
+## 🖌 Styles
+
+You can modify styles in static/global.css file:
+
+```css
+:root {
+  --primary: #2196f3;
+  --secondary: #3b3936;
+  --grey: #aaa;
+  --white: #fafafa;
+}
+```
 
 ## 🏗 Structure
 

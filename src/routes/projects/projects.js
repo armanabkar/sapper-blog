@@ -85,7 +85,7 @@ export const Projects = [
     description:
       "A simple single page application for sharing books between students. Using Svelte.js and Firebase",
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Svelte_Logo.svg/1200px-Svelte_Logo.svg.png",
+      "https://cdn.cosmicjs.com/21fdab00-8eec-11ea-a8ae-93035d8042eb-svelte-cms.jpg",
     code: "https://github.com/armanabkar/BookSharing-Svelte",
   },
   {
@@ -163,18 +163,12 @@ export const Projects = [
     code: "https://github.com/armanabkar/vue3-vitepress-docs",
   },
   {
-    name: "SOLID Principles TypeScript",
-    description: "SOLID Principles explained in TypeScript with examples.",
+    name: "S.O.L.I.D. Principles",
+    description:
+      "gem The Principles of OOD (SOLID) based on Uncle Bob articles (in Swift 4).",
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png",
-    code: "https://github.com/armanabkar/SOLID-Principles-TypeScript",
-  },
-  {
-    name: "SOLID Principles Python",
-    description: "SOLID Principles explained in Python with examples.",
-    imageUrl:
-      "https://github.com/armanabkar/SOLID-Principles-Python/raw/master/SOLID.png",
-    code: "https://github.com/armanabkar/SOLID-Principles-Python",
+      "https://www.freecodecamp.org/news/content/images/size/w2000/2020/08/solid.png",
+    code: "https://github.com/armanabkar/OOD-Principles-In-Swift",
   },
   {
     name: "Notes App Vanilla JS",
@@ -211,5 +205,6 @@ export const Projects = [
     imageUrl:
       "https://github.com/armanabkar/sapper-blog-template/raw/master/screenshot.png",
     code: "https://github.com/armanabkar/sapper-blog-template",
+    live: "https://armanabkar.ir",
   },
 ];

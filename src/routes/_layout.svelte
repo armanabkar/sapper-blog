@@ -1,8 +1,26 @@
 <script>
+  import DarkModeToggle from "../components/DarkModeToggle.svelte";
   import Header from "../components/Header.svelte";
 
   export let segment;
 </script>
+
+<div class="layout">
+  <Header {segment} />
+
+  <main>
+    <slot />
+  </main>
+
+  <footer>
+    {#if segment == "about"}
+      <div>
+        <DarkModeToggle />
+      </div>
+    {/if}
+    <span> &copy; {new Date().getFullYear()} Arman Abkar </span>
+  </footer>
+</div>
 
 <style>
   .layout {
@@ -10,7 +28,7 @@
     flex-direction: column;
     min-height: 100%;
     min-height: 100vh;
-    background-color: #fafafa;
+    background-color: var(--white);
   }
 
   main {
@@ -23,11 +41,11 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    background-color: #fafafa;
+    background-color: var(--white);
   }
 
   footer {
-    color: rgb(151, 151, 151);
+    color: var(--grey);
     font-size: 1em;
     font-family: Rubik, sans-serif;
     margin: 1em auto 0 auto;
@@ -38,13 +56,3 @@
     letter-spacing: 0.1rem;
   }
 </style>
-
-<div class="layout">
-  <Header {segment} />
-
-  <main>
-    <slot />
-  </main>
-
-  <footer><span> &copy; {new Date().getFullYear()} Arman Abkar </span></footer>
-</div>

@@ -1,6 +1,6 @@
 ---
 title: Write code that is easy to delete, not easy to extend
-date: "2021-01-07T08:38:00.000Z"
+date: "2021-01-15T08:38:00.000Z"
 ---
 
 Every line of code written comes at a price: maintenance. To avoid paying for a...
