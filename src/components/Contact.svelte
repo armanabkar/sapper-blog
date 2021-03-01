@@ -10,7 +10,8 @@
 <a
   class="logo"
   href="https://stackoverflow.com/users/12696103/arman-abkar"
-  target="_blank">
+  target="_blank"
+>
   <i class="fab fa-stack-overflow fa-2x" />
 </a>
 <a class="logo" href="https://twitter.com/armanabkar" target="_blank">
@@ -19,7 +20,7 @@
 <a class="logo" href="https://www.instagram.com/armanabkar/" target="_blank">
   <i class="fab fa-instagram fa-2x" />
 </a>
-<p class="location">🌴 Los Angeles, California</p>
+<p class="location">🌴 Isfahan, Iran</p>
 <figure>
   <img
     src="undraw_code_thinking_1jeh.svg"
@@ -48,7 +49,7 @@
     font-size: 0.8rem;
   }
 
-  @media (max-width: 1020px) {
+  @media (max-width: 768px) {
     figure {
       display: none;
     }

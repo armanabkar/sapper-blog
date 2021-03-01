@@ -1,5 +1,5 @@
 ---
-title: A crash course in compilers
+title: A Crash Course in Compilers
 date: "2021-02-05T08:38:00.000Z"
 ---
 

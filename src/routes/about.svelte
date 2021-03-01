@@ -12,9 +12,9 @@
   <h2 class="title">A brief summary about myself:</h2>
   <p>
     Creative & experienced Software Developer who is committed and passionate
-    about learning cutting-edge technologies. Specialized in JavaScript, Python
-    and most of the FrontEnd frameworks, libraries, methodologies and
-    RESTful/GraphQL APIs in order to build responsive and cross platform
+    about learning cutting-edge technologies. Specialized in JavaScript and most
+    of the FrontEnd frameworks, libraries and methodologies as well as RESTful
+    and GraphQL APIs development in order to build responsive and cross platform
     applications with high level of functionality and interactive features that
     will affect directly on business growth.
   </p>
@@ -27,7 +27,7 @@
 </div>
 
 <style>
-  @media (max-width: 1020px) {
+  @media (max-width: 768px) {
     .container {
       text-align: center;
       margin: 0 auto;

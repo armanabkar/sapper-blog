@@ -2,8 +2,8 @@
   <img src="profile-pic.png" alt="Arman Abkar" />
   <p>
     Hi, I'm
-    <strong>Arman Abkar</strong>, a Software Developer from Los Angeles,
-    California. You can follow me on
+    <strong>Arman Abkar</strong>, a Software Developer from Isfahan,
+    Iran. You can follow me on
     <a href="https://twitter.com/armanabkar" target="_blank">Twitter</a>
     or
     <a href="https://www.instagram.com/armanabkar/" target="_blank">Instagram</a

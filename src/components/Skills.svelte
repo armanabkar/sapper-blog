@@ -1,8 +1,8 @@
 <p>
   <span class="skills">Skills:</span>
-  JavaScript, Python, C#, Go, Elixir, React, Vue, Angular, Svelte, Blazor, Node.js,
-  Django, GraphQL, Ionic, React Native, Flutter, Docker. <br /> Also you can
-  find some of my personal projects <a href="/projects">here</a>.
+  JavaScript, Python, C#, Go, React, Vue, Angular, Svelte, Node.js, Django, GraphQL,
+  Ionic, React Native, Dart & Flutter, Docker. <br /> You can find some of my
+  personal projects <a href="/projects">here</a>.
 </p>
 
 <!-- <span class="skills">Experiences:</span>

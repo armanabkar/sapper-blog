@@ -1,5 +1,5 @@
 <script>
-  import DarkModeToggle from "../components/DarkModeToggle.svelte";
+  import ThemeToggle from "../components/ThemeToggle.svelte";
   import Header from "../components/Header.svelte";
 
   export let segment;
@@ -13,9 +13,9 @@
   </main>
 
   <footer>
-    {#if segment == "about"}
-      <div>
-        <DarkModeToggle />
+    {#if segment !== undefined}
+      <div class="theme-toggle">
+        <ThemeToggle />
       </div>
     {/if}
     <span> &copy; {new Date().getFullYear()} Arman Abkar </span>
@@ -28,7 +28,6 @@
     flex-direction: column;
     min-height: 100%;
     min-height: 100vh;
-    background-color: var(--white);
   }
 
   main {
@@ -41,7 +40,6 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    background-color: var(--white);
   }
 
   footer {
@@ -54,5 +52,10 @@
     text-align: center;
     width: 100%;
     letter-spacing: 0.1rem;
+  }
+
+  .theme-toggle {
+    position: absolute;
+    left: 1.5rem;
   }
 </style>

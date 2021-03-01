@@ -1,10 +1,43 @@
 export const Projects = [
   {
+    name: "Sapper Blog",
+    description: "Markdown-based Blog Built with Sapper.",
+    imageUrl:
+      "https://github.com/armanabkar/sapper-blog-template/raw/master/screenshot.png",
+    code: "https://github.com/armanabkar/sapper-blog-template",
+    live: "https://armanabkar.ir",
+  },
+  {
     name: "GraphQL Chat Application",
     description: "A simple chat app built with React & GraphQL.",
     imageUrl:
       "https://github.com/armanabkar/graphql-chat/raw/main/screenshots.gif",
     code: "https://github.com/armanabkar/graphql-chat",
+  },
+  {
+    name: "Svelte-Easy-Paginate",
+    description:
+      "A Svelte plugin for paginating your data in no time. Check the examples in the link below.",
+    imageUrl:
+      "https://github.com/armanabkar/svelte-easy-paginate/blob/main/screenshot.png?raw=true",
+    code: "https://github.com/armanabkar/svelte-easy-paginate",
+  },
+  {
+    name: "Gatsby Blog",
+    description: "A simple blog powered by Gatsby and Markdown.",
+    imageUrl:
+      "https://github.com/armanabkar/gatsby-blog/blob/main/content/assets/screenshot.png?raw=true",
+    code: "https://github.com/armanabkar/gatsby-blog",
+    live: "https://armanabkar.github.io/gatsby-blog/",
+  },
+  {
+    name: "Gridsome Minimal Blog",
+    description:
+      "A blog starter theme for Gridsome with a minimalistic design.",
+    imageUrl:
+      "https://github.com/armanabkar/gridsome-minimal-blog/raw/main/screenshots.gif",
+    code: "https://github.com/armanabkar/gridsome-minimal-blog",
+    live: "https://armanabkar.github.io/gridsome-minimal-blog/",
   },
   {
     name: "eCommerce MERN",
@@ -34,6 +67,7 @@ export const Projects = [
     imageUrl:
       "https://github.com/armanabkar/ionic-angular-notepad/raw/main/screenshot.png",
     code: "https://github.com/armanabkar/ionic-angular-notepad",
+    live: "https://ionic-angular-notepad.netlify.app/notes",
   },
   {
     name: "Twitter clone",
@@ -119,14 +153,6 @@ export const Projects = [
     code: "https://github.com/armanabkar/mern-expense-tracker",
   },
   {
-    name: "Svelte-Easy-Paginate",
-    description:
-      "A Svelte plugin for paginating your data in no time. Check the examples in the link below.",
-    imageUrl:
-      "https://github.com/armanabkar/svelte-easy-paginate/blob/main/screenshot.png?raw=true",
-    code: "https://github.com/armanabkar/svelte-easy-paginate",
-  },
-  {
     name: "SpaceX Launch Stats",
     description:
       "React, GraphQL, Apollo app that uses the SpaceX API to display launches.",
@@ -161,6 +187,37 @@ export const Projects = [
     imageUrl:
       "https://github.com/armanabkar/vue3-vitepress-docs/raw/main/screenshot.png",
     code: "https://github.com/armanabkar/vue3-vitepress-docs",
+  },
+  {
+    name: "Docusaurus Docs",
+    description:
+      "Sample Documentation Website built with docusaurus and React.",
+    imageUrl:
+      "https://github.com/armanabkar/docusaurus-docs/raw/main/screenshots.gif",
+    code: "https://github.com/armanabkar/docusaurus-docs",
+  },
+  {
+    name: "Storybook with Vue.js",
+    description:
+      "Storybook is an open source tool for developing UI components in isolation for React, Vue, and Angular. It makes building stunning UIs organized and efficient.",
+    imageUrl:
+      "https://github.com/armanabkar/storybook-vue-sample/raw/main/screenshot.png",
+    code: "https://github.com/armanabkar/storybook-vue-sample",
+  },
+  {
+    name: "Recoil Contacts App",
+    description: "A simple React app with Recoil state management library",
+    imageUrl:
+      "https://github.com/armanabkar/recoil-contacts-app/raw/main/screenshot.png",
+    code: "https://github.com/armanabkar/recoil-contacts-app",
+  },
+  {
+    name: "React Material eCommerce",
+    description:
+      "Built with React, TypeScript and Material UI. Using fakestoreapi.com.",
+    imageUrl:
+      "https://github.com/armanabkar/react-material-ecommerce/raw/main/screenshot.png",
+    code: "https://github.com/armanabkar/react-material-ecommerce",
   },
   {
     name: "S.O.L.I.D. Principles",
@@ -198,13 +255,5 @@ export const Projects = [
     imageUrl:
       "https://github.com/armanabkar/lorem-ipsum-landing-page/raw/main/screenshot.png",
     code: "https://github.com/armanabkar/lorem-ipsum-landing-page",
-  },
-  {
-    name: "Sapper Blog",
-    description: "Markdown-based Blog Built with Sapper.",
-    imageUrl:
-      "https://github.com/armanabkar/sapper-blog-template/raw/master/screenshot.png",
-    code: "https://github.com/armanabkar/sapper-blog-template",
-    live: "https://armanabkar.ir",
   },
 ];

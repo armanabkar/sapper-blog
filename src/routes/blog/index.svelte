@@ -37,7 +37,9 @@
       <hr />
     {/if}
     <div class="post-item">
-      <h2><a rel="prefetch" href="blog/{post.slug}">{post.title}</a></h2>
+      <h2 class="postName">
+        <a rel="prefetch" href="blog/{post.slug}">{post.title}</a>
+      </h2>
       <p>{post.excerpt}</p>
       <div class="post-item-footer">
         <span class="post-item-date">— {post.printDate}</span>
@@ -74,7 +76,12 @@
     margin: 3rem auto;
   }
 
-  @media (max-width: 1020px) {
+  .postName {
+    color: var(--primary);
+    letter-spacing: 0.02rem;
+  }
+
+  @media (max-width: 768px) {
     .container {
       text-align: center;
       margin: 0 auto;

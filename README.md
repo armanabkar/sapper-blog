@@ -2,12 +2,31 @@
 
 A starter template for building markdown-powered blogs with [Sapper](https://github.com/sveltejs/sapper) and [Svelte](https://github.com/sveltejs/svelte).
 
+## Preview
+
 ### 👉 [Live Demo](https://armanabkar.ir/)
 
 <h2 align="center">
   <img src="./screenshot.png" alt="sapper-blog" width="600px" />
   <br>
 </h2>
+
+<h2 align="center">
+  <img src="./lighthouse-performance.png" alt="lighthouse-performance" width="500px" />
+  <br>
+</h2>
+
+## ⚡ Features
+
+- [x] Responsive & Lightweight
+- [x] Markdown-based Personal Blog 
+- [x] Portfolio
+- [x] Personal Projects Page
+- [x] Pagination for blog and projects
+- [x] Highly Customizable
+- [x] Dark Mode
+- [x] Animations & Transition
+- [ ] Contact Form
 
 ## ✨ Getting started
 
@@ -28,17 +47,6 @@ npm test
 
 Consult [sapper.svelte.dev](https://sapper.svelte.dev) for help getting started.
 
-## ⚡ Features
-
-- [x] Responsive & Lightweight
-- [x] Markdown-based Personal Blog 
-- [x] Portfolio
-- [x] Personal Projects Page
-- [x] Pagination for blog and projects
-- [x] Highly Customizable
-- [x] Dark Mode (Still in Development)
-- [x] Animations & Transition
-- [ ] Contact Form
 
 ## 🖌 Styles
 
@@ -50,6 +58,17 @@ You can modify styles in static/global.css file:
   --secondary: #3b3936;
   --grey: #aaa;
   --white: #fafafa;
+}
+```
+
+And dark mode's theme in src/components/ThemeToggle.svelte:
+
+```css
+:global(body.dark-mode) {
+  --primary: #607d8b;
+  --secondary: #f0f3f5;
+  --grey: #8eacbb;
+  --white: #252525;
 }
 ```
 
@@ -77,13 +96,15 @@ This is where your markdown posts live in. All `.md` files in this directory are
 
 This is your projects page. You can add your projects info to Projects array in projects.js file:
 
-```
+```js
 export const Projects = [
   {
     name: "project_name",
     description: "project_description",
     imageUrl: "project_image_url",
     code: "project_source_code",
+    live: "project_live_version",
+    technologies: "project_stack"
   },
 ]  
 ```

@@ -1,5 +1,5 @@
 ---
-title: Write code that is easy to delete, not easy to extend
+title: Write Code That is Easy to Delete, not Easy to Extend!
 date: "2021-01-15T08:38:00.000Z"
 ---
 

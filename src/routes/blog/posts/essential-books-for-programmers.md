@@ -1,6 +1,6 @@
 ---
 title: Essential Books for Programmers
-date: "2020-02-05T08:38:00.000Z"
+date: "2020-04-05T08:38:00.000Z"
 ---
 
 If you're a programmer, you need to read more than just code...

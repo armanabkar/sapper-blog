@@ -1,6 +1,6 @@
 ---
 title: Design Patterns For Humans
-date: "2021-04-28T08:38:00.000Z"
+date: "2021-04-20T08:38:00.000Z"
 ---
 
 tada Ultra-simplified explanation to design patterns! tada
