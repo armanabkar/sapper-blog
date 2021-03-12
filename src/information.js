@@ -22,7 +22,8 @@ export const Information = {
   socialMedia: {
     LinkedIn: "https://www.linkedin.com/in/armanabkar/",
     Github: "https://github.com/armanabkar",
-    StackOverflow: "https://stackoverflow.com/users/12696103/arman-abkar",
+    StackOverflow: "",
+    Telegram: "https://t.me/BlackCraftCult",
     Twitter: "https://twitter.com/armanabkar",
     Instagram: "https://www.instagram.com/armanabkar/",
   },

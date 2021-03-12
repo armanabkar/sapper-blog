@@ -130,4 +130,10 @@
       display: none;
     }
   }
+
+  @media (max-width: 600px) {
+    .home-container {
+      justify-content: start;
+    }
+  }
 </style>

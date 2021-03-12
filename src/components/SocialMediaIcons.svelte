@@ -18,6 +18,11 @@
       iconName: "fa-stack-overflow",
     },
     {
+      href: Information.socialMedia.Telegram,
+      ariaLabel: "Telegram",
+      iconName: "fa-telegram",
+    },
+    {
       href: Information.socialMedia.Twitter,
       ariaLabel: "Twitter",
       iconName: "fa-twitter",
