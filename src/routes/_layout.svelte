@@ -1,12 +1,13 @@
 <script>
-  import ThemeToggle from "../components/ThemeToggle.svelte";
-  import Header from "../components/Header.svelte";
+  import ThemeToggle from "../components/UI/ThemeToggle.svelte";
+  import Header from "../components/UI/Header.svelte";
+  import { Information } from "../information";
 
   export let segment;
 </script>
 
 <div class="layout">
-  <Header {segment} />
+  <Header {segment} {Information} />
 
   <main>
     <slot />
@@ -18,7 +19,7 @@
         <ThemeToggle />
       </div>
     {/if}
-    <span> &copy; {new Date().getFullYear()} Arman Abkar </span>
+    <span> &copy; {new Date().getFullYear()} {Information.name} </span>
   </footer>
 </div>
 

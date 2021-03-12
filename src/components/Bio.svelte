@@ -1,19 +1,23 @@
+<script>
+  export let Information;
+</script>
+
 <div>
-  <img src="profile-pic.png" alt="Arman Abkar" />
+  <img src={Information.profilePicture} alt={Information.name} />
   <p>
     Hi, I'm
-    <strong>Arman Abkar</strong>, a Software Developer from Isfahan,
-    Iran. You can follow me on
-    <a href="https://twitter.com/armanabkar" target="_blank">Twitter</a>
+    <strong>{Information.name}</strong>, a {Information.position} from {Information.location}.
+    You can follow me on
+    <a href={Information.socialMedia.Twitter} target="_blank">Twitter</a>
     or
-    <a href="https://www.instagram.com/armanabkar/" target="_blank">Instagram</a
-    >, see some of my work on
-    <a href="https://github.com/armanabkar" target="_blank">GitHub</a>, or read
+    <a href={Information.socialMedia.Instagram} target="_blank">Instagram</a>,
+    see some of my work on
+    <a href={Information.socialMedia.Github} target="_blank">GitHub</a>, or read
     more about me on
-    <a href="https://www.linkedin.com/in/armanabkar/" target="_blank"
-      >LinkedIn</a
-    >. <br /> Please feel free to reach me at
-    <a href="mailto: armanabkar@gmail.com">armanabkar@gmail.com</a>.
+    <a href={Information.socialMedia.LinkedIn} target="_blank">LinkedIn</a>.
+    <br />
+    Please feel free to reach me at
+    <a href={"mailto: " + Information.email}>{Information.email}</a>.
   </p>
 </div>
 

@@ -2,28 +2,25 @@
   import { fadeIn, fadeOut } from "../utils/pageFade";
   import Contact from "../components/Contact.svelte";
   import Skills from "../components/Skills.svelte";
+  import { Information } from "../information";
+  // import Experiences from "../components/Experiences.svelte";
 </script>
 
 <svelte:head>
-  <title>About Me</title>
+  <title>About - {Information.name}</title>
 </svelte:head>
 
 <div class="container" in:fadeIn out:fadeOut>
   <h2 class="title">A brief summary about myself:</h2>
   <p>
-    Creative & experienced Software Developer who is committed and passionate
-    about learning cutting-edge technologies. Specialized in JavaScript and most
-    of the FrontEnd frameworks, libraries and methodologies as well as RESTful
-    and GraphQL APIs development in order to build responsive and cross platform
-    applications with high level of functionality and interactive features that
-    will affect directly on business growth.
+    {Information.about[0]}
   </p>
   <p>
-    I've worked with a variety of languages and technologies, especially
-    JavaScript & Python.
+    {Information.about[1]}
   </p>
-  <Skills />
-  <Contact />
+  <Skills {Information} />
+  <!-- <Experiences {Information} /> -->
+  <Contact {Information} />
 </div>
 
 <style>

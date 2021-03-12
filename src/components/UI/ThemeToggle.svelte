@@ -1,20 +1,37 @@
 <script>
+  import { onMount } from "svelte";
   import { fade } from "svelte/transition";
 
-  let mode = "light";
-  function toggle() {
+  let themeMode;
+  onMount(() => {
+    themeMode = localStorage.getItem("theme");
+  });
+
+  function setThemeMode(mode) {
+    themeMode = mode;
+    localStorage.setItem("theme", mode);
+  }
+
+  function toggleTheme() {
     window.document.body.classList.toggle("dark-mode");
-    if (mode == "dark") {
-      mode = "light";
-    } else {
-      mode = "dark";
+    switch (themeMode) {
+      case "light":
+        setThemeMode("dark");
+        break;
+      case "dark":
+        setThemeMode("light");
+        break;
+      default:
+        setThemeMode("light");
+        break;
     }
   }
+  // Toggle CSS classes functionality is implemented in template.html
 </script>
 
 <div>
-  <p on:click={toggle}>
-    {#if mode == "light"}
+  <p on:click={toggleTheme}>
+    {#if themeMode == "light"}
       <svg
         in:fade={{ duration: 600 }}
         xmlns="http://www.w3.org/2000/svg"
@@ -60,7 +77,7 @@
 
 <style>
   p {
-    color: var(--secondary);
+    color: var(--primary);
     cursor: pointer;
     margin: 0 auto;
     letter-spacing: 0.1rem;
@@ -70,7 +87,7 @@
   }
 
   p:hover {
-    color: var(--primary);
+    color: var(--secondary);
   }
 
   :global(body.dark-mode) {

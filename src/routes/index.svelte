@@ -1,13 +1,19 @@
 <script>
+  import SocialMediaIcons from "../components/SocialMediaIcons.svelte";
+  import { Information } from "../information";
   import { fadeIn, fadeOut } from "../utils/pageFade";
 </script>
 
 <svelte:head>
-  <title>Arman Abkar</title>
-  <meta name="description" content="Software Developer from Isfahan, Iran" />
+  <title>{Information.name}</title>
+  <meta
+    name="description"
+    content="{Information.position} from {Information.location}"
+  />
   <meta
     name="keywords"
-    content="Arman Abkar, Full-Stack, Web Developer, React, Vue, Node.js"
+    content="{Information.name}, {Information.position}, {Information
+      .skills[0]}, {Information[4]}, {Information[5]}"
   />
   <meta
     name="google-site-verification"
@@ -17,67 +23,18 @@
 
 <div class="home-container" in:fadeIn out:fadeOut>
   <div class="home-copy">
-    <h1>Hi, I'm <a class="name" href="about">Arman Abkar</a></h1>
+    <h1>Hi, I'm <a class="name" href="about">{Information.name}</a></h1>
     <p>
-      Software Developer
-      <span class="location">from Isfahan, Iran</span>
+      {Information.position}
+      <span class="location">from {Information.location}</span>
     </p>
   </div>
 
-  <figure>
-    <img alt="Person typing on laptop" src="undraw_programming_2svr.svg" />
-    <figcaption>
-      Illustration thanks to
-      <a href="https://undraw.co" rel="noopener noreferrer" target="_blank"
-        >Undraw</a
-      >
-    </figcaption>
-  </figure>
+  <img alt="globe-armanabkar" src="globe.svg" />
 </div>
 
 <footer class="icons">
-  <div>
-    <a
-      href="https://www.linkedin.com/in/armanabkar/"
-      target="_blank"
-      aria-label="Linkedin"
-      rel="noopener noreferrer"><i class="fab fa-linkedin-in fa-2x" /></a
-    >
-    <a
-      class="logo"
-      aria-label="Github"
-      href="https://github.com/armanabkar"
-      target="_blank"
-      rel="noopener noreferrer"><i class="fab fa-github fa-2x" /></a
-    >
-    <a
-      class="logo"
-      aria-label="StackOverflow"
-      href="https://stackoverflow.com/users/12696103/arman-abkar"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <i class="fab fa-stack-overflow fa-2x" />
-    </a>
-    <a
-      class="logo"
-      aria-label="Twitter"
-      href="https://twitter.com/armanabkar"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <i class="fab fa-twitter fa-2x" />
-    </a>
-    <a
-      class="logo"
-      aria-label="Instagram"
-      href="https://www.instagram.com/armanabkar/"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <i class="fab fa-instagram fa-2x" />
-    </a>
-  </div>
+  <SocialMediaIcons {Information} />
 </footer>
 
 <style>
@@ -92,7 +49,7 @@
 
   .home-copy {
     flex: 1;
-    padding-bottom: 2rem;
+    padding-bottom: 1.5rem;
   }
 
   h1 {
@@ -101,31 +58,17 @@
   }
 
   p {
-    font-size: 1.5em;
+    font-size: 1.6em;
     line-height: 1.5;
     letter-spacing: 0.02rem;
     margin-left: 0.2rem;
     margin-top: -0.1rem;
   }
 
-  figure {
-    margin: 0 1em;
-    padding-top: 2rem;
-    margin-bottom: 0.5rem;
-    text-align: center;
-    color: var(--grey);
-    padding-bottom: 1rem;
-  }
-
-  figcaption {
-    font-size: 0.8em;
-    font-style: italic;
-  }
-
   img {
-    width: 100%;
-    max-width: 400px;
-    padding-top: 1.5rem;
+    width: 350px;
+    height: 350px;
+    padding: 1rem;
   }
 
   .name {
@@ -138,14 +81,10 @@
     color: var(--secondary);
   }
 
-  .logo {
-    margin-left: 0.5rem;
-  }
-
   .location {
     color: var(--grey);
     display: block;
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
 
   .icons {
@@ -156,16 +95,18 @@
     bottom: -2rem;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 834px) {
     .home-container {
+      position: relative;
       flex-direction: column;
-      margin: 0;
+      margin: 0 auto;
+      justify-content: center;
     }
 
     .home-copy {
       flex: 0;
-      padding-bottom: 1.3em;
       text-align: center;
+      padding: 0;
     }
 
     .name {
@@ -173,41 +114,20 @@
     }
 
     p {
-      font-size: 1.2em;
+      font-size: 1.3em;
       line-height: 1.5;
       margin: 0 auto;
     }
 
     img {
-      max-width: 300px;
-      margin-top: 0;
-      padding-top: 0;
-    }
-
-    figure {
-      padding-top: 0;
-      padding-bottom: 4rem;
+      width: 250px;
+      height: 250px;
+      margin: 0;
+      padding: 2rem 0 0 0;
     }
 
     .icons {
       display: none;
-    }
-  }
-
-  @media (max-width: 480px) {
-    .home-container {
-      margin-bottom: 6.5rem;
-    }
-
-    .home-copy {
-      flex: 0;
-      padding-bottom: 0;
-      text-align: center;
-    }
-
-    figure {
-      padding-top: 1.1rem;
-      padding-bottom: 1.5rem;
     }
   }
 </style>

@@ -12,6 +12,8 @@
 <script>
   import { fadeIn, fadeOut } from "../../utils/pageFade";
   import { paginate, PaginationNav } from "svelte-easy-paginate";
+  import Post from "../../components/Post.svelte";
+  import { Information } from "../../information";
 
   export let posts;
 
@@ -21,7 +23,7 @@
 </script>
 
 <svelte:head>
-  <title>Blog</title>
+  <title>Blog - {Information.name}</title>
 </svelte:head>
 
 <div class="container" in:fadeIn out:fadeOut>
@@ -36,15 +38,7 @@
     {#if index}
       <hr />
     {/if}
-    <div class="post-item">
-      <h2 class="postName">
-        <a rel="prefetch" href="blog/{post.slug}">{post.title}</a>
-      </h2>
-      <p>{post.excerpt}</p>
-      <div class="post-item-footer">
-        <span class="post-item-date">— {post.printDate}</span>
-      </div>
-    </div>
+    <Post {post} />
   {/each}
   <hr />
   <PaginationNav
@@ -59,26 +53,13 @@
 </div>
 
 <style>
-  h2,
-  .post-item-footer {
+  h2 {
     font-family: Rubik, sans-serif;
     font-weight: 700;
   }
 
-  .post-item-date {
-    color: var(--grey);
-    text-align: left;
-    text-transform: uppercase;
-    margin-right: 16px;
-  }
-
   hr {
     margin: 3rem auto;
-  }
-
-  .postName {
-    color: var(--primary);
-    letter-spacing: 0.02rem;
   }
 
   @media (max-width: 768px) {

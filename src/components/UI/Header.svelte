@@ -1,4 +1,6 @@
 <script>
+  export let Information;
+
   import Nav from "./Nav.svelte";
 
   export let segment;
@@ -6,7 +8,7 @@
 
 <header>
   {#if segment !== undefined}<a class="hidden-mob" href="."
-      >&lt; Arman Abkar /&gt;</a
+      >&lt; {Information.name} /&gt;</a
     >{/if}
   <Nav {segment} />
 </header>

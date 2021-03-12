@@ -1,57 +1,48 @@
+<script>
+  export let Information;
+  import SocialMediaIcons from "./SocialMediaIcons.svelte";
+</script>
+
 <hr />
-<p>☎ +98 936 386 8196</p>
-<p>✉ armanabkar@gmail.com</p>
-<a href="https://www.linkedin.com/in/armanabkar/" target="_blank"
-  ><i class="fab fa-linkedin-in fa-2x" /></a
->
-<a class="logo" href="https://github.com/armanabkar" target="_blank"
-  ><i class="fab fa-github fa-2x" /></a
->
-<a
-  class="logo"
-  href="https://stackoverflow.com/users/12696103/arman-abkar"
-  target="_blank"
->
-  <i class="fab fa-stack-overflow fa-2x" />
-</a>
-<a class="logo" href="https://twitter.com/armanabkar" target="_blank">
-  <i class="fab fa-twitter fa-2x" />
-</a>
-<a class="logo" href="https://www.instagram.com/armanabkar/" target="_blank">
-  <i class="fab fa-instagram fa-2x" />
-</a>
-<p class="location">🌴 Isfahan, Iran</p>
-<figure>
-  <img
-    src="undraw_code_thinking_1jeh.svg"
-    alt="Image of a vintage typewriter."
-  />
-  <span
-    >Illustration thanks to
-    <a href="https://undraw.co" target="_blank">Undraw</a>
-  </span>
-</figure>
+<div class="container">
+  <div>
+    <p class="sub">Contact Info:</p>
+    <p>✉ {Information.email}</p>
+  </div>
+  <div>
+    <p>☎ {Information.phone}</p>
+    <p class="location">🌴 {Information.location}</p>
+  </div>
+</div>
+<footer class="icons">
+  <SocialMediaIcons {Information} />
+</footer>
 
 <style>
-  figure {
-    float: right;
-    margin: -11em 0 2em 2em;
-    max-width: 300px;
-    color: var(--grey);
-    text-align: right;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
-  figure img {
+  hr {
     margin-bottom: 1rem;
   }
 
-  figure span {
-    font-size: 0.8rem;
+  .sub {
+    font-weight: bold;
+    font-style: italic;
+    color: var(--primary);
+    margin-right: 0.5rem;
+  }
+
+  .location {
+    text-align: center !important;
   }
 
   @media (max-width: 768px) {
-    figure {
-      display: none;
+    .container {
+      display: block;
     }
 
     hr {
@@ -59,14 +50,11 @@
     }
   }
 
-  .logo {
-    margin-left: 0.5rem;
-  }
-
-  .location {
-    font-size: 1rem;
-    margin: 1.5rem 0 0 0;
-    padding: 0;
-    color: var(--grey);
+  .icons {
+    display: flex;
+    justify-content: center;
+    height: 2rem;
+    position: relative;
+    bottom: -2rem;
   }
 </style>

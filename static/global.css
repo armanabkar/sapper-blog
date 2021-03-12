@@ -18,10 +18,11 @@ body {
   line-height: 1.6;
   color: var(--secondary);
   background-color: var(--white);
-  scrollbar-width: thin;
-  scrollbar-color: var(--primary) var(--white);
   -webkit-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
+  /* firefox scrollbar */
+  scrollbar-width: thin;
+  scrollbar-color: var(--primary) var(--white);
 }
 
 h1,
@@ -237,28 +238,26 @@ td {
   }
 }
 
+/* Selection for Firefox & -webkit */
 ::-moz-selection {
-  /* Code for Firefox */
   color: var(--white);
   background: var(--grey);
 }
-
 ::selection {
   color: var(--white);
   background: var(--secondary);
 }
 
+/* -webkit scrollbar */
 ::-webkit-scrollbar {
-  width: 12px; /* width of the entire scrollbar */
+  width: 12px;
   overflow: auto;
 }
-
 ::-webkit-scrollbar-track {
-  background: var(--white); /* color of the tracking area */
+  background: var(--white);
 }
-
 ::-webkit-scrollbar-thumb {
-  background-color: var(--primary); /* color of the scroll thumb */
-  border-radius: 20px; /* roundness of the scroll thumb */
-  border: 3px solid var(--white); /* creates padding around scroll thumb */
+  background-color: var(--primary);
+  border-radius: 20px;
+  border: 3px solid var(--white);
 }

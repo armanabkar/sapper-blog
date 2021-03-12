@@ -54,10 +54,10 @@ You can modify styles in static/global.css file:
 
 ```css
 :root {
-  --primary: #2196f3;
-  --secondary: #3b3936;
-  --grey: #aaa;
-  --white: #fafafa;
+  --primary: #607d8b;
+  --secondary: #1d2930;
+  --grey: #8eacbb;
+  --white: #f0f3f5;
 }
 ```
 
@@ -92,21 +92,48 @@ This is where your markdown posts live in. All `.md` files in this directory are
 - Everything between the start of the post and the `<!-- more -->` tag becomes the article's "excerpt".
 - Frontmatter properties supported are `title` and `date`.
 
-### src/routes/projects
+### src/routes/projects.svelte
 
-This is your projects page. You can add your projects info to Projects array in projects.js file:
+This is your projects page. You can add your projects information to projects array in src/information.js module.
+
+## ℹ️ Information
+
+You can edit all the personal information and projects in src/information.js module.
 
 ```js
-export const Projects = [
-  {
-    name: "project_name",
-    description: "project_description",
-    imageUrl: "project_image_url",
-    code: "project_source_code",
-    live: "project_live_version",
-    technologies: "project_stack"
+export const Information = {
+  name: "Lorem Ipsum",
+  profilePicture: "profile-pic.png",
+  position: "Lorem Ipsum",
+  location: "Lorem, Ipsum",
+  about: [
+    "Qui mollit et irure ea veniam amet. Labore ex incididunt.",
+  ],
+  skills:
+    "lorem, ipsum",
+  experiences: [
+    {
+      position: "Lorem Ipsum",
+      company: "Lorem Ipsum",
+      location: "Lorem, Ipsum",
+      date: "Sep 2020 - Present",
+    },
+  ],
+  phone: "+98 999 999 9999",
+  email: "loremipsum@loremipsum.com",
+  socialMedia: {
+    LinkedIn: "https://www.linkedin.com/in/loremipsum/",
   },
-]  
+  projects: [
+    {
+      name: "Lorem Ipsum",
+      description: "Qui mollit et irure ea veniam amet. Labore ex incididunt.",
+      imageUrl:
+        "loremipsum.png",
+      code: "https://loremipsum.com",
+      live: "https://loremipsum.ir",
+    }],
+};
 ```
 
 ## 🐛 Bugs and feedback
