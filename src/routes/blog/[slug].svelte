@@ -22,7 +22,7 @@
 </script>
 
 <svelte:head>
-  <title>{post.title} - {Information.name}</title>
+  <title>{post.title} - {Information.name} - {Information.position}</title>
   <!--  Include canonical links to your blog -->
   <!--   <link rel="canonical" href="" /> -->
 

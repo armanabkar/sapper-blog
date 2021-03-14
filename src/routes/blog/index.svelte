@@ -23,7 +23,7 @@
 </script>
 
 <svelte:head>
-  <title>Blog - {Information.name}</title>
+  <title>Blog - {Information.name} - {Information.position}</title>
 </svelte:head>
 
 <div class="container" in:fadeIn out:fadeOut>

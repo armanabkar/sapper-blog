@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-  <title>{Information.name}</title>
+  <title>{Information.name} - {Information.position}</title>
   <meta
     name="description"
     content="{Information.position} from {Information.location}"
@@ -30,7 +30,7 @@
     </p>
   </div>
 
-  <img alt="globe-armanabkar" src="globe.svg" />
+  <img alt="" src="globe.svg" />
 </div>
 
 <footer class="icons">

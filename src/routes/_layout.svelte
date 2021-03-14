@@ -57,6 +57,6 @@
 
   .theme-toggle {
     position: absolute;
-    left: 1.5rem;
+    left: 1rem;
   }
 </style>

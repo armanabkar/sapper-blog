@@ -3,7 +3,7 @@
 </script>
 
 <div>
-  <img src={Information.profilePicture} alt={Information.name} />
+  <img loading="lazy" src={Information.profilePicture} alt={Information.name} />
   <p>
     Hi, I'm
     <strong>{Information.name}</strong>, a {Information.position} from {Information.location}.

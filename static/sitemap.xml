@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+
+<url>
+  <loc>https://armanabkar.ir/</loc>
+  <lastmod>2021-03-14T11:01:10+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://armanabkar.ir/about</loc>
+  <lastmod>2021-03-14T11:01:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://armanabkar.ir/projects</loc>
+  <lastmod>2021-03-14T11:01:10+00:00</lastmod>
+  <priority>0.50</priority>
+</url>
+<url>
+  <loc>https://armanabkar.ir/blog</loc>
+  <lastmod>2021-03-14T11:01:10+00:00</lastmod>
+  <priority>0.40</priority>
+</url>
+<url>
+  <loc>https://armanabkar.ir/.</loc>
+  <lastmod>2021-03-14T11:01:10+00:00</lastmod>
+  <priority>0.34</priority>
+</url>
+<url>
+  <loc>https://armanabkar.ir/blog/clean-code-typescript</loc>
+  <lastmod>2021-03-14T11:01:10+00:00</lastmod>
+  <priority>0.34</priority>
+</url>
+<url>
+  <loc>https://armanabkar.ir/blog/design-patterns-for-humans</loc>
+  <lastmod>2021-03-14T11:01:10+00:00</lastmod>
+  <priority>0.34</priority>
+</url>
+<url>
+  <loc>https://armanabkar.ir/blog/solid-principles-in-object-oriented-programming</loc>
+  <lastmod>2021-03-14T11:01:10+00:00</lastmod>
+  <priority>0.34</priority>
+</url>
+<url>
+  <loc>https://armanabkar.ir/blog/the-concept-of-domain-driven-design-explained</loc>
+  <lastmod>2021-03-14T11:01:10+00:00</lastmod>
+  <priority>0.34</priority>
+</url>
+<url>
+  <loc>https://armanabkar.ir/blog/a-crash-course-in-compilers</loc>
+  <lastmod>2021-03-14T11:01:10+00:00</lastmod>
+  <priority>0.34</priority>
+</url>
+<url>
+  <loc>https://armanabkar.ir/blog/write-code-that-is-easy-to-delete-not-easy-to-extend</loc>
+  <lastmod>2021-03-14T11:01:10+00:00</lastmod>
+  <priority>0.34</priority>
+</url>
+<url>
+  <loc>https://armanabkar.ir/blog/beginners-guide-to-abstraction</loc>
+  <lastmod>2021-03-14T11:01:10+00:00</lastmod>
+  <priority>0.34</priority>
+</url>
+<url>
+  <loc>https://armanabkar.ir/blog/functional-and-reactive-programming-in-js</loc>
+  <lastmod>2021-03-14T11:01:10+00:00</lastmod>
+  <priority>0.34</priority>
+</url>
+<url>
+  <loc>https://armanabkar.ir/blog/top-8-data-structures-for-coding-interviews-and-practice-interview-questions</loc>
+  <lastmod>2021-03-14T11:01:10+00:00</lastmod>
+  <priority>0.34</priority>
+</url>
+<url>
+  <loc>https://armanabkar.ir/blog/variables-closure-this-javascript</loc>
+  <lastmod>2021-03-14T11:01:10+00:00</lastmod>
+  <priority>0.34</priority>
+</url>
+<url>
+  <loc>https://armanabkar.ir/blog/a-beginners-guide-to-javascripts-prototype</loc>
+  <lastmod>2021-03-14T11:01:10+00:00</lastmod>
+  <priority>0.34</priority>
+</url>
+<url>
+  <loc>https://armanabkar.ir/blog/why-JavaScript-is-the-programming-language-of-the-future</loc>
+  <lastmod>2021-03-14T11:01:10+00:00</lastmod>
+  <priority>0.34</priority>
+</url>
+<url>
+  <loc>https://armanabkar.ir/blog/essential-books-for-programmers</loc>
+  <lastmod>2021-03-14T11:01:10+00:00</lastmod>
+  <priority>0.34</priority>
+</url>
+<url>
+  <loc>https://armanabkar.ir/blog/7-techniques-to-learn-and-grow-more-efficiently</loc>
+  <lastmod>2021-03-14T11:01:10+00:00</lastmod>
+  <priority>0.34</priority>
+</url>
+
+
+</urlset>

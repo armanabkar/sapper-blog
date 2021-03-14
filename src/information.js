@@ -8,7 +8,7 @@ export const Information = {
     "I've worked with a variety of languages and technologies, especially JavaScript & Python.",
   ],
   skills:
-    "JavaScript, Python, C#, Go, React, Vue, Angular, Svelte, Node.js, Django, GraphQL, Ionic, React Native, Flutter & Dart, Docker.",
+    "JavaScript, Python, C#, Go, React, Vue, Angular, Svelte, Node.js, Django, GraphQL, Ionic, React Native, Flutter & Dart, Elixir, Docker.",
   experiences: [
     {
       position: "Software Developer",

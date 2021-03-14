@@ -79,11 +79,7 @@
   p {
     color: var(--primary);
     cursor: pointer;
-    margin: 0 auto;
-    letter-spacing: 0.1rem;
-    font-weight: 500;
-    font-size: 1.1rem;
-    max-width: 2rem;
+    margin: 0;
   }
 
   p:hover {

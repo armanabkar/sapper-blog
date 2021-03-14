@@ -11,7 +11,7 @@
 </script>
 
 <svelte:head>
-  <title>Projects - {Information.name}</title>
+  <title>Projects - {Information.name} - {Information.position}</title>
 </svelte:head>
 
 <div class="container" in:fadeIn out:fadeOut>

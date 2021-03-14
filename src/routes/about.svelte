@@ -7,7 +7,7 @@
 </script>
 
 <svelte:head>
-  <title>About - {Information.name}</title>
+  <title>About - {Information.name} - {Information.position}</title>
 </svelte:head>
 
 <div class="container" in:fadeIn out:fadeOut>
