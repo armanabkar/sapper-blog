@@ -43,6 +43,9 @@
     padding: 10px 5px;
     display: block;
     position: relative;
-    letter-spacing: 0.04rem;
+    letter-spacing: 0.02rem;
+  }
+  a:hover {
+    color: var(--secondary);
   }
 </style>

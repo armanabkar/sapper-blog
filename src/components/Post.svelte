@@ -13,7 +13,6 @@
 </div>
 
 <style>
-  h2,
   .post-item-footer {
     font-family: Rubik, sans-serif;
     font-weight: 700;
@@ -21,13 +20,11 @@
 
   .post-item-date {
     color: var(--grey);
-    text-align: left;
     text-transform: uppercase;
-    margin-right: 16px;
+    margin-right: 1rem;
   }
 
   .postName {
     color: var(--primary);
-    letter-spacing: 0.02rem;
   }
 </style>

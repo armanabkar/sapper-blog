@@ -12,7 +12,7 @@ If you're a programmer, you need to read more than just code...
   <br>
 </h2>
 
-> Even super heroes need to read to stay on top of their game.
+> Even super heroes need to read to stay on top of their game!
 
 Books are a great source of knowledge and wisdom. But unfortunately, there are very few people reading books today. A programmer reading books is an even rarer occurrence, most often relying on the internet search results to find answers.
 
@@ -429,6 +429,6 @@ I wrote this book primarily because there just wasn’t a good book out there—
 - What do I actually need to know to be a software developer?
 - How do I MAKE MORE MONEY and advance my career?
 
----
+## Resources:
 
 [Source I](https://dzone.com/articles/books-every-programmer-should-read) - [Source II](https://simpleprogrammer.com/best-programming-books-2019/) - [Source III](https://coder-coder.com/best-web-development-books/) - [Source IV](https://dev.to/awwsmm/20-most-recommended-books-for-software-developers-5578)

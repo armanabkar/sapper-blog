@@ -3,13 +3,16 @@ title: 7 Techniques to Learn & Grow More Efficiently
 date: "2020-02-12T08:38:00.000Z"
 ---
 
-Learning can be hard! ...
+Learning can be hard! No matter if you’re learning to code, learning a new..
 
 <!-- more -->
 
-Learning can be hard!
+<h2 align="center">
+  <img src="https://elearningindustry.com/wp-content/uploads/2019/10/7-Benefits-That-Highlight-The-Importance-Of-Soft-Skills-In-The-Workplace.png" width="600px" />
+  <br>
+</h2>
 
-No matter if you’re learning to code, learning a new (real) language or you’re getting into drawing - at the beginning (and for quite some time), you’re going to fail and encounter setbacks.
+Learning can be hard! No matter if you’re learning to code, learning a new (real) language or you’re getting into drawing - at the beginning (and for quite some time), you’re going to fail and encounter setbacks.
 
 Staying motivated is super important. You can only grow if you pull through, learn the right things, pause when you need to and find learning techniques that work for you.
 
@@ -198,7 +201,7 @@ SUMMARY:
 
 This one is a bit ironic: After all, you read kind of a “motivational guide”. At least I hope that this article helped a bit.
 
-There’s nothing wrong with articles like this one - otherwise I wouldn’t have written it. And I also occassionally read about tricks (or “life hacks”) shared by other people.
+There’s nothing wrong with articles like this one - otherwise I wouldn’t have written it. And I also occasionally read about tricks (or “life hacks”) shared by other people.
 
 It’s just important to not overdo it.
 

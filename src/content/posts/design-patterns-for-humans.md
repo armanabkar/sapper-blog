@@ -3,7 +3,7 @@ title: Design Patterns For Humans
 date: "2021-04-20T08:38:00.000Z"
 ---
 
-tada Ultra-simplified explanation to design patterns! tada
+Ultra-simplified explanation to design patterns!
 
 <!-- more -->
 

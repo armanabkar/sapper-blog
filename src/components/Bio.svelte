@@ -34,7 +34,6 @@
     width: 7.5rem;
     height: 7.5rem;
     border-radius: 8px;
-    /* border: 3px solid var(--primary); */
     margin-right: 0.7rem;
     margin-bottom: 0.1rem;
   }
@@ -53,7 +52,6 @@
   }
 
   strong {
-    letter-spacing: 0.05rem;
     color: var(--primary);
   }
 </style>

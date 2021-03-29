@@ -40,36 +40,34 @@
 <svelte:head>
   <script
     defer
-    src="https://kit.fontawesome.com/a2d583ca91.js"
+    src="https://kit.fontawesome.com/5a630b64cb.js"
     crossorigin="anonymous"></script>
 </svelte:head>
 
-<div>
+<footer>
   {#each validIcons as { href, ariaLabel, iconName }}
     <a aria-label={ariaLabel} {href} target="_blank" rel="noopener noreferrer">
       <i class={"fab " + iconName + " fa-2x"} />
     </a>
   {/each}
-</div>
+</footer>
 
 <style>
-  div {
+  footer {
     display: flex;
     flex-direction: row;
+    height: 2rem;
+    position: relative;
+    bottom: -2rem;
+    justify-content: center;
+    gap: 0.75rem;
   }
 
   a {
-    color: var(--primary);
-    padding: 0 0.37rem;
+    color: var(--grey);
   }
 
   a:hover {
     color: var(--secondary);
-  }
-
-  @media (max-width: 768px) {
-    div {
-      margin: 0 auto;
-    }
   }
 </style>

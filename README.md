@@ -39,14 +39,7 @@ npm run dev
 
 Open up [localhost:3000](http://localhost:3000) and start clicking around.
 
-## Test
-```bash
-# Run all Cypress e2e tests
-npm test
-```
-
 Consult [sapper.svelte.dev](https://sapper.svelte.dev) for help getting started.
-
 
 ## 🖌 Styles
 
@@ -84,7 +77,7 @@ This is the home of your blog. The most important files in here are:
 - `[slug].svelte`: this is the template of your blog post page.
 - `index.svelte`: this is the template of your article list page.
 
-### src/routes/blog/posts
+### src/content/posts
 
 This is where your markdown posts live in. All `.md` files in this directory are treated as blog posts and parsed automatically by the `_posts.js` module.
 
@@ -98,7 +91,7 @@ This is your projects page. You can add your projects information to projects ar
 
 ## ℹ️ Information
 
-You can edit all the personal information and projects in src/information.js module.
+You can edit all the personal information and projects in src/config.js module.
 
 ```js
 export const Information = {

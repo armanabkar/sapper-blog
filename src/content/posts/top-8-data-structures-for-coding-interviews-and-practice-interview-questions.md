@@ -33,6 +33,7 @@ For more advanced questions, look at Grokking the Coding Interview: Patterns for
 Simply put, a data structure is a container that stores data in a specific layout. This "layout" allows a data structure to be efficient in some operations and inefficient in others. Your goal is to understand data structures so that you can pick the data structure that's most optimal for the problem at hand.
 
 ## Why do we need Data Structures?
+
 As data structures are used to store data in an organized form, and data being the most crucial entity in computer science, the true worth of data structures is clear.
 
 No matter what problem are you solving, in one way or the other you have to deal with data - whether it's an employee's salary, stock prices, grocery list, or even a simple telephone directory.
@@ -40,6 +41,7 @@ No matter what problem are you solving, in one way or the other you have to deal
 Based on different scenarios, data needs to be stored in a specific format, and we have a handful of data structures that cover our need to store data in different formats.
 
 ## Commonly used Data Structures
+
 Let's first list the most commonly used data structures, and then we'll cover them in more detail:
 
 - Arrays
@@ -70,6 +72,7 @@ The following are the two types of arrays:
 - Multi-dimensional arrays (arrays within arrays)
 
 ### Basic Operations on Arrays
+
 - Insert - Inserts an element at given index
 - Get - Returns the element at given index
 - Delete - Deletes an element at given index
@@ -490,5 +493,7 @@ To sum this all up, here are few things to remember about Big O Notation.
 - The time or space complexity (as measured by Big O) depends only on the algorithm, and not the hardware used to run the algorithm.
 
 Cover image by [Jeremy Perkins on Unsplash](https://unsplash.com/@jeremyperkins)
+
+## Resources:
 
 [Source I](https://dev.to/adafia/big-o-notation-3oi6#obj-2) - [Source II](https://dev.to/sofiajonsson/basics-big-o-notation-a6m) - [Source III](https://dev.to/fahimulhaq/top-8-data-structures-for-coding-interviews-and-practice-interview-questions-2pb)

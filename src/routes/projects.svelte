@@ -1,5 +1,5 @@
 <script>
-  import { Information } from "../information.js";
+  import { Information } from "../config.js";
   import { fadeIn, fadeOut } from "../utils/pageFade";
   import { paginate, PaginationNav } from "svelte-easy-paginate";
   import Project from "../components/Project.svelte";
@@ -36,12 +36,3 @@
     />
   {/if}
 </div>
-
-<style>
-  @media (max-width: 768px) {
-    .container {
-      text-align: center;
-      margin: 0 auto;
-    }
-  }
-</style>

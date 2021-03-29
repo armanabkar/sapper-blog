@@ -7,6 +7,11 @@ This article is part of a series where we explore functional and reactive progra
 
 <!-- more -->
 
+<h2 align="center">
+  <img src="https://www.morrisopazo.com/wp-content/uploads/AWS-Lambda-librer%C3%ADas-y-binarios-Morris-Opazo.jpg" width="600px" />
+  <br>
+</h2>
+
 # An Adequate Introduction to Functional Programming
 
 This article is part of a series where we explore functional and reactive programming both in general terms and applied to JavaScript.
@@ -925,5 +930,7 @@ Maybe we could build a basic abstraction/primitive (an Observable) that can kind
 The latter philosophy is used by libraries such RxJS and it has several advantages over our method. With the knowledge and the mindset developed in this post, we will implement such a system in the next articles, creating our version of RxJS. Hope to see you there! 😁
 
 PS: English is not my mother tongue so errors might be just around the corner. Feel free to comment with corrections!
+
+## Resources:
 
 [Source II](https://dev.to/mr_bertoli/reactive-programming-an-introductory-model-2jok) - [Source II](https://dev.to/mr_bertoli/an-adequate-introduction-to-functional-programming-1gcl)

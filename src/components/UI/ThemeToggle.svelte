@@ -89,7 +89,7 @@
   :global(body.dark-mode) {
     --primary: #607d8b;
     --secondary: #f0f3f5;
-    --grey: #8eacbb;
+    --grey: #a8aaac;
     --white: #252525;
   }
 </style>

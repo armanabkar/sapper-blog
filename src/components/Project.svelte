@@ -7,21 +7,26 @@
   <div>
     <p>
       {project.description}<br />
-      {#if project.technologies}
-        {#each project.technologies as technology}
-          <span class="technology">{technology}</span>
+      {#if project.topics}
+        {#each project.topics as topic}
+          <span class="topic">{topic}</span>
         {/each}
       {/if}
     </p>
     <div class="links">
-      <a href={project.code} target="_blank">Source Code</a>
+      <a class="link" href={project.code} target="_blank">Source Code</a>
       {#if project.live}
         <span class="spacer" />
-        <a href={project.live} target="_blank">Live Demo</a>
+        <a class="link" href={project.live} target="_blank">Live Demo</a>
+      {:else if project.npm}
+        <span class="spacer" />
+        <a class="link" href={project.npm} target="_blank">npm</a>
       {/if}
     </div>
   </div>
-  <img src={project.imageUrl} alt="Project" loading="lazy" />
+  {#if project.imageUrl}
+    <img src={project.imageUrl} alt={project.name} loading="lazy" />
+  {/if}
 </div>
 <hr />
 
@@ -29,7 +34,8 @@
   img {
     margin: 2rem 0 0 2rem;
     max-height: 8.5rem;
-    border-radius: 5px;
+    border-radius: 0.3em;
+    width: auto;
   }
 
   .project {
@@ -38,24 +44,10 @@
     justify-content: space-between;
   }
 
-  .technology {
+  .topic {
     font-size: 0.8rem;
     margin-right: 0.9rem;
     color: var(--grey);
-  }
-
-  a {
-    color: inherit;
-    transition: color linear 0.15s;
-    text-decoration: none;
-    box-shadow: inset 0 -0.12em 0 var(--primary);
-    -webkit-transition: box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
-    transition: box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
-  }
-
-  a:hover {
-    box-shadow: inset 0 -1.5em 0 var(--primary);
-    color: var(--white);
   }
 
   .projectName {

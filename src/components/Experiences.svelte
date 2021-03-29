@@ -2,7 +2,7 @@
   export let Information;
 </script>
 
-<span class="skills">Experiences:</span>
+<span class="prefix">Experiences:</span>
 {#each Information.experiences as experience}
   <h3>{experience.position}</h3>
   <h4>
@@ -12,14 +12,6 @@
 {/each}
 
 <style>
-  .skills {
-    font-weight: bold;
-    font-style: italic;
-    font-size: 1.2rem;
-    color: var(--primary);
-    margin-right: 0.5rem;
-  }
-
   h3 {
     margin: 1rem 0 0 0;
     font-size: 1.3rem;

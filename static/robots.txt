@@ -4,5 +4,4 @@ Allow: /about
 Disallow: /projects
 Disallow: /blog
 
-Sitemap: sitemap.xml
-
+Sitemap: https://armanabkar.ir/sitemap.xml

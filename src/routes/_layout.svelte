@@ -1,7 +1,7 @@
 <script>
   import ThemeToggle from "../components/UI/ThemeToggle.svelte";
   import Header from "../components/UI/Header.svelte";
-  import { Information } from "../information";
+  import { Information } from "../config";
 
   export let segment;
 </script>
@@ -19,7 +19,12 @@
         <ThemeToggle />
       </div>
     {/if}
-    <span> &copy; {new Date().getFullYear()} {Information.name} </span>
+    <span>
+      <a href="/">
+        &copy; {new Date().getFullYear()}
+        {Information.name}
+      </a>
+    </span>
   </footer>
 </div>
 
@@ -58,5 +63,10 @@
   .theme-toggle {
     position: absolute;
     left: 1rem;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
   }
 </style>

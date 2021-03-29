@@ -354,6 +354,7 @@ WHEN NOT IN DOUBT, DEFEND YOUR DECISION:
 If you have a single chunk of code that you think should be abstracted for the sake of future use cases, prepare for pushback in a PR review. The onus is on you to explain why this abstraction makes sense given how little evidence there is in the codebase for why it should exist.
 
 ## Conclusion
+
 Different people need to hear different messages here. Maybe your code isn't DRY enough. Maybe you seize the opportunity to abstract too readily and it causes headaches down the line. Maybe you've struck a good balance. No matter where you stand, it's important to know that there are no clear cut right answers with the majority of debates around abstractions. So long as you can consider the pros/cons of abstracting more, less, and differently, and you make your case clear in a PR review, you should be fine. Happy coding!
 
 [Source](https://jesseduffield.com/beginners-guide-to-abstraction/)

@@ -13,7 +13,7 @@
   import { fadeIn, fadeOut } from "../../utils/pageFade";
   import { paginate, PaginationNav } from "svelte-easy-paginate";
   import Post from "../../components/Post.svelte";
-  import { Information } from "../../information";
+  import { Information } from "../../config";
 
   export let posts;
 
@@ -51,25 +51,3 @@
     on:setPage={(e) => (currentPage = e.detail.page)}
   />
 </div>
-
-<style>
-  h2 {
-    font-family: Rubik, sans-serif;
-    font-weight: 700;
-  }
-
-  hr {
-    margin: 3rem auto;
-  }
-
-  @media (max-width: 768px) {
-    .container {
-      text-align: center;
-      margin: 0 auto;
-    }
-
-    hr {
-      margin: 2rem auto;
-    }
-  }
-</style>

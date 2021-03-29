@@ -286,3 +286,10 @@ pre[class*="language-"] > code[class*="language-"] {
   line-height: inherit;
   white-space: pre;
 }
+
+@media (max-width: 480px) {
+  pre[class*="language-"],
+  code[class*="language-"] {
+    font-size: 0.8rem;
+  }
+}
