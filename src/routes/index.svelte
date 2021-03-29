@@ -86,6 +86,7 @@
       flex: 0;
       text-align: center;
       padding: 0;
+      margin-top: -0.1rem;
     }
 
     .name {
@@ -93,7 +94,7 @@
     }
 
     p {
-      font-size: 1.45em;
+      font-size: 1.5em;
       line-height: 1.6;
       margin: 0 auto;
     }
@@ -109,7 +110,7 @@
     }
 
     .greet {
-      font-size: 0.75em;
+      font-size: 0.9em;
     }
 
     .location {

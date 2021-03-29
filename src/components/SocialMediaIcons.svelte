@@ -60,10 +60,10 @@
     position: relative;
     bottom: -2rem;
     justify-content: center;
-    gap: 0.75rem;
   }
 
   a {
+    margin: 0 0.35rem;
     color: var(--grey);
   }
 
