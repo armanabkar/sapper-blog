@@ -1,5 +1,5 @@
 ---
-title: Design Patterns For Humans
+title: Design Patterns & SOLID principles For Humans (in Swift)
 date: "2021-04-20T08:38:00.000Z"
 ---
 

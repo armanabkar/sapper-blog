@@ -13,7 +13,7 @@
   import { fadeIn, fadeOut } from "../../utils/pageFade";
   import { paginate, PaginationNav } from "svelte-easy-paginate";
   import Post from "../../components/Post.svelte";
-  import { Information } from "../../config";
+  import { Information } from "../../information.config";
 
   export let posts;
 

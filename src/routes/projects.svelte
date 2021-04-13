@@ -1,10 +1,10 @@
 <script>
-  import { Information } from "../config.js";
+  import { Projects, Information } from "../information.config";
   import { fadeIn, fadeOut } from "../utils/pageFade";
   import { paginate, PaginationNav } from "svelte-easy-paginate";
   import Project from "../components/Project.svelte";
 
-  let items = Information.projects;
+  let items = Projects;
   let currentPage = 1;
   let pageSize = 13;
   $: paginatedProjects = paginate({ items, pageSize, currentPage });

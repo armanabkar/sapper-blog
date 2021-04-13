@@ -47,7 +47,7 @@
   .topic {
     font-size: 0.8rem;
     margin-right: 0.9rem;
-    color: var(--grey);
+    color: var(--tertiary);
   }
 
   .projectName {

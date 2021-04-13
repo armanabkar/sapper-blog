@@ -19,7 +19,7 @@
   }
 
   .post-item-date {
-    color: var(--grey);
+    color: var(--tertiary);
     text-transform: uppercase;
     margin-right: 1rem;
   }

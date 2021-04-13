@@ -6,7 +6,7 @@
   <img loading="lazy" src={Information.profilePicture} alt={Information.name} />
   <p>
     Hi, I'm
-    <strong>{Information.name}</strong>, a {Information.position} from {Information.location}.
+    <strong>{Information.name}</strong>, {Information.position} from {Information.location}.
     You can follow me on
     <a href={Information.socialMedia.Twitter} target="_blank">Twitter</a>
     or
@@ -26,16 +26,15 @@
     align-items: center;
     display: flex;
     border: 2px dashed var(--primary);
-    border-radius: 8px;
+    border-radius: 0.5em;
     padding: 0 0.5rem;
   }
 
   img {
-    width: 7.5rem;
-    height: 7.5rem;
-    border-radius: 8px;
-    margin-right: 0.7rem;
-    margin-bottom: 0.1rem;
+    width: 120px;
+    height: 120px;
+    border-radius: 0.5em;
+    margin: 0 0.7rem 0.1rem 0;
   }
 
   @media only screen and (max-width: 768px) {

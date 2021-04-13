@@ -49,8 +49,8 @@ You can modify styles in static/global.css file:
 :root {
   --primary: #607d8b;
   --secondary: #1d2930;
-  --grey: #8eacbb;
-  --white: #f0f3f5;
+  --tertiary: #8eacbb;
+  --background: #f0f3f5;
 }
 ```
 
@@ -60,8 +60,8 @@ And dark mode's theme in src/components/ThemeToggle.svelte:
 :global(body.dark-mode) {
   --primary: #607d8b;
   --secondary: #f0f3f5;
-  --grey: #8eacbb;
-  --white: #252525;
+  --tertiary: #8eacbb;
+  --background: #252525;
 }
 ```
 
@@ -91,7 +91,7 @@ This is your projects page. You can add your projects information to projects ar
 
 ## ℹ️ Information
 
-You can edit all the personal information and projects in src/config.js module.
+You can edit all the personal information and projects in src/information.config.js module.
 
 ```js
 export const Information = {

@@ -1,5 +1,5 @@
 <script>
-  import { Information } from "../config";
+  import { Information } from "../information.config";
   import { fadeIn, fadeOut } from "../utils/pageFade";
 </script>
 
@@ -29,7 +29,7 @@
     </p>
   </div>
 
-  <img alt="" src="globe.svg" />
+  <img alt={`globe-${Information.email}`} src="globe.svg" loading="lazy" />
 </div>
 
 <style>
@@ -70,7 +70,7 @@
   }
 
   .location {
-    color: var(--grey);
+    color: var(--tertiary);
     display: block;
     font-size: 1rem;
   }
@@ -114,7 +114,7 @@
     }
 
     .location {
-      font-size: 0.85rem;
+      font-size: 0.95rem;
     }
   }
 

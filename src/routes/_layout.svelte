@@ -1,7 +1,10 @@
 <script>
   import ThemeToggle from "../components/UI/ThemeToggle.svelte";
   import Header from "../components/UI/Header.svelte";
-  import { Information } from "../config";
+  import Loading from "../components/UI/Loading.svelte";
+  import { Information } from "../information.config";
+  import { stores } from "@sapper/app";
+  const { preloading } = stores();
 
   export let segment;
 </script>
@@ -9,23 +12,27 @@
 <div class="layout">
   <Header {segment} {Information} />
 
-  <main>
-    <slot />
-  </main>
+  {#if $preloading && segment !== undefined}
+    <Loading />
+  {:else}
+    <main>
+      <slot />
+    </main>
 
-  <footer>
-    {#if segment !== undefined}
-      <div class="theme-toggle">
-        <ThemeToggle />
-      </div>
-    {/if}
-    <span>
-      <a href="/">
-        &copy; {new Date().getFullYear()}
-        {Information.name}
-      </a>
-    </span>
-  </footer>
+    <footer>
+      {#if segment !== undefined}
+        <div class="theme-toggle">
+          <ThemeToggle />
+        </div>
+      {/if}
+      <span>
+        <a href="/">
+          &copy; {new Date().getFullYear()}
+          {Information.name}
+        </a>
+      </span>
+    </footer>
+  {/if}
 </div>
 
 <style>
@@ -49,7 +56,7 @@
   }
 
   footer {
-    color: var(--grey);
+    color: var(--tertiary);
     font-size: 1em;
     font-family: Rubik, sans-serif;
     margin: 1em auto 0 auto;

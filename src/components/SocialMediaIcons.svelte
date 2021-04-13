@@ -64,7 +64,7 @@
 
   a {
     margin: 0 0.35rem;
-    color: var(--grey);
+    color: var(--tertiary);
   }
 
   a:hover {
