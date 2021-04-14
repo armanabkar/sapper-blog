@@ -75,7 +75,7 @@
     font-size: 1rem;
   }
 
-  @media (max-width: 834px) {
+  @media (max-width: 768px) {
     .home-container {
       position: relative;
       flex-direction: column;
@@ -86,7 +86,7 @@
       flex: 0;
       text-align: center;
       padding: 0;
-      margin-top: -0.1rem;
+      margin-top: -0.25rem;
     }
 
     .name {
@@ -110,7 +110,7 @@
     }
 
     .greet {
-      font-size: 0.9em;
+      font-size: 0.85em;
     }
 
     .location {

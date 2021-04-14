@@ -11,7 +11,7 @@
 </svelte:head>
 
 <div class="container" in:fadeIn out:fadeOut>
-  <h2 class="title">A brief summary about Arman:</h2>
+  <h2 class="title">A brief summary about myself:</h2>
   {#each Information.about as info}
     <p>
       {info}

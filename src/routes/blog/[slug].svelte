@@ -106,12 +106,12 @@
 
   .back {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 0.5rem;
     text-decoration: none;
+    width: 195px;
     font-size: 1.5rem;
-    padding: 1.5rem 0;
+    margin: 2.5rem auto 1.5rem auto;
     color: var(--primary);
   }
   .back:hover {
