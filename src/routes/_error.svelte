@@ -9,7 +9,7 @@
 </svelte:head>
 <div class="container">
   {#if status === 404}
-    <h1>Ooops!</h1>
+    <h2>Ooops!</h2>
     <h2>We can't seem to find the page you're looking for...</h2>
   {:else}
     <h2>{status}</h2>

@@ -1,9 +1,12 @@
 <script>
   export let segment;
+  import { Information } from "../../information.config";
 </script>
 
 <nav>
-  <a class={segment === "about" ? "selected" : ""} href="about">about</a>
+  <a class={segment === "about" ? "selected" : ""} href="about"
+    >{segment === undefined ? "About" : Information.name}</a
+  >
   <a class={segment === "projects" ? "selected" : ""} href="projects"
     >projects</a
   >

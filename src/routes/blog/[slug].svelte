@@ -15,8 +15,6 @@
 
 <script>
   import { fadeIn, fadeOut } from "../../utils/pageFade";
-
-  import Bio from "../../components/Bio.svelte";
   import { Information } from "../../information.config";
   export let post;
 </script>
@@ -57,7 +55,6 @@
         /></svg
       > Back To Posts</a
     >
-    <Bio {Information} />
   </div>
 </div>
 
@@ -65,7 +62,7 @@
   header {
     text-align: center;
     padding: 0;
-    margin: 0;
+    margin: 1.5rem 0;
   }
 
   header h1 {
@@ -111,7 +108,7 @@
     text-decoration: none;
     width: 195px;
     font-size: 1.5rem;
-    margin: 2.5rem auto 1.5rem auto;
+    margin: 2.5rem auto 0 auto;
     color: var(--primary);
   }
   .back:hover {

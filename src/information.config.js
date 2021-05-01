@@ -1,24 +1,22 @@
 export const Information = {
   name: "Arman Abkar",
-  profilePicture: "profile-pic.png",
+  profilePicture: "",
   position: "Software Developer",
-  location: "Los Angeles, California",
+  location: "Isfahan, Iran",
   about: [
-    "Professional & experienced Software Developer with a passion for continuous learning and teaching cutting-edge technologies. Specialized in Frontend technologies, frameworks and methodologies as well as APIs development in order to build performant, cross platform and scalable applications with high level of functionality and interactive features that will affect directly on business growth and meet customer expectations.",
-    "When he is not working on computer, you can find him lifting weights in gym, playing video games on PlayStation, watching movies and anime series or reading tech related books.",
-    "He have worked with a variety of languages and client-side technologies, especially JavaScript, Python and Flutter.",
+    "Professional & experienced <strong>Software Developer</strong> with a passion for continuous learning and teaching cutting-edge technologies. Specialized in Client-Side (Frontend) technologies, frameworks and methodologies in order to build performant, cross-platform and scalable applications with high level of functionality and interactive features that will affect directly on business growth and meet customer expectations.",
+    "When he is not working on computer, you can find him lifting weights in gym, playing video games, watching movies/anime or reading tech related books.",
   ],
   skills:
-    "JavaScript, Python, Swift, C#, Go, React, Vue, Angular, Svelte, Node.js, Django, GraphQL, Ionic, React Native, Flutter & Dart, Docker.",
-  interests:
-    "Blockchain, Machine Learning, Functional Programming, CI/CD, Mobile App Development.",
+    "JavaScript, Swift, React, Vue, Angular, Node.js, Flutter, Dart, Docker.",
+  interests: "Blockchain, Machine Learning, Mobile App Development.",
   experiences: [
-    {
-      position: "Software Developer",
-      company: "Google",
-      location: "San Francisco, California",
-      date: "Sep 2020 - Present",
-    },
+    // {
+    //   position: "Software Engineer",
+    //   company: "Apple",
+    //   location: "Cupertino, California",
+    //   date: "Sep 2019 - Present",
+    // },
   ],
   email: "armanabkar@gmail.com",
   socialMedia: {
@@ -30,7 +28,7 @@ export const Information = {
     Instagram: "https://www.instagram.com/armanabkar/",
   },
   keywords:
-    "Arman Abkar, armanabkar, Software Developer, Frontend Web Developer",
+    "Arman Abkar, armanabkar, Software Engineer, Frontend Web Developer, iOS Developer",
 };
 
 export const Projects = [
@@ -46,14 +44,14 @@ export const Projects = [
   {
     name: "Svelte-Easy-Paginate",
     description:
-      "A Svelte plugin for paginating your data in no time. Check the examples in the link below. (Also used in this website)",
+      "A Svelte plugin for paginating your data in no time. - Used in this website",
     imageUrl:
       "https://github.com/armanabkar/svelte-easy-paginate/blob/main/screenshot.png?raw=true",
     code: "https://github.com/armanabkar/svelte-easy-paginate",
     npm: "https://www.npmjs.com/package/svelte-easy-paginate",
   },
   {
-    name: "Design PatternsFor Humans! (in Swift)",
+    name: "Design Patterns For Humans! (in Swift)",
     description:
       "An ultra-simplified explanation of design patterns implemented in Swift.",
     code: "https://github.com/armanabkar/swift-design-patterns-for-humans",
@@ -100,7 +98,7 @@ export const Projects = [
     code: "https://github.com/armanabkar/spacex-launch-stats",
   },
   {
-    name: "E-Commerce App",
+    name: "E-Commerce Single Page App",
     description: "E-Commerce Website built with MERN stack.",
     imageUrl:
       "https://github.com/armanabkar/eCommerce_MERN/raw/master/screenshots/HomePage.png",
@@ -108,7 +106,8 @@ export const Projects = [
   },
   {
     name: "Notepad Hybrid App",
-    description: "A simple notepad PWA built with Ionic & Angular.",
+    description:
+      "A simple notepad Progressive Web App built with Ionic & Angular.",
     imageUrl:
       "https://github.com/armanabkar/ionic-angular-notepad/raw/main/screenshot.png",
     code: "https://github.com/armanabkar/ionic-angular-notepad",
@@ -116,15 +115,14 @@ export const Projects = [
   },
   {
     name: "Pinterest clone",
-    description:
-      "Pinterest clone built with Vue, GraphQL, MongoDB and Vuetify.",
+    description: "Pinterest clone built with Vue, GraphQL and MongoDB.",
     imageUrl:
       "https://github.com/armanabkar/VuePinterest/raw/main/screenshots/HomePage.png",
     code: "https://github.com/armanabkar/VuePinterest",
   },
   {
     name: "Memories App",
-    description: "A simple Ionic/Vue app for keeping your memories.",
+    description: "A simple Ionic app for keeping your memories built with Vue.",
     imageUrl:
       "https://github.com/armanabkar/memories-ionic-vue/raw/main/screenshot.png",
     code: "https://github.com/armanabkar/memories-ionic-vue",
@@ -133,14 +131,14 @@ export const Projects = [
   {
     name: "Reusable Components Library",
     description:
-      "A library for sharing reusable components. Using React, Django, GraphQL & ReactMaterialUI.",
+      "A library for sharing reusable components. Using React, Django and GraphQL",
     imageUrl:
       "https://github.com/armanabkar/ReusableComponents/raw/main/screenshot.png",
     code: "https://github.com/armanabkar/ReusableComponents",
   },
   {
     name: "MeetUp clone",
-    description: "A simple MeetUps app built with Svelte.",
+    description: "A simple MeetUps app built with Svelte and Firebase.",
     imageUrl:
       "https://github.com/armanabkar/svelte-meetup/raw/master/screenshot.png",
     code: "https://github.com/armanabkar/svelte-meetup",
@@ -160,65 +158,12 @@ export const Projects = [
     code: "https://github.com/armanabkar/svelte-budget-calculator",
   },
   {
-    name: "Task Manager",
-    description:
-      "Simple app for managing tasks and users built with MEVN stack.",
-    imageUrl:
-      "https://github.com/armanabkar/mevn-task-manager/raw/main/screenshots.gif",
-    code: "https://github.com/armanabkar/mevn-task-manager",
-  },
-  {
     name: "Expense Tracker",
     description:
       "Full stack expense tracker app fot keeping track your expanses built with MERN Stack (+ Vanilla JS version).",
     imageUrl:
       "https://github.com/armanabkar/mern-expense-tracker/raw/main/screenshot.png",
     code: "https://github.com/armanabkar/mern-expense-tracker",
-  },
-  {
-    name: "Music Player",
-    description: "A simple music player app built with Vue 3 composition API.",
-    imageUrl:
-      "https://github.com/armanabkar/vue3-music-player/raw/main/screenshot.png",
-    code: "https://github.com/armanabkar/vue3-music-player",
-  },
-  {
-    name: "Dad Jokes",
-    description:
-      "Simple app built with Vue and VueX using icanhazdadjoke API (The largest collection of dad jokes on the internet.)",
-    imageUrl: "https://github.com/armanabkar/dad-jokes/raw/main/screenshot.png",
-    code: "https://github.com/armanabkar/dad-jokes",
-  },
-  {
-    name: "Task Manager",
-    description: "Vue 3 Task Management App built with TypeScript and Vuex 4.",
-    imageUrl:
-      "https://github.com/armanabkar/vue3-task-manager/raw/main/screenshot.png",
-    code: "https://github.com/armanabkar/vue3-task-manager",
-  },
-  {
-    name: "Staff Management",
-    description:
-      "Staff Management app built with React, Redux and ASP.NET Core. (CRUD)",
-    imageUrl:
-      "https://github.com/armanabkar/staff-management/raw/master/screenshot.png",
-    code: "https://github.com/armanabkar/staff-management",
-  },
-  {
-    name: "Material E-Commerce",
-    description:
-      "Built with React, TypeScript and Material UI; Using fakestoreapi.com.",
-    imageUrl:
-      "https://github.com/armanabkar/react-material-ecommerce/raw/main/screenshot.png",
-    code: "https://github.com/armanabkar/react-material-ecommerce",
-  },
-  {
-    name: "Todoey App",
-    description: "A simple Flutter todos app with Provider package.",
-    imageUrl:
-      "https://github.com/armanabkar/todoey_app/raw/main/screenshot.png",
-    code: "https://github.com/armanabkar/todoey_app",
-    live: "https://armanabkar.github.io/todoey_app/",
   },
   {
     name: "BookStore REST API",
@@ -231,13 +176,5 @@ export const Projects = [
     description:
       "Simple RESTful API in Golang to create, read, update and delete books. (No database implementation)",
     code: "https://github.com/armanabkar/go-rest-api",
-  },
-  {
-    name: "Lorem Ipsum Landing Page",
-    description:
-      "Simple landing page built with Sass (VSCode Live Sass Compiler).",
-    imageUrl:
-      "https://github.com/armanabkar/lorem-ipsum-landing-page/raw/main/screenshot.png",
-    code: "https://github.com/armanabkar/lorem-ipsum-landing-page",
   },
 ];

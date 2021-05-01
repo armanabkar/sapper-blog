@@ -48,7 +48,7 @@
     position: relative;
     margin: 0 auto;
     max-width: 1400px;
-    padding: 1em 2em;
+    padding: 0 2em 1em 2em;
     box-sizing: border-box;
     width: 100%;
     display: flex;

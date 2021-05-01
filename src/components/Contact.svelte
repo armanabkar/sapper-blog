@@ -3,13 +3,10 @@
   import SocialMediaIcons from "./SocialMediaIcons.svelte";
 </script>
 
-<hr />
+<p class="prefix">Contact Info:</p>
 <div class="container">
-  <div>
-    <p class="prefix">Contact Info:</p>
-    <p>✉ {Information.email}</p>
-  </div>
-  <p>🌴 {Information.location}</p>
+  <p>✉ {Information.email}</p>
+  <p>🌎 {Information.location}</p>
 </div>
 <SocialMediaIcons {Information} />
 
@@ -18,23 +15,16 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    margin-bottom: 1em;
   }
 
-  hr {
-    margin-bottom: 1rem;
+  p {
+    margin: 0;
   }
 
   @media (max-width: 768px) {
     .container {
       display: block;
-    }
-
-    hr {
-      display: none;
-    }
-
-    p {
-      margin: 0.25rem 0;
     }
   }
 </style>

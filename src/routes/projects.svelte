@@ -15,11 +15,7 @@
 </svelte:head>
 
 <div class="container" in:fadeIn out:fadeOut>
-  {#if currentPage === 1}
-    <h2 class="title">
-      Some of my personal projects and open-source contributions:
-    </h2>
-  {:else}
+  {#if currentPage !== 1}
     <h2 class="title">Page {currentPage}</h2>
   {/if}
   {#each paginatedProjects as project}
