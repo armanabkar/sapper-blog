@@ -21,7 +21,7 @@
 
 <div class="container" in:fadeIn out:fadeOut>
   <h2 class="name">
-     {Information.name}
+    {Information.name}
   </h2>
   {#each Information.about as info}
     <p>

@@ -26,7 +26,7 @@
       </div>
       <span>
         &copy; {new Date().getFullYear()}
-        {Information.name}
+        {Information.name} 
       </span>
     </footer>
   {/if}
