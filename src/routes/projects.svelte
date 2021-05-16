@@ -1,7 +1,8 @@
 <script>
   import { Projects, Information } from "../information.config";
   import { fadeIn, fadeOut } from "../utils/pageFade";
-  import { paginate, PaginationNav } from "svelte-easy-paginate";
+  import { paginate } from "../utils/Pagination/index";
+  import Pagination from "../utils/Pagination/Pagination.svelte";
   import Project from "../components/Project.svelte";
 
   let items = Projects;
@@ -15,20 +16,16 @@
 </svelte:head>
 
 <div class="container" in:fadeIn out:fadeOut>
-  {#if currentPage !== 1}
-    <h2 class="title">Page {currentPage}</h2>
-  {/if}
+  <br />
   {#each paginatedProjects as project}
     <Project {project} />
   {/each}
-  {#if items.length > pageSize}
-    <PaginationNav
-      totalItems={items.length}
-      {pageSize}
-      {currentPage}
-      limit={1}
-      showStepOptions={true}
-      on:setPage={(e) => (currentPage = e.detail.page)}
-    />
-  {/if}
+  <Pagination
+    totalItems={items.length}
+    {pageSize}
+    {currentPage}
+    limit={1}
+    showStepOptions={true}
+    on:setPage={(e) => (currentPage = e.detail.page)}
+  />
 </div>

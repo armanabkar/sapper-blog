@@ -3,7 +3,7 @@ title: Top 8 Data Structures for Interviews + Big O Notation
 date: "2020-12-31T08:38:00.000Z"
 ---
 
-Almost all problems require the candidate to demonstrate a deep understanding of data structures ...
+Almost all problems require to demonstrate a deep understanding of data structures ...
 
 <!-- more -->
 

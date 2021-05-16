@@ -4,7 +4,13 @@
 
 <style>
   h2 {
-    margin: 0.5em 0;
-    color: var(--tertiary);
+    margin: 2em 0;
+    color: var(--primary);
+  }
+
+  @media (max-width: 768px) {
+    .container {
+      text-align: center;
+    }
   }
 </style>

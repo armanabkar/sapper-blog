@@ -4,18 +4,14 @@
 
 {#if Information.experiences.length > 0}
   <p>
-    <span class="prefix">Experiences:</span>
     {#each Information.experiences as experience}
       <p>
-        <strong>{experience.position}</strong> in {experience.company} <br />
-        <span class="date">{experience.location} | {experience.date}</span>
+        <strong>{experience.position}</strong> in {experience.company} |
+        {experience.location} | {experience.date}
       </p>
     {/each}
   </p>
 {/if}
 
 <style>
-  .date {
-    font-size: 0.9rem;
-  }
 </style>

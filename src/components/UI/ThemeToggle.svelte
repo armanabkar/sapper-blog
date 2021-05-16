@@ -73,19 +73,19 @@
 
 <style>
   p {
-    color: var(--tertiary);
+    color: var(--secondary);
     cursor: pointer;
     margin: 0;
   }
 
   p:hover {
-    color: var(--secondary);
+    color: var(--primary);
   }
 
   :global(body.dark-mode) {
-    --primary: #607d8b;
-    --secondary: #e4e4e4;
-    --tertiary: #7e7e7e;
-    --background: #292929;
+    --primary: #fdfdfd;
+    --secondary: #79797d;
+    --background: #1c1c20;
+    --link: #007aff;
   }
 </style>

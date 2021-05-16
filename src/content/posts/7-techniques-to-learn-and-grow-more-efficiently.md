@@ -3,7 +3,7 @@ title: 7 Techniques to Learn & Grow More Efficiently
 date: "2020-02-12T08:38:00.000Z"
 ---
 
-Learning can be hard! No matter if you’re learning to code, learning a new..
+Learning can be hard! No matter if you’re learning to code, learning a new ...
 
 <!-- more -->
 

@@ -3,7 +3,7 @@ title: Functional and Reactive Programming in JS
 date: "2021-01-01T08:38:00.000Z"
 ---
 
-This article is part of a series where we explore functional and reactive programming both ...
+In this article we will explore functional & reactive programming both in general terms and ...
 
 <!-- more -->
 

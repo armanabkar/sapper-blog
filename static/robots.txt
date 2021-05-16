@@ -1,6 +1,5 @@
 User-Agent: *
 Allow: /
-Disallow: /about
 Disallow: /projects
 Disallow: /blog
 

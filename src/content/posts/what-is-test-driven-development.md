@@ -3,7 +3,7 @@ title: What is Test Driven Development (TDD)?
 date: "2021-09-31T08:38:00.000Z"
 ---
 
-“Test-driven development” refers to a style of programming in which three activities are tightly interwoven...
+Test-driven development (TDD) is a software development process relying on ...
 
 <!-- more -->
 

@@ -2,19 +2,7 @@
 
 A starter template for building markdown-powered blogs with [Sapper](https://github.com/sveltejs/sapper) and [Svelte](https://github.com/sveltejs/svelte).
 
-## Preview
-
-### 👉 [Live Demo](https://armanabkar.ir/)
-
-<h2 align="center">
-  <img src="./screenshot.png" alt="sapper-blog" width="600px" />
-  <br>
-</h2>
-
-<h2 align="center">
-  <img src="./lighthouse-performance.png" alt="lighthouse-performance" width="500px" />
-  <br>
-</h2>
+## 👉 [Live Demo](https://armanabkar.ir/)
 
 ## ⚡ Features
 
@@ -26,7 +14,6 @@ A starter template for building markdown-powered blogs with [Sapper](https://git
 - [x] Highly Customizable
 - [x] Dark Mode
 - [x] Animations & Transition
-- [ ] Contact Form
 
 ## ✨ Getting started
 
@@ -47,10 +34,10 @@ You can modify styles in static/global.css file:
 
 ```css
 :root {
-  --primary: #607d8b;
-  --secondary: #1d2930;
-  --tertiary: #8eacbb;
-  --background: #f0f3f5;
+  --primary: #333333;
+  --secondary: #79797d;
+  --background: #f0eff5;
+  --link: #007aff;
 }
 ```
 
@@ -58,10 +45,9 @@ And dark mode's theme in src/components/ThemeToggle.svelte:
 
 ```css
 :global(body.dark-mode) {
-  --primary: #607d8b;
-  --secondary: #f0f3f5;
-  --tertiary: #8eacbb;
-  --background: #252525;
+  --primary: #fdfdfd;
+    --secondary: #79797d;
+    --background: #1c1c20;
 }
 ```
 
@@ -96,36 +82,35 @@ You can edit all the personal information and projects in src/information.config
 ```js
 export const Information = {
   name: "Lorem Ipsum",
-  profilePicture: "profile-pic.png",
+  profilePicture: "",
   position: "Lorem Ipsum",
   location: "Lorem, Ipsum",
   about: [
-    "Qui mollit et irure ea veniam amet. Labore ex incididunt.",
+    "Sit ut magna laboris magna.",
   ],
   skills:
-    "lorem, ipsum",
+    "Lorem, Ipsum",
+  interests:
+    "Lorem, Ipsum",
   experiences: [
     {
       position: "Lorem Ipsum",
       company: "Lorem Ipsum",
       location: "Lorem, Ipsum",
-      date: "Sep 2020 - Present",
+      date: "Sep 2019 - Present",
     },
   ],
-  phone: "+98 999 999 9999",
-  email: "loremipsum@loremipsum.com",
+  email: "loremipsum@gmail.com",
   socialMedia: {
     LinkedIn: "https://www.linkedin.com/in/loremipsum/",
+    Github: "https://github.com/loremipsum",
+    StackOverflow: "",
+    Telegram: "https://t.me/loremipsum",
+    Twitter: "https://twitter.com/loremipsum",
+    Instagram: "https://www.instagram.com/loremipsum/",
   },
-  projects: [
-    {
-      name: "Lorem Ipsum",
-      description: "Qui mollit et irure ea veniam amet. Labore ex incididunt.",
-      imageUrl:
-        "loremipsum.png",
-      code: "https://loremipsum.com",
-      live: "https://loremipsum.ir",
-    }],
+  keywords:
+    "lorem, ipsum",
 };
 ```
 

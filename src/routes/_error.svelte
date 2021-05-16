@@ -20,7 +20,7 @@
     <p>{error.stack}</p>
   {/if}
 
-  <a class="link" href=".">Go to Home Page</a>
+  <a href=".">Go to Home Page</a>
 </div>
 
 <style>

@@ -10,26 +10,23 @@
 </script>
 
 <div class="layout">
-  <Header {segment} {Information} />
-
   {#if $preloading && segment !== undefined}
     <Loading />
   {:else}
     <main>
+      {#if segment !== undefined}
+        <Header {segment} {Information} />
+      {/if}
       <slot />
     </main>
 
     <footer>
-      {#if segment !== undefined}
-        <div class="theme-toggle">
-          <ThemeToggle />
-        </div>
-      {/if}
+      <div class="theme-toggle">
+        <ThemeToggle />
+      </div>
       <span>
-        <a href="/">
-          &copy; {new Date().getFullYear()}
-          {Information.name}
-        </a>
+        &copy; {new Date().getFullYear()}
+        {Information.name}
       </span>
     </footer>
   {/if}
@@ -56,10 +53,11 @@
   }
 
   footer {
-    color: var(--tertiary);
-    font-size: 1em;
-    font-family: Rubik, sans-serif;
-    margin: 1em auto 0 auto;
+    color: var(--secondary);
+    font-size: 1.05em;
+    font-weight: 500;
+    font-family: San Francisco, sans-serif;
+    margin: 0 auto;
     max-width: 1400px;
     padding: 1em 2em;
     text-align: center;
@@ -70,10 +68,5 @@
   .theme-toggle {
     position: absolute;
     left: 1rem;
-  }
-
-  a {
-    color: inherit;
-    text-decoration: none;
   }
 </style>

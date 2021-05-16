@@ -71,9 +71,9 @@
   }
 
   header p {
-    color: var(--tertiary);
+    color: var(--secondary);
     text-transform: uppercase;
-    font-family: Rubik, sans-serif;
+    font-family: San Francisco, sans-serif;
     font-weight: 600;
     font-style: italic;
     margin-top: 1rem;
@@ -106,12 +106,12 @@
     justify-content: space-between;
     align-items: center;
     text-decoration: none;
-    width: 195px;
+    width: 175px;
     font-size: 1.5rem;
     margin: 2.5rem auto 0 auto;
-    color: var(--primary);
+    color: var(--link);
   }
   .back:hover {
-    color: var(--scrondary);
+    color: var(--primary);
   }
 </style>

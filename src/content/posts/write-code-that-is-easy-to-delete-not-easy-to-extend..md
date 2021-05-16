@@ -3,7 +3,7 @@ title: Write Code That is Easy to Delete, not Easy to Extend!
 date: "2021-01-15T08:38:00.000Z"
 ---
 
-Every line of code written comes at a price: maintenance. To avoid paying for a...
+Every line of code written comes at a price: maintenance ...
 
 <!-- more -->
 

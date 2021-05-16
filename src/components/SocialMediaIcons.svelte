@@ -58,13 +58,13 @@
     flex-direction: row;
     height: 2rem;
     position: relative;
-    bottom: -2rem;
+    bottom: -1rem;
     justify-content: center;
   }
 
   a {
     margin: 0 0.35rem;
-    color: var(--tertiary);
+    color: var(--primary);
   }
 
   a:hover {

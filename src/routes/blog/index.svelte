@@ -11,7 +11,8 @@
 
 <script>
   import { fadeIn, fadeOut } from "../../utils/pageFade";
-  import { paginate, PaginationNav } from "svelte-easy-paginate";
+  import { paginate } from "../../utils/Pagination/index";
+  import Pagination from "../../utils/Pagination/Pagination.svelte";
   import Post from "../../components/Post.svelte";
   import { Information } from "../../information.config";
 
@@ -27,9 +28,6 @@
 </svelte:head>
 
 <div class="container" in:fadeIn out:fadeOut>
-  {#if currentPage !== 1}
-    <h2 class="title">Page {currentPage}</h2>
-  {/if}
   {#each paginatedPosts as post, index}
     {#if index}
       <hr />
@@ -37,7 +35,7 @@
     <Post {post} />
   {/each}
   <hr />
-  <PaginationNav
+  <Pagination
     class="paginator"
     totalItems={items.length}
     {pageSize}

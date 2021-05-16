@@ -2,25 +2,20 @@
   export let project;
 </script>
 
-<h2 class="projectName">{project.name}</h2>
 <div class="project">
   <div>
+    <h2 class="projectName">{project.name}</h2>
     <p>
-      {project.description}<br />
-      {#if project.topics}
-        {#each project.topics as topic}
-          <span class="topic">{topic}</span>
-        {/each}
-      {/if}
+      {project.description}
     </p>
     <div class="links">
-      <a class="link" href={project.code} target="_blank">Source Code</a>
+      <a href={project.code} target="_blank">Source Code</a>
       {#if project.live}
         <span class="spacer" />
-        <a class="link" href={project.live} target="_blank">Live Demo</a>
+        <a href={project.live} target="_blank">Live Demo</a>
       {:else if project.npm}
         <span class="spacer" />
-        <a class="link" href={project.npm} target="_blank">npm</a>
+        <a href={project.npm} target="_blank">npm</a>
       {/if}
     </div>
   </div>
@@ -32,10 +27,14 @@
 
 <style>
   img {
-    margin: 2rem 0 0 2rem;
-    max-height: 8.5rem;
+    margin: 0 0 0 3rem;
+    max-height: 8rem;
     border-radius: 0.3em;
     width: auto;
+  }
+
+  p {
+    margin: 0.9em 0;
   }
 
   .project {
@@ -44,19 +43,18 @@
     justify-content: space-between;
   }
 
-  .topic {
-    font-size: 0.8rem;
-    margin-right: 0.9rem;
-    color: var(--tertiary);
-  }
-
   .projectName {
     color: var(--primary);
     letter-spacing: 0.02rem;
+    margin-top: 0;
   }
 
   .spacer {
     margin: 0 0.5rem;
+  }
+
+  a {
+    font-size: 1.1em;
   }
 
   @media (max-width: 768px) {
@@ -75,8 +73,6 @@
     }
 
     img {
-      max-height: 20rem;
-      max-width: 85%;
       margin: 0;
       padding: 0;
     }

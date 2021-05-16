@@ -3,7 +3,7 @@ title: A Crash Course in Compilers
 date: "2021-02-05T08:38:00.000Z"
 ---
 
-Diving deeper into program language theory is a great way to grow as a developer. Here, we go through the essentials of using compilers in language design.
+Diving deeper into program language theory is a great way to grow as a developer ...
 
 <!-- more -->
 
@@ -11,6 +11,8 @@ Diving deeper into program language theory is a great way to grow as a developer
   <img src="https://increment.com/art/5/articles/compiler-1000-f5c4c59c.jpeg" width="400px" />
   <br>
 </h2>
+
+Diving deeper into program language theory is a great way to grow as a developer. Here, we go through the essentials of using compilers in language design.
 
 Late one night on an uncrowded subway car in New York City, I had my laptop open, working on a game whose deadline was drawing near. A gentleman sat next to me and, seeing the walls of colored text on my screen, asked if I was writing C++. I told him I wasn’t, and he was curious to hear what language I was using. I was working on a web game in a programming language I had designed for myself, and I told him so—it was something that I made up, I said. After looking at me for a moment, he asked, “Why would anyone do that?” I started to answer, but alas, we had arrived at his stop, and he disappeared onto the platform before I could explain myself. In many ways, I’ve been trying to answer that man’s question for years now.
 

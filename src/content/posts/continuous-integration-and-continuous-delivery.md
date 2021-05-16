@@ -3,7 +3,7 @@ title: Continuous Integration and Continuous Delivery
 date: "2021-08-31T08:38:00.000Z"
 ---
 
-Continuous integration enables iterative software development, reduces risks from defects and ...
+Continuous integration (CI) and continuous delivery (CD) embody a culture ...
 
 <!-- more -->
 

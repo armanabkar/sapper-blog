@@ -4,12 +4,17 @@
 
 <p>
   <span class="prefix">Skills:</span><br class="hidden" />
-  {Information.skills} <br /> You can find some of my personal projects
-  <a href="/projects">here</a>.
+  {Information.skills}
 </p>
 <p>
   <span class="prefix">Interests:</span><br class="hidden" />
   {Information.interests}
+</p>
+<p>
+  <span class="prefix">Links:</span><br class="hidden" /><a href="projects"
+    >Projects</a
+  >
+  | <a href="/blog">Blog</a>
 </p>
 
 <style>

@@ -1,27 +1,32 @@
-<script>
-  export let Information;
-
-  import Nav from "./Nav.svelte";
-
-  export let segment;
-</script>
-
 <header>
-  <Nav {segment} />
+  <button on:click={() => window.history.back()}>Back</button>
 </header>
 
 <style>
   header {
     display: flex;
+    justify-content: flex-start;
+    align-items: center;
     margin: 0 auto;
-    max-width: 1400px;
-    padding: 0.9em 2em;
+    max-width: 57em;
     width: 100%;
   }
 
-  @media screen and (max-width: 600px) {
-    header {
-      padding: 0.8em 2em;
-    }
+  button {
+    text-decoration: none;
+    margin: 1rem 0 0 0;
+    padding: 0;
+    font-size: 1.05rem;
+    font-weight: 500;
+    color: var(--link);
+    box-shadow: none;
+    border: none;
+    background-color: var(--background);
+    transition: color linear 0.15s;
+  }
+
+  button:hover {
+    cursor: pointer;
+    color: var(--primary);
   }
 </style>
