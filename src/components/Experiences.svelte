@@ -2,16 +2,15 @@
   export let Information;
 </script>
 
-{#if Information.experiences.length > 0}
-  <p>
+<p>
+  {#if Information.experiences.length > 0}
+    <span class="prefix">Experiences:</span>
     {#each Information.experiences as experience}
-      <p>
-        <strong>{experience.position}</strong> in {experience.company} |
+      <br />
+      <span>
+        {experience.position} in {experience.company} |
         {experience.location} | {experience.date}
-      </p>
+      </span>
     {/each}
-  </p>
-{/if}
-
-<style>
-</style>
+  {/if}
+</p>

@@ -7,7 +7,7 @@ const readingTime = require("reading-time");
 const loadLanguages = require("prismjs/components/index");
 
 // Support php, typescript, ruby and java syntax highlighting
-loadLanguages(["php", "typescript", "ruby", "java"]);
+loadLanguages(["php", "swift", "ruby", "java"]);
 
 const EXCERPT_SEPARATOR = "<!-- more -->";
 const renderer = new marked.Renderer();

@@ -84,8 +84,8 @@
 
   :global(body.dark-mode) {
     --primary: #fdfdfd;
-    --secondary: #79797d;
-    --background: #1c1c20;
+    --secondary: #5F5F5F;
+    --background: #000000;
     --link: #007aff;
   }
 </style>

@@ -1,10 +1,10 @@
 <script context="module">
   let items;
   export function preload({ params, query }) {
-    return this.fetch(`blog.json`)
+    return this.fetch(`articles.json`)
       .then((r) => r.json())
-      .then((posts) => {
-        items = posts;
+      .then((articles) => {
+        items = articles;
       });
   }
 </script>
@@ -13,26 +13,26 @@
   import { fadeIn, fadeOut } from "../../utils/pageFade";
   import { paginate } from "../../utils/Pagination/index";
   import Pagination from "../../utils/Pagination/Pagination.svelte";
-  import Post from "../../components/Post.svelte";
+  import Article from "../../components/Article.svelte";
   import { Information } from "../../information.config";
 
-  export let posts;
+  export let articles;
 
   let currentPage = 1;
   let pageSize = 15;
-  $: paginatedPosts = paginate({ items, pageSize, currentPage });
+  $: paginatedArticles = paginate({ items, pageSize, currentPage });
 </script>
 
 <svelte:head>
-  <title>Blog - {Information.name} - {Information.position}</title>
+  <title>Articles - {Information.name} - {Information.position}</title>
 </svelte:head>
 
 <div class="container" in:fadeIn out:fadeOut>
-  {#each paginatedPosts as post, index}
+  {#each paginatedArticles as article, index}
     {#if index}
       <hr />
     {/if}
-    <Post {post} />
+    <Article {article} />
   {/each}
   <hr />
   <Pagination

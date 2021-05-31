@@ -1,6 +1,6 @@
 User-Agent: *
 Allow: /
 Disallow: /projects
-Disallow: /blog
+Disallow: /articles
 
 Sitemap: https://armanabkar.ir/sitemap.xml

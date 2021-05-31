@@ -7,7 +7,7 @@
 :root {
   --primary: #333333;
   --secondary: #79797d;
-  --background: #f0eff5;
+  --background: #f1f0f6;
   --link: #007aff;
 }
 
@@ -69,7 +69,7 @@ ul,
 ol {
   font-size: 1.3rem;
   line-height: 1.75em;
-  margin: 1.2em 0;
+  margin: 1.1em 0;
 }
 
 ol,

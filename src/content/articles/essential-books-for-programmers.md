@@ -22,20 +22,22 @@ The truth is that many a great minds of the yester years have already encountere
 
 Here's a select subset of these great books that developer in the industry should read.
 
-## The Pragmatic Programmer
+# General Software Development
+
+## Code Complete: A Practical Handbook of Software Construction
 
 <h2 align="center">
-  <img src="http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=020161622X&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=softwareyoga-20" width="180px" />
+  <img src="http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=0735619670&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=softwareyoga-20" width="180px" />
   <br>
 </h2>
 
-A gem of a book! This is not your regular programming book with code, code and more code. In fact this is not about any particular programming language at all: the wisdom in this book applies to all programming languages.
+A mammoth piece of work, a must read for anyone who wants to read all about programming constructs and best practices. Truly an encyclopaedic book - 960 pages in its most recent revision! Don't let the length of the book deter you, you can consume it at your own pace. In the end, you will be thankful you read the book.
 
-The insights in this book span across a number of interesting areas such as "tracer bullets," a variety of exploratory programming, writing code that writes code, separating views from models, expensive tools do not produce better designs, developing a great team, managing expectations, avoiding duplicate knowledge etc.
+Every aspect of software development is explained in the book. Practical advice on everything ranging from code structure, code formatting, variable. method and class naming, all the way up to managing a team.
 
-Not only will this book change your coding habits, it will also change your personality as a programmer. It is filled with practical advice on getting the best of both you and your code.
+A wealth of references and additional materials covering specific topics in are provided and they are worth a read as well.
 
-Also included is a pamphlet that summarizes the tips and checklists.
+Only a small percentage of software developers would have read this book, so you surely have an advantage if you read this one. You can gain many a years worth of experience just by reading this book.
 
 ## Clean Code: A Handbook of Agile Software Craftsmanship
 
@@ -53,27 +55,6 @@ The book describes the principles, patterns, and practices of writing clean code
 Note that all examples in this book are in Java, although the learnings can be applied to any programming language.
 
 Among the books listed in this post, this is a fairly new entrant and may resonate more with the younger developers.
-
-## The Clean Coder: A Code of Conduct for Professional Programmers
-
-<h2 align="center">
-  <img src="http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=0137081073&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=softwareyoga-20" width="180px" />
-  <br>
-</h2>
-
-The second book from Rob Martin in this list. We recommend that you read this book after "Clean Code". Whilst "Clean Code" is about the code, this is about the "Coder".
-
-The book explores topics that programmers often ignore.
-
-- What does being professional programmer mean?
-- How to carry yourself as a true software craftsman
-- Dealing with conflict and tight schedules
-- How to manage your time? How can you expand your skills?
-- When to say “No”
-- Avoiding burnout
-- ..and more.
-
-You may not always agree with the author but it provides good food for thought. It might be not what you expect, but may just be what you need.
 
 ## Clean Architecture: A Craftsman's Guide to Software Structure and Design
 
@@ -126,32 +107,6 @@ They are just some of the key questions answered in this brilliant book. If I ha
 > Legacy code is not a myth; it is a living legend! Nothing in the software industry has survived the test of times better than Legacy code.
 -- Deepak Karanth
 
-## Programming Pearls
-
-<h2 align="center">
-  <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--MVXuut97--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/fa7x5erzt1qryzis8784.jpg" width="180px" />
-  <br>
-</h2>
-
-Computer programming has many faces. Fred Brooks paints the big picture in The Mythical Man Month; his essays underscore the crucial role of management in large software projects. At a finer grain, Steve McConnell teaches good programming style in Code Complete. The topics in those books are the key to good software and the hallmark of the professional programmer. Unfortunately, though, the workmanlike application of those sound engineering principles isn't always thrilling -- until the software is completed on time and works without surprise.
-
-The columns in this book are about a more glamorous aspect of the profession: programming pearls whose origins lie beyond solid engineering, in the realm of insight and creativity. Just as natural pearls grow from grains of sand that have irritated oysters, these programming pearls have grown from real problems that have irritated real programmers. The programs are fun, and they teach important programming techniques and fundamental design principles.
-
-## Code Complete: A Practical Handbook of Software Construction
-
-<h2 align="center">
-  <img src="http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=0735619670&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=softwareyoga-20" width="180px" />
-  <br>
-</h2>
-
-A mammoth piece of work, a must read for anyone who wants to read all about programming constructs and best practices. Truly an encyclopaedic book - 960 pages in its most recent revision! Don't let the length of the book deter you, you can consume it at your own pace. In the end, you will be thankful you read the book.
-
-Every aspect of software development is explained in the book. Practical advice on everything ranging from code structure, code formatting, variable. method and class naming, all the way up to managing a team.
-
-A wealth of references and additional materials covering specific topics in are provided and they are worth a read as well.
-
-Only a small percentage of software developers would have read this book, so you surely have an advantage if you read this one. You can gain many a years worth of experience just by reading this book.
-
 ## The Art of Computer Programming
 
 <h2 align="center">
@@ -176,15 +131,6 @@ I debated putting this one on the list. Is it really foundational? It depends on
 
 The book is challenging. It deals with functional programming. It was written for the famous introductory programming course at MIT. I’d recommend you not only *read* this book, but also go through all the exercises in it. It will be a difficult journey, but you’ll come out the other side a much better programmer than you were before.
 
-## Design Patterns: Elements of Reusable Object-Oriented Software
-
-<h2 align="center">
-  <img src="https://simpleprogrammer.com/ezoimgfmt/spzone-simpleprogrammer.netdna-ssl.com/wp-content/uploads/2019/04/Design-Patterns-Elements-of-Reusable-Object-Oriented-Software.jpg?ezimgfmt=rs:200x252/rscb1/ng:webp/ngcb1" width="180px" />
-  <br>
-</h2>
-
-This classical book is critical reading to really understand what design patterns are and become familiar with the most common design patterns you are likely to encounter in your career. It’s not a particularly easy read, and the descriptions and examples might be a bit difficult to follow—especially if you don’t have a solid grasp of UML—but it’s a book I consider a “must read.” If you are having trouble with this book, you might want to start with “Head First Design Patterns,” which teaches the design patterns in this book in a much more digestible way—still, there is no substitute for the original.
-
 ## Compilers: Principles, Techniques, and Tools
 
 <h2 align="center">
@@ -197,59 +143,6 @@ This book is known as the dragon book—and for good reason.
 It goes down deep into places where the dragons live: in the realm of compilers and operating systems.
 
 Some of the information might be a bit dated, but if you are really interested in how compilers work and perhaps want to write your own, take a crack at this book.
-
-## Head First Design Patterns
-
-<h2 align="center">
-  <img src="http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=0596007124&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=softwareyoga-20" width="180px" />
-  <br>
-</h2>
-
-The most non-technical looking book on programming! Each page contains doodles, pictures and other eye-catching stuff. That might give the impression that it is a light read, but that fact is that it is discussing quite a core topic about programming - Design patterns - and does a great job in covering the subject.
-
-The book does not try to cover all the patterns that exist in the world, rather it covers every pattern that you might need to solve real world problems. It will help you create functional, elegant, reusable, and flexible software. The trade-off for each patterns have been clearly pointed out. Most books on design pattern talk about how to implement the pattern, but the authors of this book also explain the why and the how.
-
-The latest edition of the book now includes updates for Java 8 - mainly the Lambda.
-
-## Introduction to Algorithms, Third Edition
-
-<h2 align="center">
-  <img src="https://simpleprogrammer.com/ezoimgfmt/spzone-simpleprogrammer.netdna-ssl.com/wp-content/uploads/2019/04/Introduction-to-Algorithms-Third-Edition.jpg?ezimgfmt=rs:200x276/rscb1/ng:webp/ngcb1" width="180px" />
-  <br>
-</h2>
-
-This book is considered one of the best books on learning algorithms, and for good reason. It is a solid programming book for anyone interested in increasing their ability to write and understand algorithms, which is the core of writing code. If you are going to read any book on algorithms, start with this one for sure.
-
-## Cracking the Coding Interview: 189 Programming Questions and Solutions
-
-<h2 align="center">
-  <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--JDW3odeu--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/glfijew89yb3sxnxiznu.jpg" width="180px" />
-  <br>
-</h2>
-
-- 189 programming interview questions, ranging from the basics to the trickiest algorithm problems.
-- A walk-through of how to derive each solution, so that you can learn how to get there yourself.
-- Hints on how to solve each of the 189 questions, just like what you would get in a real interview.
-- Five proven strategies to tackle algorithm questions, so that you can solve questions you haven't seen.
-- Extensive coverage of essential topics, such as big O time, data structures, and core algorithms.
-- A behind-the-scenes look at how top companies like Google and Facebook hire developers.
-- Techniques to prepare for and ace the soft side of the interview: behavioral questions.
-- For interviewers and companies: details on what makes a good interview question and hiring process.
-
-## Peopleware: Productive Projects and Teams
-
-<h2 align="center">
-  <img src="http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=0321934113&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=softwareyoga-20" width="180px" />
-  <br>
-</h2>
-
-A stunning piece of work. This is not a book about programming. This is a book about managing and motivating programmers. It should be read by developers too. Many a times, developers, especially inexperienced ones don't understand the thought process of management.
-
-Software development is a creative process. But most managers treat it as assembly line process. Developers are seen as interchangeable cogs in the machine. Managers generally see giving tight deadlines as the only way to increase motivation. They do not take interest in the work developers do and sadly, not try to understand the developers.
-
-If you are a manager who wants quality and not only quantity, read this book now!
-
-The authors explain how managers can enable their software teams to realize their potential in a sustainable manner.
 
 ## Domain-Driven Design: Tackling Complexity in the Heart of Software
 
@@ -277,6 +170,57 @@ If you are doing any kind of enterprise application development, you’ll find t
 </h2>
 
 Yes, this is another Bob Martin book, and it is excellent. This book takes you through all the core tenets of Agile development without all the fluff. Not only that, but it also introduces the SOLID design principles that are fundamental to understanding how to write clean, maintainable code. This book was the book that convinced me to actually start doing pair programming.
+
+# Preparing for Interviews
+
+## Cracking the Coding Interview: 189 Programming Questions and Solutions
+
+<h2 align="center">
+  <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--JDW3odeu--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/glfijew89yb3sxnxiznu.jpg" width="180px" />
+  <br>
+</h2>
+
+- 189 programming interview questions, ranging from the basics to the trickiest algorithm problems.
+- A walk-through of how to derive each solution, so that you can learn how to get there yourself.
+- Hints on how to solve each of the 189 questions, just like what you would get in a real interview.
+- Five proven strategies to tackle algorithm questions, so that you can solve questions you haven't seen.
+- Extensive coverage of essential topics, such as big O time, data structures, and core algorithms.
+- A behind-the-scenes look at how top companies like Google and Facebook hire developers.
+- Techniques to prepare for and ace the soft side of the interview: behavioral questions.
+- For interviewers and companies: details on what makes a good interview question and hiring process.
+
+## Introduction to Algorithms, Third Edition
+
+<h2 align="center">
+  <img src="https://simpleprogrammer.com/ezoimgfmt/spzone-simpleprogrammer.netdna-ssl.com/wp-content/uploads/2019/04/Introduction-to-Algorithms-Third-Edition.jpg?ezimgfmt=rs:200x276/rscb1/ng:webp/ngcb1" width="180px" />
+  <br>
+</h2>
+
+This book is considered one of the best books on learning algorithms, and for good reason. It is a solid programming book for anyone interested in increasing their ability to write and understand algorithms, which is the core of writing code. If you are going to read any book on algorithms, start with this one for sure.
+
+## Head First Design Patterns
+
+<h2 align="center">
+  <img src="http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=0596007124&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=softwareyoga-20" width="180px" />
+  <br>
+</h2>
+
+The most non-technical looking book on programming! Each page contains doodles, pictures and other eye-catching stuff. That might give the impression that it is a light read, but that fact is that it is discussing quite a core topic about programming - Design patterns - and does a great job in covering the subject.
+
+The book does not try to cover all the patterns that exist in the world, rather it covers every pattern that you might need to solve real world problems. It will help you create functional, elegant, reusable, and flexible software. The trade-off for each patterns have been clearly pointed out. Most books on design pattern talk about how to implement the pattern, but the authors of this book also explain the why and the how.
+
+The latest edition of the book now includes updates for Java 8 - mainly the Lambda.
+
+## Design Patterns: Elements of Reusable Object-Oriented Software
+
+<h2 align="center">
+  <img src="https://simpleprogrammer.com/ezoimgfmt/spzone-simpleprogrammer.netdna-ssl.com/wp-content/uploads/2019/04/Design-Patterns-Elements-of-Reusable-Object-Oriented-Software.jpg?ezimgfmt=rs:200x252/rscb1/ng:webp/ngcb1" width="180px" />
+  <br>
+</h2>
+
+This classical book is critical reading to really understand what design patterns are and become familiar with the most common design patterns you are likely to encounter in your career. It’s not a particularly easy read, and the descriptions and examples might be a bit difficult to follow—especially if you don’t have a solid grasp of UML—but it’s a book I consider a “must read.” If you are having trouble with this book, you might want to start with “Head First Design Patterns,” which teaches the design patterns in this book in a much more digestible way—still, there is no substitute for the original.
+
+# Web Development
 
 ## Functional-Light JavaScript
 
@@ -323,6 +267,44 @@ Heard of terms like UX (user experience) or user design, but have no clue what t
 
 Bottom line: don’t design websites that your visitors will hate.
 
+# Personal Development
+
+## The Pragmatic Programmer
+
+<h2 align="center">
+  <img src="http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=020161622X&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=softwareyoga-20" width="180px" />
+  <br>
+</h2>
+
+A gem of a book! This is not your regular programming book with code, code and more code. In fact this is not about any particular programming language at all: the wisdom in this book applies to all programming languages.
+
+The insights in this book span across a number of interesting areas such as "tracer bullets," a variety of exploratory programming, writing code that writes code, separating views from models, expensive tools do not produce better designs, developing a great team, managing expectations, avoiding duplicate knowledge etc.
+
+Not only will this book change your coding habits, it will also change your personality as a programmer. It is filled with practical advice on getting the best of both you and your code.
+
+Also included is a pamphlet that summarizes the tips and checklists.
+
+## The Clean Coder: A Code of Conduct for Professional Programmers
+
+<h2 align="center">
+  <img src="http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=0137081073&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=softwareyoga-20" width="180px" />
+  <br>
+</h2>
+
+The second book from Rob Martin in this list. We recommend that you read this book after "Clean Code". Whilst "Clean Code" is about the code, this is about the "Coder".
+
+The book explores topics that programmers often ignore.
+
+- What does being professional programmer mean?
+- How to carry yourself as a true software craftsman
+- Dealing with conflict and tight schedules
+- How to manage your time? How can you expand your skills?
+- When to say “No”
+- Avoiding burnout
+- ..and more.
+
+You may not always agree with the author but it provides good food for thought. It might be not what you expect, but may just be what you need.
+
 ## The Mythical Man-month: Essays on Software Engineering
 
 <h2 align="center">
@@ -345,6 +327,32 @@ Ever heard these before. It all came from this book!
 It is unfortunate that we are making the same mistakes in software development year after year. A must read for every project manager and developer.
 
 As the title says, it is a collection of essays. A damn good one at that. The only downside of the book is the references to 25-year-old technologies. But that takes nothing away from the meat of the book.
+
+## Programming Pearls
+
+<h2 align="center">
+  <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--MVXuut97--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/fa7x5erzt1qryzis8784.jpg" width="180px" />
+  <br>
+</h2>
+
+Computer programming has many faces. Fred Brooks paints the big picture in The Mythical Man Month; his essays underscore the crucial role of management in large software projects. At a finer grain, Steve McConnell teaches good programming style in Code Complete. The topics in those books are the key to good software and the hallmark of the professional programmer. Unfortunately, though, the workmanlike application of those sound engineering principles isn't always thrilling -- until the software is completed on time and works without surprise.
+
+The columns in this book are about a more glamorous aspect of the profession: programming pearls whose origins lie beyond solid engineering, in the realm of insight and creativity. Just as natural pearls grow from grains of sand that have irritated oysters, these programming pearls have grown from real problems that have irritated real programmers. The programs are fun, and they teach important programming techniques and fundamental design principles.
+
+## Peopleware: Productive Projects and Teams
+
+<h2 align="center">
+  <img src="http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=0321934113&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=softwareyoga-20" width="180px" />
+  <br>
+</h2>
+
+A stunning piece of work. This is not a book about programming. This is a book about managing and motivating programmers. It should be read by developers too. Many a times, developers, especially inexperienced ones don't understand the thought process of management.
+
+Software development is a creative process. But most managers treat it as assembly line process. Developers are seen as interchangeable cogs in the machine. Managers generally see giving tight deadlines as the only way to increase motivation. They do not take interest in the work developers do and sadly, not try to understand the developers.
+
+If you are a manager who wants quality and not only quantity, read this book now!
+
+The authors explain how managers can enable their software teams to realize their potential in a sustainable manner.
 
 ## Soft Skills: The Software Developer's Life Manual
 

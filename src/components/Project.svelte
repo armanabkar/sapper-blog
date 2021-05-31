@@ -28,7 +28,7 @@
 <style>
   img {
     margin: 0 0 0 3rem;
-    max-height: 8rem;
+    height: 8rem;
     border-radius: 0.3em;
     width: auto;
   }
@@ -55,6 +55,7 @@
 
   a {
     font-size: 1.1em;
+    font-weight: 500;
   }
 
   @media (max-width: 768px) {
@@ -84,8 +85,8 @@
       transition: transform 0.4s;
     }
     img:hover {
-      transform: scale(1.8) rotate(0.01deg);
-      transform: scale(1.8) rotate(0.01deg);
+      transform: scale(2) rotate(0.01deg);
+      transform: scale(2) rotate(0.01deg);
     }
   }
 </style>

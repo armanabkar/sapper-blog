@@ -14,10 +14,14 @@
   <span class="prefix">Links:</span><br class="hidden" /><a href="projects"
     >Projects</a
   >
-  | <a href="/blog">Blog</a>
+  | <a href="/articles">Articles</a>
 </p>
 
 <style>
+  a {
+    font-weight: 500;
+  }
+
   @media (min-width: 768px) {
     .hidden {
       display: none;

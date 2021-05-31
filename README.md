@@ -1,16 +1,16 @@
-# Sapper Blog
+# Sapper Portfolio
 
-A starter template for building markdown-powered blogs with [Sapper](https://github.com/sveltejs/sapper) and [Svelte](https://github.com/sveltejs/svelte).
+Portfolio website built with [Sapper](https://github.com/sveltejs/sapper) and [Svelte](https://github.com/sveltejs/svelte).
 
 ## 👉 [Live Demo](https://armanabkar.ir/)
 
 ## ⚡ Features
 
 - [x] Responsive & Lightweight
-- [x] Markdown-based Personal Blog 
+- [x] Markdown-based Articles 
 - [x] Portfolio
 - [x] Personal Projects Page
-- [x] Pagination for blog and projects
+- [x] Pagination for articles and projects
 - [x] Highly Customizable
 - [x] Dark Mode
 - [x] Animations & Transition
@@ -18,8 +18,8 @@ A starter template for building markdown-powered blogs with [Sapper](https://git
 ## ✨ Getting started
 
 ```bash
-git clone https://github.com/armanabkar/sapper-blog-template.git
-cd sapper-blog-template
+git clone https://github.com/armanabkar/sapper-portfolio.git
+cd sapper-portfolio
 npm install # or yarn!
 npm run dev
 ```
@@ -55,20 +55,20 @@ And dark mode's theme in src/components/ThemeToggle.svelte:
 
 The base structure of this template is the same as Sapper's [default template](https://github.com/sveltejs/sapper-template/). These are some of the new things you'll find here:
 
-### src/routes/blog
+### src/routes/articles
 
-This is the home of your blog. The most important files in here are:
+This is the home of your articles. The most important files in here are:
 
-- `_posts.js`: this module contains the logic for loading and parsing your markdown posts.
-- `[slug].svelte`: this is the template of your blog post page.
+- `_articles.js`: this module contains the logic for loading and parsing your markdown articles.
+- `[slug].svelte`: this is the template of your article page.
 - `index.svelte`: this is the template of your article list page.
 
-### src/content/posts
+### src/content/articles
 
-This is where your markdown posts live in. All `.md` files in this directory are treated as blog posts and parsed automatically by the `_posts.js` module.
+This is where your markdown articles live in. All `.md` files in this directory are treated as articles and parsed automatically by the `_articles.js` module.
 
-- The markdown file name becomes the post slug. For example `hello-world.md` becomes `http://localhost:3000/blog/hello-world`.
-- Everything between the start of the post and the `<!-- more -->` tag becomes the article's "excerpt".
+- The markdown file name becomes the article slug. For example `hello-world.md` becomes `http://localhost:3000/articles/hello-world`.
+- Everything between the start of the article and the `<!-- more -->` tag becomes the article's "excerpt".
 - Frontmatter properties supported are `title` and `date`.
 
 ### src/routes/projects.svelte

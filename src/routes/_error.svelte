@@ -27,4 +27,8 @@
   h2 {
     margin: 2rem 0;
   }
+
+  a {
+    font-weight: 500;
+  }
 </style>
