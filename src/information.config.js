@@ -36,8 +36,6 @@ export const Projects = [
     name: "Sapper Portfolio",
     description:
       "Portfolio website with markdown-based blog built with Sapper and Svelte.",
-    imageUrl:
-      "https://github.com/armanabkar/sapper-blog/raw/main/screenshot.png",
     code: "https://github.com/armanabkar/sapper-blog",
     live: "https://armanabkar.ir",
   },
