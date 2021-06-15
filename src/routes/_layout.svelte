@@ -1,5 +1,4 @@
 <script>
-  import ThemeToggle from "../components/UI/ThemeToggle.svelte";
   import Header from "../components/UI/Header.svelte";
   import Loading from "../components/UI/Loading.svelte";
   import { Information } from "../information.config";
@@ -21,9 +20,6 @@
     </main>
 
     <footer>
-      <div class="theme-toggle">
-        <ThemeToggle />
-      </div>
       <span>
         &copy; {new Date().getFullYear()}
         {Information.name} 
@@ -63,10 +59,5 @@
     text-align: center;
     width: 100%;
     letter-spacing: 0.1rem;
-  }
-
-  .theme-toggle {
-    position: absolute;
-    left: 1rem;
   }
 </style>
