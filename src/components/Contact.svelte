@@ -43,7 +43,7 @@
 </div>
 <div class="container">
   <p><i class="bi bi-geo-alt-fill" /> {Information.location}</p>
-  <p class="icons">
+  <p>
     {#each icons as { href, ariaLabel, iconName }}
       <a
         aria-label={ariaLabel}

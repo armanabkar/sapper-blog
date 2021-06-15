@@ -1,7 +1,7 @@
 {
-  "name": "sapper-portfolio",
+  "name": "sapper-blog",
   "description": "Portfolio website built with Sapper and Svelte.",
-  "version": "3.1.1",
+  "version": "3.2.0",
   "scripts": {
     "dev": "sapper dev",
     "build": "sapper build",

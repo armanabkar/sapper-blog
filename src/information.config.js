@@ -4,11 +4,11 @@ export const Information = {
   position: "Software Developer",
   location: "Isfahan, Iran",
   about: [
-    `He is a <strong>Software Developer</strong> with a passion for continuous learning cutting-edge technologies. Specialized in Client-Side (Frontend) technologies, frameworks and methodologies in order to build performant, cross-platform and scalable applications with high level of functionality and interactive features that will affect directly on business growth and meet customers' expectations.`,
+    `He is a creative <strong>Software Developer</strong> with a passion for continuous learning and applying the cutting-edge technologies to work, specialized in Client-Side (Frontend) technologies, frameworks and methodologies with a strong quality mindset in order to build performant, cross-platform and scalable applications with high level of functionality and interactive features and deliver them on time with high quality that will affect directly on business growth and meet customers' expectations.`,
     "When he is not working on computer, you can find him lifting weights in gym, playing video games, watching movies or reading tech related books.",
   ],
   skills:
-    "iOS Development, Frontend & Single Page Apps Development, JavaScript, Swift, Dart",
+    "iOS Development, Frontend & Single Page Apps Development, Swift, JavaScript, Dart",
   interests:
     "Blockchain, Machine Learning, Mobile App Development (Cross-Platform & Native)",
   experiences: [
@@ -48,15 +48,24 @@ export const Projects = [
     npm: "https://www.npmjs.com/package/svelte-easy-paginate",
   },
   {
-    name: "Instagram Clone",
-    description: "Instagram clone for iOS using Firebase as backend.",
-    code: "https://github.com/armanabkar/InstagramClone",
+    name: "Flash Chat +",
+    description: "A simple iOS chat app using Firebase as backend.",
+    imageUrl:
+      "https://raw.githubusercontent.com/armanabkar/FlashChat/main/screenshot.png",
+    code: "https://github.com/armanabkar/FlashChat",
   },
   {
     name: "Hacker News",
     description:
       "A simple iOS app built with SwiftUI and Algolia HN Search API.",
+    imageUrl:
+      "https://raw.githubusercontent.com/armanabkar/HackerNewsSwiftUI/main/screenshot.png",
     code: "https://github.com/armanabkar/HackerNewsSwiftUI",
+  },
+  {
+    name: "Instagram Clone",
+    description: "Instagram clone for iOS using Firebase as backend.",
+    code: "https://github.com/armanabkar/InstagramClone",
   },
   {
     name: "Chat Application",
@@ -65,11 +74,6 @@ export const Projects = [
     imageUrl:
       "https://raw.githubusercontent.com/armanabkar/graphql-chat/main/screenshot.png",
     code: "https://github.com/armanabkar/graphql-chat",
-  },
-  {
-    name: "Flash Chat",
-    description: "A simple iOS chat app using Firebase as backend.",
-    code: "https://github.com/armanabkar/FlashChat",
   },
   {
     name: "Gridsome Minimal Blog",
@@ -119,11 +123,9 @@ export const Projects = [
     live: "https://memories-ionic-vue.netlify.app/",
   },
   {
-    name: "MeetUp clone",
-    description: "A simple MeetUps app built with Svelte and Firebase.",
-    imageUrl:
-      "https://github.com/armanabkar/svelte-meetup/raw/master/screenshot.png",
-    code: "https://github.com/armanabkar/svelte-meetup",
+    name: "Todo List App",
+    description: "A simple iOS todo list app using Realm (+Core Data version).",
+    code: "https://github.com/armanabkar/TodosRealm",
   },
   {
     name: "Twitter clone",
@@ -155,11 +157,6 @@ export const Projects = [
     imageUrl:
       "https://github.com/armanabkar/spacex-launch-stats/raw/main/screenshots.png",
     code: "https://github.com/armanabkar/spacex-launch-stats",
-  },
-  {
-    name: "Todo List App",
-    description: "A simple iOS todo list app using Realm (+Core Data version).",
-    code: "https://github.com/armanabkar/TodosRealm",
   },
   {
     name: "BookStore REST API",

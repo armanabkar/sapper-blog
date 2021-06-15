@@ -39,7 +39,7 @@
 
   .project {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-between;
   }
 
@@ -71,11 +71,14 @@
 
     .links {
       margin: -0.5rem auto 1.5rem auto;
+      text-align: center;
     }
 
     img {
-      margin: 0;
+      margin: 0 auto;
       padding: 0;
+      display: flex;
+      justify-content: center;
     }
   }
 

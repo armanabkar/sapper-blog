@@ -36,7 +36,10 @@
     <article class="content">
       {@html article.html}
     </article>
-    <a class="back" href="articles">Back To Articles</a>
+    <p class="back">
+      <a href="/">{Information.name}</a>
+      | <a href="/articles">Back to Articles</a>
+    </p>
   </div>
 </div>
 
@@ -84,10 +87,10 @@
   }
 
   .back {
-    font-size: 1.5rem;
+    font-size: 1.4em;
     font-weight: 500;
-    display: flex;
-    justify-content: center;
-    margin-top: 1.25em;
+    margin-top: 1.5em;
+    margin-bottom: 0;
+    text-align: center;
   }
 </style>
