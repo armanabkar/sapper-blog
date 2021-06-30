@@ -28,6 +28,8 @@
       iconName: "bi-instagram",
     },
   ];
+
+  const availableIcons = icons.filter((icon) => icon.href);
 </script>
 
 <svelte:head>
@@ -44,15 +46,17 @@
 <div class="container">
   <p><i class="bi bi-geo-alt-fill" /> {Information.location}</p>
   <p>
-    {#each icons as { href, ariaLabel, iconName }}
-      <a
-        aria-label={ariaLabel}
-        {href}
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <i class={"bi " + iconName} />
-      </a>
+    {#each availableIcons as { href, ariaLabel, iconName }}
+      {#if href}
+        <a
+          aria-label={ariaLabel}
+          {href}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class={"bi " + iconName} />
+        </a>
+      {/if}
     {/each}
   </p>
 </div>

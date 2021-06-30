@@ -36,10 +36,7 @@
     <article class="content">
       {@html article.html}
     </article>
-    <p class="back">
-      <a href="/">{Information.name}</a>
-      | <a href="/articles">Back to Articles</a>
-    </p>
+    <p class="back"><a href="/articles">Back to Articles</a></p>
   </div>
 </div>
 

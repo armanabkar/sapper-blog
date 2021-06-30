@@ -1,4 +1,4 @@
-# Sapper Portfolio
+# Sapper Blog
 
 Portfolio website built with [Sapper](https://github.com/sveltejs/sapper) and [Svelte](https://github.com/sveltejs/svelte).
 
@@ -18,8 +18,8 @@ Portfolio website built with [Sapper](https://github.com/sveltejs/sapper) and [S
 ## ✨ Getting started
 
 ```bash
-git clone https://github.com/armanabkar/sapper-portfolio.git
-cd sapper-portfolio
+git clone https://github.com/armanabkar/sapper-blog.git
+cd sapper-blog
 npm install # or yarn!
 npm run dev
 ```
@@ -46,8 +46,8 @@ And dark mode's theme in src/components/ThemeToggle.svelte:
 ```css
 :global(body.dark-mode) {
   --primary: #fdfdfd;
-    --secondary: #79797d;
-    --background: #1c1c20;
+  --secondary: #79797d;
+  --background: #1c1c20;
 }
 ```
 
@@ -82,7 +82,6 @@ You can edit all the personal information and projects in src/information.config
 ```js
 export const Information = {
   name: "Lorem Ipsum",
-  profilePicture: "",
   position: "Lorem Ipsum",
   location: "Lorem, Ipsum",
   about: [

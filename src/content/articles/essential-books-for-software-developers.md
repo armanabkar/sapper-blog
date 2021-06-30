@@ -1,6 +1,6 @@
 ---
 title: Essential Books for Software Developers
-date: "2020-04-05T08:38:00.000Z"
+date: "2021-05-05T08:38:00.000Z"
 ---
 
 If you're a software developer, you need to read more than just code...

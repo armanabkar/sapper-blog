@@ -1,11 +1,9 @@
 export const Information = {
   name: "Arman Abkar",
-  profilePicture: "",
   position: "Software Developer",
   location: "Isfahan, Iran",
   about: [
-    `He is a creative <strong>Software Developer</strong> with a passion for continuous learning and applying the cutting-edge technologies to work, specialized in Client-Side (Frontend) technologies, frameworks and methodologies with a strong quality mindset in order to build performant, cross-platform and scalable applications with high level of functionality and interactive features and deliver them on time with high quality that will affect directly on business growth and meet customers' expectations.`,
-    "When he is not working on computer, you can find him lifting weights in gym, playing video games, watching movies or reading tech related books.",
+    "Creative <strong>Software Developer</strong> with a passion for continuous learning and applying the cutting-edge technologies to work. Specialized in Client-Side (Frontend) technologies with a strong quality mindset in order to build performant, cross-platform and scalable applications with high level of functionality and interactive features and deliver them on time that will affect directly on business growth and meet customers' expectations.",
   ],
   skills:
     "iOS Development, Frontend & Single Page Apps Development, Swift, JavaScript, Dart",
@@ -40,14 +38,6 @@ export const Projects = [
     live: "https://armanabkar.ir",
   },
   {
-    name: "Svelte-Easy-Paginate",
-    description: "A Svelte plugin for paginating your data in no time.",
-    imageUrl:
-      "https://github.com/armanabkar/svelte-easy-paginate/blob/main/screenshot.png?raw=true",
-    code: "https://github.com/armanabkar/svelte-easy-paginate",
-    npm: "https://www.npmjs.com/package/svelte-easy-paginate",
-  },
-  {
     name: "Flash Chat +",
     description: "A simple iOS chat app using Firebase as backend.",
     imageUrl:
@@ -65,6 +55,8 @@ export const Projects = [
   {
     name: "Instagram Clone",
     description: "Instagram clone for iOS using Firebase as backend.",
+    imageUrl:
+      "https://raw.githubusercontent.com/armanabkar/InstagramClone/main/screenshot.png",
     code: "https://github.com/armanabkar/InstagramClone",
   },
   {
@@ -99,13 +91,6 @@ export const Projects = [
     live: "https://ionic-angular-notepad.netlify.app/notes",
   },
   {
-    name: "Pinterest clone",
-    description: "Pinterest clone built with Vue, GraphQL and MongoDB.",
-    imageUrl:
-      "https://github.com/armanabkar/VuePinterest/raw/main/screenshots/HomePage.png",
-    code: "https://github.com/armanabkar/VuePinterest",
-  },
-  {
     name: "Reusable Components Library",
     description:
       "A library for sharing reusable components. Using React, Django and GraphQL",
@@ -124,15 +109,17 @@ export const Projects = [
   },
   {
     name: "Todo List App",
-    description: "A simple iOS todo list app using Realm (+Core Data version).",
+    description:
+      "A simple iOS todo list app using Realm (+Core Data & SwiftUI versions).",
     code: "https://github.com/armanabkar/TodosRealm",
   },
   {
-    name: "Twitter clone",
-    description: "Twitter clone built with the MERN stack and GraphQL.",
+    name: "Svelte-Easy-Paginate",
+    description: "A Svelte plugin for paginating your data in no time.",
     imageUrl:
-      "https://github.com/armanabkar/classsed-graphql-mern-apollo/raw/master/screenshots.gif",
-    code: "https://github.com/armanabkar/twitter-mern-g-clone",
+      "https://github.com/armanabkar/svelte-easy-paginate/blob/main/screenshot.png?raw=true",
+    code: "https://github.com/armanabkar/svelte-easy-paginate",
+    npm: "https://www.npmjs.com/package/svelte-easy-paginate",
   },
   {
     name: "BMI Calculator",
