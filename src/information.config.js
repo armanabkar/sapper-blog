@@ -5,17 +5,22 @@ export const Information = {
   about: [
     "Creative <strong>Software Developer</strong> with a passion for continuous learning and applying the cutting-edge technologies to work. Specialized in Client-Side (Frontend) technologies with a strong quality mindset in order to build performant, cross-platform and scalable applications with high level of functionality and interactive features and deliver them on time that will affect directly on business growth and meet customers' expectations.",
   ],
-  skills:
-    "iOS Development, Frontend & Single Page Apps Development, Swift, JavaScript, Dart",
-  interests:
-    "Blockchain, Machine Learning, Mobile App Development (Cross-Platform & Native)",
+  skills: [
+    "Swift, JavaScript, Objective-C, Dart, Python, Go, Clojure",
+    "UIKit, SwiftUI, Combine, Core Data, Realm, MapKit, React, Vue, Flutter, Node.js, Vapor, Firebase",
+    "MySQL, Docker, CI/CD",
+  ],
   experiences: [
-    // {
-    //   position: "Software Engineer",
-    //   company: "Apple",
-    //   location: "Cupertino, California",
-    //   date: "Sep 2019 - Present",
-    // },
+    {
+      title:
+        "<strong>Open-Source Contributor</strong> | GitHub, LeetCode, CodeWars",
+      description:
+        "Contributed to open-source projects by maintaining, fixing bugs, adding new features and writing tests. Practiced on LeetCode and CodeWars and helped other programmers in the community with their coding problems.",
+    },
+  ],
+  education: [
+    "Bachelor of Science (B.Sc.) <strong>Geology</strong>, University of Isfahan",
+    "<strong>Project Management</strong> (Waterfall approach), IAB International Academy of Business",
   ],
   email: "armanabkar@gmail.com",
   socialMedia: {
@@ -31,108 +36,133 @@ export const Information = {
 
 export const Projects = [
   {
-    name: "Sapper Portfolio",
+    name: "Portfolio Website",
     description:
       "Portfolio website with markdown-based blog built with Sapper and Svelte.",
+    category: "Svelte",
     code: "https://github.com/armanabkar/sapper-blog",
     live: "https://armanabkar.ir",
   },
   {
-    name: "Flash Chat +",
-    description: "A simple iOS chat app using Firebase as backend.",
-    imageUrl:
-      "https://raw.githubusercontent.com/armanabkar/FlashChat/main/screenshot.png",
-    code: "https://github.com/armanabkar/FlashChat",
-  },
-  {
-    name: "Hacker News",
-    description:
-      "A simple iOS app built with SwiftUI and Algolia HN Search API.",
-    imageUrl:
-      "https://raw.githubusercontent.com/armanabkar/HackerNewsSwiftUI/main/screenshot.png",
-    code: "https://github.com/armanabkar/HackerNewsSwiftUI",
-  },
-  {
     name: "Instagram Clone",
     description: "Instagram clone for iOS using Firebase as backend.",
+    category: "iOS",
     imageUrl:
       "https://raw.githubusercontent.com/armanabkar/InstagramClone/main/screenshot.png",
     code: "https://github.com/armanabkar/InstagramClone",
   },
   {
+    name: "Hacker News",
+    description: "Built with SwiftUI and Algolia HNS API.",
+    category: "iOS",
+    imageUrl:
+      "https://raw.githubusercontent.com/armanabkar/HackerNewsSwiftUI/main/screenshot.png",
+    code: "https://github.com/armanabkar/HackerNewsSwiftUI",
+  },
+  {
+    name: "Flash Chat +",
+    description: "An iOS chat app using Firebase as backend.",
+    category: "iOS",
+    imageUrl:
+      "https://raw.githubusercontent.com/armanabkar/FlashChat/main/screenshot.png",
+    code: "https://github.com/armanabkar/FlashChat",
+  },
+  {
     name: "Chat Application",
     description:
-      "A simple chat app built with authentication. Built with React & GraphQL.",
+      "A simple chat app built with authentication. Built with React, Node.js & GraphQL.",
+    category: "React",
     imageUrl:
       "https://raw.githubusercontent.com/armanabkar/graphql-chat/main/screenshot.png",
     code: "https://github.com/armanabkar/graphql-chat",
   },
   {
-    name: "Gridsome Minimal Blog",
+    name: "Minimal Blog",
     description:
       "A markdown-based blog with a minimalistic design powered by Gridsome (Vue).",
+    category: "Vue",
     imageUrl:
       "https://github.com/armanabkar/gridsome-minimal-blog/blob/main/screenshot.png?raw=true",
     code: "https://github.com/armanabkar/gridsome-minimal-blog",
     live: "https://armanabkar.github.io/gridsome-minimal-blog/",
   },
   {
-    name: "BMI Calculator",
-    description: "A simple iOS app for calculating body mass index (BMI).",
-    code: "https://github.com/armanabkar/bmicalculator",
+    name: "Notes",
+    description: "A clone of iOS Notes app.",
+    category: "iOS",
+    imageUrl:
+      "https://github.com/armanabkar/NotesApp/blob/main/screenshot.png?raw=true",
+    code: "https://github.com/armanabkar/NotesApp",
+  },
+  {
+    name: "Components Library",
+    description:
+      "A library for sharing reusable components built with React, Django and GraphQL",
+    category: "React",
+    imageUrl:
+      "https://github.com/armanabkar/ReusableComponents/raw/main/screenshot.png",
+    code: "https://github.com/armanabkar/ReusableComponents",
+  },
+  {
+    name: "Todo List App",
+    description:
+      "An iOS todo list app using Realm (+ Core Data & SwiftUI versions).",
+    imageUrl:
+      "https://raw.githubusercontent.com/armanabkar/TodosRealm/main/screenshot.png",
+    category: "iOS",
+    code: "https://github.com/armanabkar/TodosRealm",
+  },
+  {
+    name: "Reminders",
+    description: "A clone of iOS Reminders app with notifications.",
+    category: "iOS",
+    code: "https://github.com/armanabkar/RemindersApp",
   },
   {
     name: "Notepad App",
-    description:
-      "A simple notepad Hybrid Mobile App built with Ionic & Angular.",
+    description: "Notepad Hybrid Mobile App built with Ionic & Angular.",
+    category: "Angular & Ionic",
     imageUrl:
       "https://github.com/armanabkar/ionic-angular-notepad/raw/main/screenshot.png",
     code: "https://github.com/armanabkar/ionic-angular-notepad",
     live: "https://ionic-angular-notepad.netlify.app/notes",
   },
   {
-    name: "Reusable Components Library",
-    description:
-      "A library for sharing reusable components. Using React, Django and GraphQL",
-    imageUrl:
-      "https://github.com/armanabkar/ReusableComponents/raw/main/screenshot.png",
-    code: "https://github.com/armanabkar/ReusableComponents",
-  },
-  {
     name: "Memories App",
     description:
       "A Hybrid Mobile App for keeping your memories built with Ionic & Vue.",
+    category: "Vue & Ionic",
     imageUrl:
       "https://github.com/armanabkar/memories-ionic-vue/raw/main/screenshot.png",
     code: "https://github.com/armanabkar/memories-ionic-vue",
     live: "https://memories-ionic-vue.netlify.app/",
   },
   {
-    name: "Todo List App",
-    description:
-      "A simple iOS todo list app using Realm (+Core Data & SwiftUI versions).",
-    code: "https://github.com/armanabkar/TodosRealm",
-  },
-  {
-    name: "Svelte-Easy-Paginate",
-    description: "A Svelte plugin for paginating your data in no time.",
-    imageUrl:
-      "https://github.com/armanabkar/svelte-easy-paginate/blob/main/screenshot.png?raw=true",
-    code: "https://github.com/armanabkar/svelte-easy-paginate",
-    npm: "https://www.npmjs.com/package/svelte-easy-paginate",
+    name: "BMI Calculator",
+    description: "An iOS app for calculating body mass index (BMI).",
+    category: "iOS",
+    code: "https://github.com/armanabkar/bmicalculator",
   },
   {
     name: "BMI Calculator",
-    description: "A simple Flutter app for calculating body mass index (BMI).",
+    description: "A Flutter app for calculating body mass index (BMI).",
+    category: "Flutter",
     imageUrl:
       "https://github.com/armanabkar/bmi_calculator/raw/main/screenshot.png",
     code: "https://github.com/armanabkar/bmi_calculator",
     live: "https://armanabkar.github.io/bmi_calculator/",
   },
   {
+    name: "Facts App",
+    description: "An iOS app for generating random facts (with Objective-C).",
+    category: "iOS",
+    code: "https://github.com/armanabkar/Facts",
+  },
+  {
     name: "Expense Tracker",
     description:
       "An app for keeping track your expanses built with MERN (+ Vanilla JS version).",
+    category: "MERN",
     imageUrl:
       "https://github.com/armanabkar/mern-expense-tracker/raw/main/screenshot.png",
     code: "https://github.com/armanabkar/mern-expense-tracker",
@@ -140,15 +170,17 @@ export const Projects = [
   {
     name: "SpaceX Launch Stats",
     description:
-      "React, GraphQL, Apollo app that uses the SpaceX API to display launches.",
+      "React + GraphQL app that uses the SpaceX API to display launches.",
+    category: "React",
     imageUrl:
       "https://github.com/armanabkar/spacex-launch-stats/raw/main/screenshots.png",
     code: "https://github.com/armanabkar/spacex-launch-stats",
   },
   {
-    name: "BookStore REST API",
+    name: "BookStore API",
     description:
       "RESTful API  for a online BookStore built with Node.js, express and mongodb.",
+    category: "Node.js",
     code: "https://github.com/armanabkar/bookstore-node-api",
   },
 ];

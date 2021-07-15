@@ -4,7 +4,12 @@
 
 <div class="project">
   <div>
-    <h2 class="projectName">{project.name}</h2>
+    <h2 class="projectName">
+      {project.name}
+      {#if project.category}
+        <span>{project.category}</span>
+      {/if}
+    </h2>
     <p>
       {project.description}
     </p>
@@ -28,13 +33,14 @@
 <style>
   img {
     margin: 0 0 0 3rem;
-    height: 8rem;
+    height: 7em;
     border-radius: 0.3em;
     width: auto;
   }
 
   p {
-    margin: 0.9em 0;
+    margin: 0.75em 0;
+    font-size: 1.25em;
   }
 
   .project {
@@ -58,19 +64,24 @@
     font-weight: 500;
   }
 
+  h2 span {
+    font-size: 0.9rem;
+    color: var(--secondary);
+  }
+
   @media (max-width: 768px) {
     .project {
       display: inline;
     }
 
     a {
-      margin: 2rem auto 0 auto;
+      margin-top: 2rem;
       max-width: 8rem;
       padding: 0.3rem 0.3rem 0.1rem 0.2rem;
     }
 
     .links {
-      margin: -0.5rem auto 1.5rem auto;
+      margin-bottom: 1.5rem;
       text-align: center;
     }
 

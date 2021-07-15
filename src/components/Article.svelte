@@ -22,6 +22,7 @@
 
   p {
     margin: 0.9em 0;
+    font-size: 1.25em;
   }
 
   .article-item-footer {

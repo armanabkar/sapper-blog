@@ -3,14 +3,13 @@
 </script>
 
 <p>
-  {#if Information.experiences.length > 0}
-    <span class="prefix">Experiences:</span>
-    {#each Information.experiences as experience}
-      <br />
-      <span>
-        {experience.position} in {experience.company} |
-        {experience.location} | {experience.date}
-      </span>
-    {/each}
-  {/if}
+  <span class="prefix">Experiences:</span>
+  {#each Information.experiences as experience}
+    <br />
+    <span>
+      {@html experience.title}
+    </span>
+    <br />
+    <span style="font-size: 0.95em;">{experience.description}</span>
+  {/each}
 </p>

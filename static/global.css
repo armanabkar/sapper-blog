@@ -54,7 +54,7 @@ h1 {
 
 h2 {
   margin: 1.25em 0 0 0;
-  font-size: 1.8em;
+  font-size: 1.6em;
 }
 
 h3 {
@@ -120,7 +120,7 @@ hr {
   );
   border: 0;
   height: 2px;
-  margin: 2.5em auto;
+  margin: 2em auto;
 }
 
 code {
@@ -181,7 +181,7 @@ blockquote footer {
 
 .prefix {
   font-weight: 600;
-  color: var(--primary);
+  color: var(--secondary);
   margin-right: 0.25rem;
 }
 
@@ -195,7 +195,7 @@ blockquote footer {
   }
 
   hr {
-    margin: 2em auto;
+    margin: 1.5em auto;
   }
 }
 

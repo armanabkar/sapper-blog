@@ -39,7 +39,7 @@
   />
 </svelte:head>
 
-<p class="prefix">Contact Info:</p>
+<p class="prefix">Contact:</p>
 <div class="container">
   <p><i class="bi bi-envelope-fill" /> {Information.email}</p>
 </div>
