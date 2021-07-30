@@ -3,19 +3,20 @@ export const Information = {
   position: "Software Developer",
   location: "Isfahan, Iran",
   about: [
-    "Creative <strong>Software Developer</strong> with a passion for continuous learning and applying the cutting-edge technologies to work. Specialized in Client-Side (Frontend) technologies with a strong quality mindset in order to build performant, cross-platform and scalable applications with high level of functionality and interactive features and deliver them on time that will affect directly on business growth and meet customers' expectations.",
+    "Avid <strong>Software Developer</strong> with a passion for continuous learning and applying the cutting-edge technologies to work. Specialized in Client-Side (Frontend) technologies with a strong quality mindset in order to build performant, cross-platform and scalable applications with high level of functionality and interactive features and deliver them on time that will affect directly on business growth and meet customers' expectations.",
+    "When he is not working on computer, you can find him lifting weights in gym, playing video games, watching movies and anime series or reading books.",
   ],
   skills: [
-    "Swift, JavaScript, Objective-C, Dart, Python, Go, Clojure",
-    "UIKit, SwiftUI, Combine, Core Data, Realm, MapKit, React, Vue, Flutter, Node.js, Vapor, Firebase",
-    "MySQL, Docker, CI/CD",
+    "Swift, JavaScript, Objective-C, Dart, Python, Go",
+    "UIKit, SwiftUI, Combine, Core Data, Realm, React, Vue, Flutter, Node.js, Vapor",
+    "MySQL, Firebase, Docker, CI/CD",
   ],
   experiences: [
     {
       title:
         "<strong>Open-Source Contributor</strong> | GitHub, LeetCode, CodeWars",
       description:
-        "Contributed to open-source projects by maintaining, fixing bugs, adding new features and writing tests. Practiced on LeetCode and CodeWars and helped other programmers in the community with their coding problems.",
+        "Contributed to <a href='https://github.com/armanabkar/' target='_blank' rel='noopener noreferrer'>open-source projects</a> by maintaining, fixing bugs, adding new features and writing tests. Practiced on <a href='https://leetcode.com/armanabkar/' target='_blank' rel='noopener noreferrer'>LeetCode</a> and helped other programmers in the community with their coding problems.",
     },
   ],
   education: [
@@ -39,7 +40,7 @@ export const Projects = [
     name: "Portfolio Website",
     description:
       "Portfolio website with markdown-based blog built with Sapper and Svelte.",
-    category: "Svelte",
+    category: "Svelte/Sapper",
     code: "https://github.com/armanabkar/sapper-blog",
     live: "https://armanabkar.ir",
   },
@@ -66,6 +67,13 @@ export const Projects = [
     imageUrl:
       "https://raw.githubusercontent.com/armanabkar/FlashChat/main/screenshot.png",
     code: "https://github.com/armanabkar/FlashChat",
+  },
+  {
+    name: "Anime Dating",
+    description:
+      "An iOS dating app for famous anime characters with a Node.js server.",
+    category: "iOS",
+    code: "https://github.com/armanabkar/DatingSwiftUI",
   },
   {
     name: "Chat Application",
@@ -128,20 +136,17 @@ export const Projects = [
     live: "https://ionic-angular-notepad.netlify.app/notes",
   },
   {
-    name: "Memories App",
+    name: "Anime Dating",
     description:
-      "A Hybrid Mobile App for keeping your memories built with Ionic & Vue.",
-    category: "Vue & Ionic",
-    imageUrl:
-      "https://github.com/armanabkar/memories-ionic-vue/raw/main/screenshot.png",
-    code: "https://github.com/armanabkar/memories-ionic-vue",
-    live: "https://memories-ionic-vue.netlify.app/",
+      "An dating app for famous anime characters with a Node.js server.",
+    category: "React Native",
+    code: "https://github.com/armanabkar/AnimeDatingReactNative",
   },
   {
-    name: "BMI Calculator",
-    description: "An iOS app for calculating body mass index (BMI).",
+    name: "Facts App",
+    description: "An iOS app for generating random facts (with Objective-C).",
     category: "iOS",
-    code: "https://github.com/armanabkar/bmicalculator",
+    code: "https://github.com/armanabkar/Facts",
   },
   {
     name: "BMI Calculator",
@@ -151,12 +156,6 @@ export const Projects = [
       "https://github.com/armanabkar/bmi_calculator/raw/main/screenshot.png",
     code: "https://github.com/armanabkar/bmi_calculator",
     live: "https://armanabkar.github.io/bmi_calculator/",
-  },
-  {
-    name: "Facts App",
-    description: "An iOS app for generating random facts (with Objective-C).",
-    category: "iOS",
-    code: "https://github.com/armanabkar/Facts",
   },
   {
     name: "Expense Tracker",
@@ -175,6 +174,16 @@ export const Projects = [
     imageUrl:
       "https://github.com/armanabkar/spacex-launch-stats/raw/main/screenshots.png",
     code: "https://github.com/armanabkar/spacex-launch-stats",
+  },
+  {
+    name: "Memories App",
+    description:
+      "A Hybrid Mobile App for keeping your memories built with Ionic & Vue.",
+    category: "Vue & Ionic",
+    imageUrl:
+      "https://github.com/armanabkar/memories-ionic-vue/raw/main/screenshot.png",
+    code: "https://github.com/armanabkar/memories-ionic-vue",
+    live: "https://memories-ionic-vue.netlify.app/",
   },
   {
     name: "BookStore API",

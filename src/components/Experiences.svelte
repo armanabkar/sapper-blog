@@ -10,6 +10,6 @@
       {@html experience.title}
     </span>
     <br />
-    <span style="font-size: 0.95em;">{experience.description}</span>
+    <span style="font-size: 0.95em;">{@html experience.description}</span>
   {/each}
 </p>
